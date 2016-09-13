@@ -24,7 +24,7 @@
 
 1. [Name of project](#URL)
 
-## Firstname Lastname
+## Janice Park
 
 1. [Name of project](#URL)
 
