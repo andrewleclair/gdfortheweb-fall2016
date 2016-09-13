@@ -4,7 +4,7 @@
 
 1. [Name of project](#URL)
 
-## Firstname Lastname
+## Glenn Jeon
 
 1. [Name of project](#URL)
 
