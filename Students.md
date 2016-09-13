@@ -40,7 +40,7 @@
 
 1. [Name of project](#URL)
 
-## Firstname Lastname
+## Alice Yang
 
 1. [Name of project](#URL)
 
