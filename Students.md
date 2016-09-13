@@ -24,7 +24,15 @@
 
 1. [Name of project](#URL)
 
+<<<<<<< Updated upstream
 ## Elizabeth Leeper
+=======
+<<<<<<< HEAD
+## Yeojin Kwon
+=======
+## Elizabeth Leeper
+>>>>>>> origin/master
+>>>>>>> Stashed changes
 
 1. [Name of project](#URL)
 
@@ -32,7 +40,7 @@
 
 1. [Name of project](#URL)
 
-## Yeojin Kwon
+## 
 
 1. [Name of project](#URL)
 
