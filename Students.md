@@ -36,7 +36,7 @@
 
 1. [Name of project](#URL)
 
-## Firstname Lastname
+## Taryn Oshiro-Wachi
 
 1. [Name of project](#URL)
 
