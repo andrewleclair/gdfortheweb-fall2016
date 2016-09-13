@@ -44,6 +44,6 @@
 
 1. [Name of project](#URL)
 
-## Firstname Lastname
+## Chloe Karayiannis
 
 1. [Name of project](#URL)
