@@ -32,7 +32,7 @@
 
 1. [Name of project](#URL)
 
-## Firstname Lastname
+## Yeojin Kwon
 
 1. [Name of project](#URL)
 
