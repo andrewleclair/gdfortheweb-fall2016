@@ -28,7 +28,7 @@
 
 1. [Name of project](#URL)
 
-## Firstname Lastname
+## Inyoung Kwon
 
 1. [Name of project](#URL)
 
