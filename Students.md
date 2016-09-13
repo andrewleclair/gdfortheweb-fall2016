@@ -16,7 +16,7 @@
 
 1. [Name of project](#URL)
 
-## Firstname Lastname
+## Jinny Rim
 
 1. [Name of project](#URL)
 
