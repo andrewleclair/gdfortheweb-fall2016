@@ -1,6 +1,6 @@
 # Students
 
-## Firstname Lastname
+## Jay Park
 
 1. [Name of project](#URL)
 
