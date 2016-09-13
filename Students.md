@@ -12,7 +12,7 @@
 
 1. [Name of project](#URL)
 
-## Firstname Lastname
+## Do Yun Kwak
 
 1. [Name of project](#URL)
 
