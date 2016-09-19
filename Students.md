@@ -42,7 +42,7 @@
 
 ## Alice Yang
 
-1. [Name of project](#URL)
+1. [Link](#https://www.youtube.com/watch?v=OXXjdpUoMMg)
 
 ## Chloe Karayiannis
 
