@@ -26,7 +26,7 @@
 
 ## Elizabeth Leeper
 
-1. WCW_Red (#https://vine.co/u/1388230679770374144)
+1. [WCW_Red] (https://vine.co/u/1388230679770374144)
 
 ## Yeojin Kwon
 
