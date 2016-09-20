@@ -16,7 +16,7 @@
 
 ## Do Yun Kwak
 
-1. [Name of project](#URL)
+1. [firstweekproject](https://www.google.com/maps/@41.824658,-71.411502,17z)
 
 ## Jinny Rim
 
@@ -36,7 +36,7 @@
 
 ## Inyoung Kwon
 
-1. [Name of project](#URL)
+1. [Beware](https://www.facebook.com/photo.php?fbid=1115213765226805&set=pcb.1115216691893179&type=3&theater)
 
 ## Taryn Oshiro-Wachi
 
