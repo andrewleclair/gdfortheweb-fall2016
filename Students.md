@@ -8,6 +8,7 @@
 
 1. [Name of project](https://en.wikipedia.org/wiki/Rhode_Island_School_of_Design) (https://en.wikipedia.org/wiki/Postinternet)
 (https://en.wikipedia.org/wiki/Graphic_design)
+(https://en.wikipedia.org/wiki/John_Maeda)
 
 ## Yaodan Wu
 
