@@ -20,7 +20,7 @@
 
 ## Jinny Rim
 
-1. [Name of project](#URL)
+1. [twitter] (https://twitter.com/AaNONymousaudi/status/778064791030132736)
 
 ## Janice Park
 
