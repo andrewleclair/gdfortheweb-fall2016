@@ -6,7 +6,7 @@
 
 ## Glenn Jeon
 
-1. [Name of project](#URL)
+1. [Name of project](https://en.wikipedia.org/wiki/Rhode_Island_School_of_Design) (https://en.wikipedia.org/wiki/Postinternet)
 
 ## Yaodan Wu
 
