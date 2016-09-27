@@ -14,7 +14,7 @@
 
 ## Do Yun Kwak
 
-1. [firstweekproject](https://www.google.com/maps/@41.824658,-71.411502,17z)
+1. [week2](file:///Users/DoYunKwak/gdfortheweb-fall2016/doyun/1/index.html)
 
 ## Jinny Rim
 
