@@ -18,7 +18,7 @@
 
 ## Jinny Rim
 
-1. [Name of project](#URL)
+1. [project1](https://github.com/andrewleclair/gdfortheweb-fall2016/Jinny/1/title.html)
 
 ## Janice Park
 
