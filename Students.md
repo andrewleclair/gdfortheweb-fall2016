@@ -46,7 +46,7 @@
 
 ## Alice Yang
 
-1. [Link](#https://www.youtube.com/watch?v=OXXjdpUoMMg)
+1. [Pick out the one that's different](#https://andrewleclair.github.io/gdfortheweb-fall2016/alice/1/)
 
 ## Chloe Karayiannis
 
