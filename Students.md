@@ -6,7 +6,7 @@
 
 ## Glenn Jeon
 
-1. [Name of project](#URL)
+1. [Let's play a game](github.com/andrewleclair/gdfortheweb-fall2016/glenn/1)
 
 ## Yaodan Wu
 
@@ -46,4 +46,4 @@
 
 ## Chloe Karayiannis
 
-1. [Project1](file:///Volumes/4016012332/RISD%202016-17/FALL%202016/DESIGN%20WEB/gdfortheweb-fall2016/chloe/1/JustKeepClicking/Project1.html)
+1. [Name of project](#URL)
