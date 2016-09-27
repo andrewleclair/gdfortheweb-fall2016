@@ -6,9 +6,7 @@
 
 ## Glenn Jeon
 
-1. [Name of project](https://en.wikipedia.org/wiki/Rhode_Island_School_of_Design) (https://en.wikipedia.org/wiki/Postinternet)
-(https://en.wikipedia.org/wiki/Graphic_design)
-(https://en.wikipedia.org/wiki/John_Maeda)
+1. [Name of project]([Let's play a game](github.com/andrewleclair/gdfortheweb-fall2016/glenn/1)
 
 ## Yaodan Wu
 
