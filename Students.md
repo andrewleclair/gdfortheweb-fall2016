@@ -14,7 +14,7 @@
 
 ## Do Yun Kwak
 
-1. [1_doyun](https://andrewleclair.github.io/gdfortheweb-fall2016/doyun/1/)
+1. [1_journeyinprovidence](https://andrewleclair.github.io/gdfortheweb-fall2016/doyun/1/)
 
 ## Jinny Rim
 
