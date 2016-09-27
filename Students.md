@@ -30,7 +30,7 @@
 
 ## Elizabeth Leeper
 
-1. [Alarm] (https://andrewleclair.github.io/gdfortheweb-fall2016/elizabeth/1/Alarm/index.html)
+1. [Alarm] (https://andrewleclair.github.io/gdfortheweb-fall2016/elizabeth/1/)
 
 ## Yeojin Kwon
 
@@ -50,4 +50,8 @@
 
 ## Chloe Karayiannis
 
+<<<<<<< HEAD
 1. [Project1](file:///Volumes/4016012332/RISD%202016-17/FALL%202016/DESIGN%20WEB/gdfortheweb-fall2016/chloe/1/JustKeepClicking/Project1.html)
+=======
+1. [Just keep swimming](https://andrewleclair.github.io/gdfortheweb-fall2016/chloe/1)
+>>>>>>> origin/gh-pages
