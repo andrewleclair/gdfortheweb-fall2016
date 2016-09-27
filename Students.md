@@ -6,9 +6,7 @@
 
 ## Glenn Jeon
 
-1. [Name of project](https://en.wikipedia.org/wiki/Rhode_Island_School_of_Design) (https://en.wikipedia.org/wiki/Postinternet)
-(https://en.wikipedia.org/wiki/Graphic_design)
-(https://en.wikipedia.org/wiki/John_Maeda)
+1. [Name of project]([Let's play a game](github.com/andrewleclair/gdfortheweb-fall2016/glenn/1)
 
 ## Yaodan Wu
 
@@ -16,7 +14,11 @@
 
 ## Do Yun Kwak
 
+<<<<<<< HEAD
 1. [firstweekproject](https://www.google.com/maps/@41.824658,-71.411502,17z)
+=======
+1. [week2](file:///Users/DoYunKwak/gdfortheweb-fall2016/doyun/1/index.html)
+>>>>>>> master
 
 ## Jinny Rim
 
@@ -28,7 +30,7 @@
 
 ## Elizabeth Leeper
 
-1. [WCW_Red](https://vine.co/u/1388230679770374144)
+1. [Alarm] (https://andrewleclair.github.io/gdfortheweb-fall2016/elizabeth/1/Alarm)
 
 ## Yeojin Kwon
 
@@ -44,8 +46,12 @@
 
 ## Alice Yang
 
-1. [Link](#https://www.youtube.com/watch?v=OXXjdpUoMMg)
+1. [Pick out the one that's different](#https://andrewleclair.github.io/gdfortheweb-fall2016/alice/1/)
 
 ## Chloe Karayiannis
 
-1. [Name of project](#URL)
+<<<<<<< HEAD
+1. [Project1](file:///Volumes/4016012332/RISD%202016-17/FALL%202016/DESIGN%20WEB/gdfortheweb-fall2016/chloe/1/JustKeepClicking/Project1.html)
+=======
+1. [Just keep swimming](https://andrewleclair.github.io/gdfortheweb-fall2016/chloe/1)
+>>>>>>> origin/gh-pages
