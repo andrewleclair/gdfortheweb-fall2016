@@ -29,17 +29,9 @@
 
 1. [Alarm] (https://andrewleclair.github.io/gdfortheweb-fall2016/elizabeth/1/Alarm)
 
-## Yeojin Kwon
-
-1. [Name of project](#URL)
-
 ## Inyoung Kwon
 
 1. [Home](https://andrewleclair.github.io/gdfortheweb-fall2016/inyoung/1/)
-
-## Taryn Oshiro-Wachi
-
-1. [Name of project](#URL)
 
 ## Alice Yang
 
