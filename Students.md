@@ -14,11 +14,9 @@
 
 ## Do Yun Kwak
 
-<<<<<<< HEAD
+
 1. [1_journeyinprovidence](https://andrewleclair.github.io/gdfortheweb-fall2016/doyun/1/)
-=======
-1. [week2](file:///Users/DoYunKwak/gdfortheweb-fall2016/doyun/1/index.html)
->>>>>>> origin/master
+
 
 ## Jinny Rim
 
