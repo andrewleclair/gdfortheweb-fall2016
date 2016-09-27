@@ -22,7 +22,7 @@
 
 ## Janice Park
 
-1. [Name of project](#URL)
+1. [Nightmare](https://andrewleclair.github.io/gdfortheweb-fall2016/janice/1/)
 
 ## Elizabeth Leeper
 
