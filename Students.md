@@ -6,7 +6,7 @@
 
 ## Glenn Jeon
 
-1. [Let's play a game](github.com/andrewleclair/gdfortheweb-fall2016/glenn/1)
+1. [Let's play a game](https://andrewleclair.github.io/gdfortheweb-fall2016/glenn/1)
 
 ## Yaodan Wu
 
@@ -14,7 +14,7 @@
 
 ## Do Yun Kwak
 
-1. [1_doyun](https://andrewleclair.github.io/gdfortheweb-fall2016/doyun/1/)
+1. [week2](file:///Users/DoYunKwak/gdfortheweb-fall2016/doyun/1/index.html)
 
 ## Jinny Rim
 
