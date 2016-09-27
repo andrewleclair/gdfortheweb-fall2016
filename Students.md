@@ -14,7 +14,11 @@
 
 ## Do Yun Kwak
 
+<<<<<<< HEAD
 1. [firstweekproject](https://www.google.com/maps/@41.824658,-71.411502,17z)
+=======
+1. [week2](file:///Users/DoYunKwak/gdfortheweb-fall2016/doyun/1/index.html)
+>>>>>>> master
 
 ## Jinny Rim
 
@@ -46,4 +50,4 @@
 
 ## Chloe Karayiannis
 
-1. [Name of project](#URL)
+1. [Project1](file:///Volumes/4016012332/RISD%202016-17/FALL%202016/DESIGN%20WEB/gdfortheweb-fall2016/chloe/1/JustKeepClicking/Project1.html)
