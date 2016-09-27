@@ -2,7 +2,7 @@
 
 ## Jay Park
 
-1. [Name of project](#URL)
+1. [game](https://andrewleclair.github.io/gdfortheweb-fall2016/jay/1/link.html)
 
 ## Glenn Jeon
 
