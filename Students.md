@@ -14,7 +14,7 @@
 
 ## Do Yun Kwak
 
-1. [week2](file:///Users/DoYunKwak/gdfortheweb-fall2016/doyun/1/index.html)
+1. [1_doyun](https://andrewleclair.github.io/gdfortheweb-fall2016/doyun/1/)
 
 ## Jinny Rim
 
