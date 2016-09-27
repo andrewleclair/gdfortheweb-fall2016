@@ -34,7 +34,7 @@
 
 ## Inyoung Kwon
 
-1. [Beware](https://www.facebook.com/photo.php?fbid=1115213765226805&set=pcb.1115216691893179&type=3&theater)
+1. [Home](https://andrewleclair.github.io/gdfortheweb-fall2016/inyoung/1/)
 
 ## Taryn Oshiro-Wachi
 
