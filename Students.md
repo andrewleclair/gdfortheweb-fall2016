@@ -26,7 +26,7 @@
 
 ## Elizabeth Leeper
 
-1. [Alarm] (https://github.com/andrewleclair/gdfortheweb-fall2016/blob/gh-pages/elizabeth/1/Alarm/index.html)
+1. [Alarm] (https://andrewleclair.github.io/gdfortheweb-fall2016/elizabeth/1/Alarm/index.html)
 
 ## Yeojin Kwon
 
