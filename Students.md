@@ -10,7 +10,7 @@
 
 ## Yaodan Wu
 
-1. [Name of project](#URL)
+1. [3 Emotions](https://andrewleclair.github.io/gdfortheweb-fall2016/yaodan/1/homepage.html)
 
 ## Do Yun Kwak
 
