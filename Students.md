@@ -2,48 +2,45 @@
 
 ## Jay Park
 
-1. [Name of project](#URL)
+1. [game](https://andrewleclair.github.io/gdfortheweb-fall2016/jay/1/link.html)
 
 ## Glenn Jeon
 
-1. [Let's play a game](github.com/andrewleclair/gdfortheweb-fall2016/glenn/1)
+1. [Let's play a game](https://andrewleclair.github.io/gdfortheweb-fall2016/glenn/1)
 
 ## Yaodan Wu
 
-1. [Name of project](#URL)
+1. [3 Emotions](https://andrewleclair.github.io/gdfortheweb-fall2016/yaodan/1/homepage.html)
 
 ## Do Yun Kwak
 
+<<<<<<< HEAD
 1. [1_journeyinprovidence](https://andrewleclair.github.io/gdfortheweb-fall2016/doyun/1/)
+=======
+1. [week2](file:///Users/DoYunKwak/gdfortheweb-fall2016/doyun/1/index.html)
+>>>>>>> origin/master
 
 ## Jinny Rim
 
-1. [Name of project](#URL)
+1. [convo](https://andrewleclair.github.io/gdfortheweb-fall2016/jinny/1/title)
+
 
 ## Janice Park
 
-1. [Name of project](#URL)
+1. [Nightmare](https://andrewleclair.github.io/gdfortheweb-fall2016/janice/1/)
 
 ## Elizabeth Leeper
 
-1. [Name of project](#URL)
-
-## Yeojin Kwon
-
-1. [Name of project](#URL)
+1. [Alarm] (https://andrewleclair.github.io/gdfortheweb-fall2016/elizabeth/1/Alarm)
 
 ## Inyoung Kwon
 
-1. [Beware](https://www.facebook.com/photo.php?fbid=1115213765226805&set=pcb.1115216691893179&type=3&theater)
-
-## Taryn Oshiro-Wachi
-
-1. [Name of project](#URL)
+1. [Home](https://andrewleclair.github.io/gdfortheweb-fall2016/inyoung/1/)
 
 ## Alice Yang
 
-1. [Name of project](#URL)
+1. [Pick out the one that's different](https://andrewleclair.github.io/gdfortheweb-fall2016/alice/1/index.html)
 
 ## Chloe Karayiannis
 
-1. [Name of project](#URL)
+1. [Just keep swimming](https://andrewleclair.github.io/gdfortheweb-fall2016/chloe/1)
