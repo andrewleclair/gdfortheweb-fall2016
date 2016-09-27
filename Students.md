@@ -35,7 +35,7 @@
 
 ## Alice Yang
 
-1. [Pick out the one that's different](#https://andrewleclair.github.io/gdfortheweb-fall2016/alice/1/index.html)
+1. [Pick out the one that's different](https://andrewleclair.github.io/gdfortheweb-fall2016/alice/1/index.html)
 
 ## Chloe Karayiannis
 
