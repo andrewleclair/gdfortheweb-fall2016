@@ -18,7 +18,7 @@
 
 ## Jinny Rim
 
-1. [project1](https://github.com/andrewleclair/gdfortheweb-fall2016/Jinny/1/title.html)
+1. [Name of project](#URL)
 
 ## Janice Park
 
@@ -46,4 +46,4 @@
 
 ## Chloe Karayiannis
 
-1. [Name of project](#URL)
+1. [Project1](file:///Volumes/4016012332/RISD%202016-17/FALL%202016/DESIGN%20WEB/gdfortheweb-fall2016/chloe/1/JustKeepClicking/Project1.html)
