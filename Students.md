@@ -21,6 +21,7 @@
 ## Jinny Rim
 
 1. [convo](https://andrewleclair.github.io/gdfortheweb-fall2016/jinny/1/title)
+2. [psychobarn](https://andrewleclair.github.io/gdfortheweb-fall2016/jinny/2/index)
 
 
 ## Janice Park
