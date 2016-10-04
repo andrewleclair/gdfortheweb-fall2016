@@ -71,9 +71,13 @@
 
 <<<<<<< HEAD
 1. [Project1](file:///Volumes/4016012332/RISD%202016-17/FALL%202016/DESIGN%20WEB/gdfortheweb-fall2016/chloe/1/JustKeepClicking/Project1.html)
+
+2. [Project2](
+file:///Volumes/4016012332/RISD%202016-17/FALL%202016/DESIGN%20WEB/gdfortheweb-fall2016/chloe/2/index.html)
 =======
 1. [Just keep swimming](https://andrewleclair.github.io/gdfortheweb-fall2016/chloe/1)
 >>>>>>> origin/gh-pages
+<<<<<<< Updated upstream
 =======
 1. [Pick out the one that's different](https://andrewleclair.github.io/gdfortheweb-fall2016/alice/1/index.html)
 
@@ -81,3 +85,8 @@
 
 1. [Just keep swimming](https://andrewleclair.github.io/gdfortheweb-fall2016/chloe/1)
 >>>>>>> master
+=======
+
+2. [James Turrell](
+file:///Volumes/4016012332/RISD%202016-17/FALL%202016/DESIGN%20WEB/gdfortheweb-fall2016/chloe/2/index.html)
+>>>>>>> Stashed changes
