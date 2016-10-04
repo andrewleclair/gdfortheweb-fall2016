@@ -73,18 +73,18 @@ At the end of the semester, we will work as a class to collaboratively document 
 |Week|Date|Notes|
 |:---|:---|:---|
 |1|9/13|Introductions, review syllabus, opening discussion|
-|2|9/20|(soon)|
-|3|9/27|(soon)|
-|4|10/4|(soon)|
-|5|10/11|(soon)|
-|6|10/18|(soon)|
-|7|10/25|(soon)|
-|8|11/1|(soon)|
-|9|11/8|(soon)|
-|10|11/15|(soon)|
+|2|9/20|HTML/CSS 1–3, Website #0|
+|3|9/27|HTML/CSS 4–6, Website #1|
+|4|10/4|Javascript 1–2, Website #2|
+|5|10/11|Javascript 3–4, [Website #3](../Websites/Website3.md)|
+|6|10/18|Javascript 5–6, Website #4|
+|7|10/25|Javascript 7-8, Website #5|
+|8|11/1|JQuery 1–3, Website #6|
+|9|11/8|JQuery 4-5, Website #7|
+|10|11/15|Website #8|
 |11|11/22|No class (Thanksgiving)|
-|12|11/29|(soon)|
-|13|12/6|(soon)|
+|12|11/29|Website #9|
+|13|12/6|[Website #10](../Websites/Website10.md)|
 |14|12/13|Final crit|
 
 # Grading
