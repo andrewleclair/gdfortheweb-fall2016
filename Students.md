@@ -27,14 +27,18 @@
 
 ## Jinny Rim
 
+<<<<<<< HEAD
 1. [twitter] (https://twitter.com/AaNONymousaudi/status/778064791030132736)
 =======
+<<<<<<< Updated upstream
 
 1. [1_journeyinprovidence](https://andrewleclair.github.io/gdfortheweb-fall2016/doyun/1/)
 
 
 ## Jinny Rim
 
+=======
+>>>>>>> Stashed changes
 1. [convo](https://andrewleclair.github.io/gdfortheweb-fall2016/jinny/1/title)
 
 >>>>>>> master
