@@ -16,7 +16,7 @@
 
 
 1. [1_journeyinprovidence](https://andrewleclair.github.io/gdfortheweb-fall2016/doyun/1/)
-
+2. [2_arcadeclassics](https://andrewleclair.github.io/gdfortheweb-fall2016/doyun/2/)
 
 ## Jinny Rim
 
