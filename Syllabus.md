@@ -47,7 +47,7 @@ This class will look at methods of using fundamental graphic design principles a
 ## Websites of websites
 
 - [Hover States](http://hoverstat.es)
-- [Internet Explorers](http://internetexplore.rs)
+- [Internet Explorers](https://www.are.na/gemma-copeland/internet-explorers)
 - [Hallo Internet](http://hallointer.net/sitepascalhien)
 
 ## Class website
