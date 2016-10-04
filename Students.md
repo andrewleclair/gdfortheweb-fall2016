@@ -14,6 +14,7 @@
 ## Yaodan Wu
 
 1. [3 Emotions](https://andrewleclair.github.io/gdfortheweb-fall2016/yaodan/1/homepage.html)
+2. [The Mapping Journey Project](https://andrewleclair.github.io/gdfortheweb-fall2016/yaodan/2/hw2.html)
 
 ## Do Yun Kwak
 
