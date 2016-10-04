@@ -14,7 +14,6 @@
 
 ## Do Yun Kwak
 
-
 1. [1_journeyinprovidence](https://andrewleclair.github.io/gdfortheweb-fall2016/doyun/1/)
 2. [2_arcadeclassics](https://andrewleclair.github.io/gdfortheweb-fall2016/doyun/2/)
 
@@ -23,15 +22,14 @@
 1. [convo](https://andrewleclair.github.io/gdfortheweb-fall2016/jinny/1/title)
 2. [psychobarn](https://andrewleclair.github.io/gdfortheweb-fall2016/jinny/2/index)
 
-
 ## Janice Park
 
 1. [Nightmare](https://andrewleclair.github.io/gdfortheweb-fall2016/janice/1/)
-2. [CHIHARU SHIOTA] (https://andrewleclair.github.io/gdfortheweb-fall2016/janice/2/)
+2. [CHIHARU SHIOTA](https://andrewleclair.github.io/gdfortheweb-fall2016/janice/2/)
 
 ## Elizabeth Leeper
 
-1. [Alarm] (https://andrewleclair.github.io/gdfortheweb-fall2016/elizabeth/1/Alarm)
+1. [Alarm](https://andrewleclair.github.io/gdfortheweb-fall2016/elizabeth/1/Alarm)
 
 ## Inyoung Kwon
 
