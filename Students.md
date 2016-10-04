@@ -3,12 +3,12 @@
 ## Jay Park
 
 1. [game](https://andrewleclair.github.io/gdfortheweb-fall2016/jay/1/link.html)
-2. [Narcissus](https://andrewleclair.github.io/gdfortheweb-fall2016/jay/2/)
+2. [Narcissus](https://andrewleclair.github.io/gdfortheweb-fall2016/jay/2/index.html)
 
 ## Glenn Jeon
 
 1. [Let's play a game](https://andrewleclair.github.io/gdfortheweb-fall2016/glenn/1)
-2. [FUNLAND!!!!](https://andrewleclair.github.io/gdfortheweb-fall2016/glenn)
+2. [FUNLAND!!!!](https://andrewleclair.github.io/gdfortheweb-fall2016/glenn/2)
 
 
 ## Yaodan Wu
