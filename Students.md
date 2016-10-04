@@ -87,6 +87,5 @@ file:///Volumes/4016012332/RISD%202016-17/FALL%202016/DESIGN%20WEB/gdfortheweb-f
 >>>>>>> master
 =======
 
-2. [James Turrell](
-file:///Volumes/4016012332/RISD%202016-17/FALL%202016/DESIGN%20WEB/gdfortheweb-fall2016/chloe/2/index.html)
+2. [James Turrell] (https://andrewleclair.github.io/gdfortheweb-fall2016/chloe/2)
 >>>>>>> Stashed changes
