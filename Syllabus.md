@@ -72,18 +72,20 @@ At the end of the semester, we will work as a class to collaboratively document 
 
 |Week|Notes|
 |:---|:---|
-|1|Introductions, review syllabus, opening discussion|
-|2|(soon)|
-|3|(soon)|
-|4|(soon)|
-|5|(soon)|
-|6|(soon)|
-|7|(soon)|
-|8|(soon)|
-|9|(soon)|
-|10|(soon)|
-|11|(soon)|
-|12|Final crit|
+|1 (9/13)|Introductions, review syllabus, opening discussion|
+|2 (9/20)|(soon)|
+|3 (9/27)|(soon)|
+|4 (10/4)|(soon)|
+|5 (10/11)|(soon)|
+|6 (10/18)|(soon)|
+|7 (10/25)|(soon)|
+|8 (11/1)|(soon)|
+|9 (11/8)|(soon)|
+|10 (11/15)|(soon)|
+|11 (11/22)|No class (Thanksgiving)|
+|12 (11/29)|(soon)|
+|13 (12/6)|(soon)|
+|14 (12/13)|Final crit|
 
 # Grading
 
