@@ -48,3 +48,4 @@
 ## Chloe Karayiannis
 
 1. [Just keep swimming](https://andrewleclair.github.io/gdfortheweb-fall2016/chloe/1)
+2. [James Turrell](file:///Volumes/4016012332/RISD%202016-17/FALL%202016/DESIGN%20WEB/gdfortheweb-fall2016/chloe/2/index.html)
