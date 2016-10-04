@@ -30,6 +30,7 @@
 ## Elizabeth Leeper
 
 1. [Alarm](https://andrewleclair.github.io/gdfortheweb-fall2016/elizabeth/1/Alarm)
+2.[diane arbus] (https://andrewleclair.github.io/gdfortheweb-fall2016/elizabeth/2/)
 
 ## Inyoung Kwon
 
