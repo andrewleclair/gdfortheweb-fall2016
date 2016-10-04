@@ -36,6 +36,7 @@
 ## Inyoung Kwon
 
 1. [Home](https://andrewleclair.github.io/gdfortheweb-fall2016/inyoung/1/)
+2. [JOHN BALDESSARI](https://andrewleclair.github.io/gdfortheweb-fall2016/inyoung/2/)
 
 ## Alice Yang
 
