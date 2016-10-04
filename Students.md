@@ -2,18 +2,23 @@
 
 ## Jay Park
 
-1. [Name of project](#URL)
+1. [game](https://andrewleclair.github.io/gdfortheweb-fall2016/jay/1/link.html)
 
 ## Glenn Jeon
 
+<<<<<<< HEAD
 1. [Name of project]([Let's play a game](github.com/andrewleclair/gdfortheweb-fall2016/glenn/1)
+=======
+1. [Let's play a game](https://andrewleclair.github.io/gdfortheweb-fall2016/glenn/1)
+>>>>>>> master
 
 ## Yaodan Wu
 
-1. [Name of project](#URL)
+1. [3 Emotions](https://andrewleclair.github.io/gdfortheweb-fall2016/yaodan/1/homepage.html)
 
 ## Do Yun Kwak
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 1. [firstweekproject](https://www.google.com/maps/@41.824658,-71.411502,17z)
 =======
@@ -22,30 +27,44 @@
 
 ## Jinny Rim
 
+<<<<<<< HEAD
 1. [twitter] (https://twitter.com/AaNONymousaudi/status/778064791030132736)
+=======
+<<<<<<< Updated upstream
+
+1. [1_journeyinprovidence](https://andrewleclair.github.io/gdfortheweb-fall2016/doyun/1/)
+
+
+## Jinny Rim
+
+=======
+>>>>>>> Stashed changes
+1. [convo](https://andrewleclair.github.io/gdfortheweb-fall2016/jinny/1/title)
+
+>>>>>>> master
 
 ## Janice Park
 
-1. [Name of project](#URL)
+1. [Nightmare](https://andrewleclair.github.io/gdfortheweb-fall2016/janice/1/)
 
 ## Elizabeth Leeper
 
 1. [Alarm] (https://andrewleclair.github.io/gdfortheweb-fall2016/elizabeth/1/Alarm)
+<<<<<<< HEAD
 
 ## Yeojin Kwon
 
 1. [Name of project](#URL)
+=======
+>>>>>>> master
 
 ## Inyoung Kwon
 
-1. [Beware](https://www.facebook.com/photo.php?fbid=1115213765226805&set=pcb.1115216691893179&type=3&theater)
-
-## Taryn Oshiro-Wachi
-
-1. [Name of project](#URL)
+1. [Home](https://andrewleclair.github.io/gdfortheweb-fall2016/inyoung/1/)
 
 ## Alice Yang
 
+<<<<<<< HEAD
 1. [Pick out the one that's different](#https://andrewleclair.github.io/gdfortheweb-fall2016/alice/1/)
 
 ## Chloe Karayiannis
@@ -55,3 +74,10 @@
 =======
 1. [Just keep swimming](https://andrewleclair.github.io/gdfortheweb-fall2016/chloe/1)
 >>>>>>> origin/gh-pages
+=======
+1. [Pick out the one that's different](https://andrewleclair.github.io/gdfortheweb-fall2016/alice/1/index.html)
+
+## Chloe Karayiannis
+
+1. [Just keep swimming](https://andrewleclair.github.io/gdfortheweb-fall2016/chloe/1)
+>>>>>>> master
