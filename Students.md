@@ -41,7 +41,7 @@
 ## Alice Yang
 
 1. [Pick out the one that's different](https://andrewleclair.github.io/gdfortheweb-fall2016/alice/1/index.html)
-2. [The Clock](https://andrewleclair.github.io/gdfortheweb-fall2016/alice/2/index.html)
+2. [The Clock](https://andrewleclair.github.io/gdfortheweb-fall2016/alice/2/)
 
 ## Chloe Karayiannis
 
