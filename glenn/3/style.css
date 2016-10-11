@@ -13,25 +13,25 @@ body {
             
 .name {
     margin-top: 40px;
-    margin-left: auto;
+/*    margin-left: auto;*/
     margin-right: auto;
     padding: auto;
 /*    height: 10px;*/
-/*    width: 0%;*/
+    width: 80%;
     }   
 
 .intro {
-/*    margin-top: 0px;*/
+    margin-top: -20px;
     margin-left: 20px;
 /*    margin-right: auto;*/
     padding: auto;
-    height: 200px;
+/*    height: 200px;*/
     text-align: left;
-    width: 60%;
+    width: 65%;
     
     font-family: 'Old Standard TT', serif;
     font-size: 50px;
-    line-height: 40px;
+    line-height: 50px;
 /*    letter-spacing: -15px;                */
 
     color: black;
