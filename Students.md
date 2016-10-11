@@ -40,7 +40,7 @@
 
 1. [Alarm](https://andrewleclair.github.io/gdfortheweb-fall2016/elizabeth/1/Alarm)
 2. [Diane Arbus](https://andrewleclair.github.io/gdfortheweb-fall2016/elizabeth/2/)
-3. [dc](https://andrewleclair.github.io/gdfortheweb-fall2016/elizabeth/3/)
+3. [dc](https://andrewleclair.github.io/gdfortheweb-fall2016/elizabeth/3/index.html)
 
 ## Inyoung Kwon
 
