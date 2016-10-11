@@ -1,12 +1,9 @@
-
-yaodan/1/index.html
-
-.DS_Store
-
-doyun/.DS_Store
-
-doyun/1/.DS_Store
-
 .DS_Store
 
 Thumbs.db
+
+<<<<<<< Updated upstream
+yaodan/1/index.html
+=======
+*.html
+>>>>>>> Stashed changes
