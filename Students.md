@@ -9,6 +9,7 @@
 
 1. [Let's play a game](https://andrewleclair.github.io/gdfortheweb-fall2016/glenn/1)
 2. [FUNLAND!!!!](https://andrewleclair.github.io/gdfortheweb-fall2016/glenn/2)
+3. [Support EYEBEAM](https://andrewleclair.github.io/gdfortheweb-fall2016/glenn/3)
 
 
 ## Yaodan Wu
