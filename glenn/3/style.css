@@ -6,41 +6,11 @@ body {
             
 .button {
     background-color: transparent;
-    border: none;
+    width: 935px;
+    border: 3px solid;
     display: inline-block;
     cursor: pointer;
-    }
-            
-.name {
-    margin-top: 40px;
-/*    margin-left: auto;*/
-    margin-right: auto;
-    padding: auto;
-/*    height: 10px;*/
-    width: 80%;
-    }   
-
-.intro {
-    margin-top: -20px;
-    margin-left: 20px;
-/*    margin-right: auto;*/
-    padding: auto;
-/*    height: 200px;*/
-    text-align: left;
-    width: 65%;
     
-    font-family: 'Old Standard TT', serif;
-    font-size: 50px;
-    line-height: 50px;
-/*    letter-spacing: -15px;                */
-
-    color: black;
-    -webkit-text-stroke-color: white;
-    -webkit-text-stroke-width: 1px;
-    
-    } 
-
-button {
     font-family: 'Old Standard TT', serif;
     font-size: 150px;
     line-height: 120px;
@@ -52,3 +22,26 @@ button {
     -webkit-text-stroke-color: white;
     -webkit-text-stroke-width: 3px;
     }
+            
+.name {
+    margin-top: 40px;
+    padding: auto;
+    }   
+
+.intro {
+    margin-top: -20px;
+    margin-left: 20px;
+    padding: auto;
+    text-align: left;
+    width: 65%;
+    
+    font-family: 'Old Standard TT', serif;
+    font-size: 50px;
+    line-height: 50px;
+
+    color: black;
+    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-width: 1px;
+    
+    } 
+
