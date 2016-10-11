@@ -26,6 +26,7 @@
 
 1. [convo](https://andrewleclair.github.io/gdfortheweb-fall2016/jinny/1/title)
 2. [psychobarn](https://andrewleclair.github.io/gdfortheweb-fall2016/jinny/2/index)
+3. [noguchi](https://andrewleclair.github.io/gdfortheweb-fall2016/jinny/3/index)
 
 ## Janice Park
 
