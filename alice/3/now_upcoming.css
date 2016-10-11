@@ -1,0 +1,177 @@
+/* style for entire document */
+
+a {
+  text-decoration:none;
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color:grey;
+}
+
+
+
+/* style for date */
+
+#date {
+  position: fixed;
+  margin-top: 70px;
+  margin-left: 87px;
+  font-family: 'Lato', sans-serif;
+  font-size:10pt;
+  line-height: 60%;
+}
+
+.now {
+  font-weight: 400;
+  text-decoration: underline;
+}
+
+.notnow {
+  font-weight: 300;
+}
+
+
+/* style for navigation bar */
+
+.navigation {
+  font-family: 'Oswald', sans-serif;
+  font-size: 18pt;
+  color: black;
+  line-height: 120%;
+  padding-left: 20px;
+}
+
+#navigationbar {
+  margin-top: 100px;
+  margin-left: 47px;
+  width: 170px;
+  position: fixed;
+  background-color: white;
+  z-index: +1;
+}
+
+
+/* style for lists in navigation bar*/
+
+.list {
+  font-family:'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 140%;
+  list-style: none;
+  padding: 0;
+  margin-top: -10px;
+  padding-left: 22px;
+  padding-bottom: 20px;
+
+}
+
+
+
+/* style for top section */
+
+#top {
+  height: 140px;
+  width: 105%;
+  min-width: 100%;
+  position: fixed;
+  background-color: white;
+  margin: -20px;
+  z-index: +2;
+
+}
+
+#name {
+  text-align: right;
+  margin-top: 60px;
+  margin-right: 100px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 35pt;
+  color: black;
+  margin-left: 270px;
+  min-width: 250px;
+}
+
+
+
+/* style for main content*/
+
+
+#scrolls {
+  height: 660px;
+  overflow-x: scroll;
+  overflow-y:hidden;
+  width: auto;;
+  white-space: nowrap;
+  z-index: -1;
+}
+
+
+.content {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 30px;
+    z-index: -1;
+}
+
+.projectimage {
+  padding-top: 130px;
+  height: 460px;
+  z-index: -1;
+}
+
+.projecttitle {
+  font-family: 'Oswald', sans-serif;
+  font-size: 16pt;
+  color: black;
+  line-height: 120%;
+  z-index: -1;
+}
+
+span {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 10pt;
+  color: black;
+  margin-left: 10px;
+  z-index: -1;
+
+}
+
+
+
+/* style for the change */
+
+#content1 {
+  opacity: 1;
+  padding-left: 260px;
+}
+
+#content2 {
+  opacity: 0.9;
+}
+
+#content3 {
+  opacity: 0.8;
+}
+
+#content4 {
+  opacity: 0.6;
+}
+
+#content5 {
+  opacity: 0.3;
+}
+
+#content6 {
+  opacity: 0.1;
+}
+
+#content7 {
+  opacity: 0.05;
+}
