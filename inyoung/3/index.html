@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<head>
+    <script src="https://use.fontawesome.com/e7b2eb616a.js"></script>
+    <meta charset="utf-8">
+    <title>Tate Now</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <script>
+        
+        function startTime() {
+    var today = new Date();
+    var h = today.getHours();
+    var m = today.getMinutes();
+    var s = today.getSeconds();
+    m = checkTime(m);
+    s = checkTime(s);
+    document.getElementById('txt').innerHTML =
+    h + ":" + m + ":" + s;
+    var t = setTimeout(startTime, 500);
+}
+        function checkTime(i) {
+    if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+    return i;
+}
+        
+    </script>
+    
+</head>
+<body onload="startTime()">
+
+    <div class="nav">
+        <a href="second.html"><img class="menu" src="img/menu.png"></a>
+        <img src="img/logo.jpg">   
+        <p class="date">
+            <script type="text/javascript">
+            <!--
+            var currentTime = new Date()
+            var month = currentTime.getMonth() + 1
+            var day = currentTime.getDate()
+            var year = currentTime.getFullYear()
+            document.write(month + "/" + day + "/" + year)
+            //-->
+        </script>
+        </p>
+
+    </div>
+    
+    <div id="txt"></div>
+
+    <div id="board">
+        <div class="modern">
+            <div class="one">
+                <div class="hover"><p>BHUPEN KHAKHAR</p></div>
+            </div>
+            <div class="two">
+                <div class="hover"><p>GEORGIA O’KEEFFE
+</p></div>
+            </div>
+            <div class="three">
+                <div class="hover"><p>THE EY</p></div>
+            </div>
+            <div class="four">
+                <div class="hover"><p>PHILIPPE</p></div>
+            </div>
+            
+            <div class="tate"><p><i class="fa fa-angle-left" aria-hidden="true"></i> Tate Modern</p></div>
+            
+            <div class="brone">
+                <div class="hover"><p>IK PRIZE 2016</p></div>
+            </div>
+            <div class="brtwo">
+                <div class="hover"><p>TURNER 2016</p></div>
+            </div>
+            
+            <div class="tate"><p><i class="fa fa-angle-left" aria-hidden="true"></i> Tate<br>Britain</p></div>
+            
+            <div class="lpone">
+                <div class="hover"><p>RAZZLE DAZZLE</p></div>
+            </div>
+            <div class="lptwo">
+                <div class="hover"><p>LIVERPOOL BIENNIAL 2016</p></div>
+            </div>
+            <div class="lpthree">
+                <div class="hover"><p>TRACEY EMIN</p></div>
+            </div>
+            
+            <div class="tate"><p><i class="fa fa-angle-left" aria-hidden="true"></i> Tate Liverpoool</p></div>
+        
+        </div>
+    </div>
+    <div class="bottom">
+        <p>About</p>
+        <ul>
+            <li><img class="first" src="img/modern.png"></li>
+            <li><img class="second" src="img/bri.png"></li>
+            <li><img src="img/lp.png"></li>
+        </ul>
+    </div>
+
+</body>

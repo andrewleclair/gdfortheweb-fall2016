@@ -1,0 +1,216 @@
+html, body, div, span, object, iframe, h1, p, section 
+{ margin:0; padding:0; border:0; outline:0;}
+
+body{
+    width:100%;
+    height:100%;
+}
+
+.nav{
+    width:100%;
+    height:80px;
+    text-align: center;
+}
+
+.nav .menu {
+    position:absolute;
+    display:inline-block;
+    left:30px;
+    top:10px;
+    width:30px; height:30px;
+}
+
+.nav .date{
+    position:absolute;
+    display:inline-block;
+    right:30px;
+    top:30px;
+    font-family: 'futura', sans-serif;
+    font-size:12px;
+}
+
+.nav img{
+    height:60px;
+    margin-top:10px;
+    display:inline-block;
+}
+
+#txt{
+    text-align:center;
+    font-family: 'futura', sans-serif;
+    font-size:29px;
+    height:30px;
+}
+
+#board{
+    width:100%;
+    height:auto;
+    text-align: center;
+}
+
+#board .modern{
+    height:200px;
+    margin:30px 0px;
+}
+
+#board .modern .tate{
+    font-family: 'futura', sans-serif;
+    display:inline-block;
+    width:90px; height:90px;
+    border-radius:50%;
+    margin:1% 0;
+    background-color:black;    
+    color:white;
+}
+
+#board .modern .tate p{
+    margin-top:25%;   
+}
+
+#board div{
+    display: inline-block;
+        background-position: center;
+    background-size: cover;
+}
+
+#board .modern .one{
+    height:170%;
+    width:340px;
+    border-radius:50%;
+    background-image: url(img/one.jpg);
+}
+
+#board .modern .two{
+    height:190%;
+    width:380px;
+    border-radius:50%;
+    background-image: url(img/two.jpg);
+}
+
+#board .modern .three{
+    height:100%;
+    width:200px;
+    border-radius:50%;
+    background-image: url(img/three.jpg);
+}
+
+#board .modern .four{
+    height:100%;
+    width:200px;
+    border-radius:50%;
+    background-image: url(img/four.jpg);
+}
+
+#board .modern .brone{
+    height:130%;
+    width:260px;
+    border-radius:50%;
+    background-image: url(img/brone.png);
+}
+
+#board .modern .brtwo{
+    height:100%;
+    width:200px;
+    border-radius:50%;
+    background-image: url(img/brtwo.jpg);
+}
+
+#board .modern .lpone{
+    height:100%;
+    width:200px;
+    border-radius:50%;
+    background-image: url(img/lpone.jpg);
+}
+
+#board .modern .lptwo{
+    height:300%;
+    width:600px;
+    border-radius:50%;
+    background-image: url(img/lptwo.png);
+}
+
+#board .modern .lpthree{
+    height:100%;
+    width:200px;
+    border-radius:50%;
+    background-image: url(img/lpthree.jpg);
+}
+
+#board .modern .hover{
+    height:100%;
+    width:100%;
+    border-radius:50%;
+    background-color:black;
+    transition: .2s ease-in-out;
+}
+
+#board .modern .hover{
+    opacity:0;
+    text-align: center;
+    position:relative;
+}
+
+#board .modern .hover:hover {
+    opacity:.8;
+}
+
+.hover p{
+    position:absolute;
+    margin:auto; left:0; right:0;
+    margin-top:43%;
+    font-family: 'futura', sans-serif;
+    color:white;
+    font-size:29px;
+}
+
+#countbox1{
+    position:absolute;
+    margin:auto; left:0; right:0;
+    margin-top:43%;
+    font-family: 'futura', sans-serif;
+    color:white;
+    font-size:39px;
+    margin-top:300px;
+}
+
+.bottom{
+    position:relative;
+    width:100%;
+    height:100%;
+    text-align: center;
+    margin-top:240px;   
+    font-family:'futura', sans-serif;
+    background-color:black;
+}
+
+.bottom p{
+    position:absolute;
+    top:20px;
+    margin:auto; left:0; right:0;
+    color:white;
+}
+
+.bottom ul{
+    list-style: none;   
+}
+
+.bottom ul li{
+    display:inline-block;
+    margin:0 10px;
+    height:30%; width:30%;
+}
+
+.bottom ul li img{
+    margin-top:50px;
+    height:100%; width:100%;
+}
+
+.bottom ul .first{
+   margin-bottom:57px;
+}
+
+.bottom ul .second{
+   margin-bottom:41px;
+}
+
+
