@@ -42,19 +42,9 @@
 
 ## Jinny Rim
 
-=======
->>>>>>> Stashed changes
 1. [convo](https://andrewleclair.github.io/gdfortheweb-fall2016/jinny/1/title)
-<<<<<<< HEAD
 2. [psychobarn](https://andrewleclair.github.io/gdfortheweb-fall2016/jinny/2/index)
-<<<<<<< HEAD
-=======
-
->>>>>>> master
->>>>>>> gh-pages
-=======
 3. [noguchi](https://andrewleclair.github.io/gdfortheweb-fall2016/jinny/3/index)
->>>>>>> origin/master
 
 ## Janice Park
 
