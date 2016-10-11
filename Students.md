@@ -102,6 +102,8 @@ file:///Volumes/4016012332/RISD%202016-17/FALL%202016/DESIGN%20WEB/gdfortheweb-f
 =======
 1. [Pick out the one that's different](https://andrewleclair.github.io/gdfortheweb-fall2016/alice/1/index.html)
 2. [The Clock](https://andrewleclair.github.io/gdfortheweb-fall2016/alice/2/)
+3. [Pioneer Works](https://andrewleclair.github.io/gdfortheweb-fall2016/alice/3/now_upcoming.html)
+
 
 ## Chloe Karayiannis
 
