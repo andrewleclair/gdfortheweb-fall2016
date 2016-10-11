@@ -1,0 +1,54 @@
+/body{
+text-align:center;
+}
+
+
+img{
+    /*width: 50%;*/
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;   
+    background-position: bottom;
+    
+}
+
+iframe{
+    position:fixed;
+    right:0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+}
+
+marquee{
+    rotate(90deg);
+}
+
+h1{color:white;
+    position: absolute;
+    left: 700px;
+    top: 105px;
+}
+
+.rotateimg90 {
+  -webkit-transform:rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+}
+
+.hello{
+    left: 50px;
+    top: 70px;
+}
+
+container{
+    position: absolute;
+    top: 900px;
+}
+
