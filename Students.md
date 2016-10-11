@@ -28,7 +28,6 @@
 1. [week2](file:///Users/DoYunKwak/gdfortheweb-fall2016/doyun/1/index.html)
 >>>>>>> master
 
-## Jinny Rim
 
 <<<<<<< HEAD
 1. [twitter] (https://twitter.com/AaNONymousaudi/status/778064791030132736)
