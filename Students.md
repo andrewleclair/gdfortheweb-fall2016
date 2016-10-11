@@ -7,20 +7,9 @@
 
 ## Glenn Jeon
 
-<<<<<<< HEAD
-1. [Name of project]([Let's play a game](github.com/andrewleclair/gdfortheweb-fall2016/glenn/1)
-=======
 1. [Let's play a game](https://andrewleclair.github.io/gdfortheweb-fall2016/glenn/1)
-<<<<<<< Updated upstream
 2. [FUNLAND!!!!](https://andrewleclair.github.io/gdfortheweb-fall2016/glenn/2)
-=======
-<<<<<<< HEAD
-2. [FUNLAND!!!!](https://andrewleclair.github.io/gdfortheweb-fall2016/glenn/2/)
->>>>>>> Stashed changes
-
-=======
->>>>>>> master
->>>>>>> gh-pages
+3. [PLEASE ALLOW POPUPS](https://andrewleclair.github.io/gdfortheweb-fall2016/glenn/3/)
 
 ## Yaodan Wu
 
