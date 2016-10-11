@@ -87,6 +87,8 @@
 
 <<<<<<< HEAD
 1. [Pick out the one that's different](#https://andrewleclair.github.io/gdfortheweb-fall2016/alice/1/)
+2. [The Clock](#https://andrewleclair.github.io/gdfortheweb-fall2016/alice/2/)
+3. [Pioneer Works](#https://andrewleclair.github.io/gdfortheweb-fall2016/alice/3/now_upcoming.html)
 
 ## Chloe Karayiannis
 
