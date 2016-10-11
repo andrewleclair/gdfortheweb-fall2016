@@ -1,0 +1,39 @@
+img {
+    position:fixed;
+    width: 100%;
+    height: auto;
+    
+}
+
+#grect {
+    position: absolute;
+    margin-top: 33%;
+    margin-left: 34.5%;
+    width: 10%;
+    height: 13%;
+    color:none;
+}
+
+#arect {
+    position: absolute;
+    margin-top: 34%;
+    margin-left: 54.5%;
+    width: 9%;
+    height: 8%;
+    color:none;
+}
+
+#backrect {
+    position: absolute;
+    margin-left: 28%;
+    width: 46%;
+    height: 36%;
+    color:none;
+}
+
+a{
+    width: auto;
+    height: auto;
+    text-decoration: none;
+    font-family: sans-serif;
+}
