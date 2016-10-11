@@ -1,31 +1,54 @@
 body {
-                background-image: url("matrix.png");
-                background-repeat: no-repeat;
-                background-size: cover;
-            }
-            .button {
-                background-color: transparent;
-                border: none;
-                display: inline-block;
-                cursor: pointer;
-            }
+    background-image: url("matrix.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
             
-            .name {
-                margin-top: 40px;
-                margin-left: auto;
-                margin-right: auto;
-                padding: auto;
-                height: 200px;
-                text-align: center;
-                width: 90%;
-            }
-            button {
-                font-family: 'Old Standard TT', serif;
-                font-size: 150px;
-                line-height: 150px;
-                letter-spacing: -15px;                
-                
-                color: black;
-                -webkit-text-stroke-color: white;
-                -webkit-text-stroke-width: 3px;
-            }
+.button {
+    background-color: transparent;
+    border: none;
+    display: inline-block;
+    cursor: pointer;
+    }
+            
+.name {
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: auto;
+/*    height: 10px;*/
+/*    width: 0%;*/
+    }   
+
+.intro {
+/*    margin-top: 0px;*/
+    margin-left: 20px;
+/*    margin-right: auto;*/
+    padding: auto;
+    height: 200px;
+    text-align: left;
+    width: 60%;
+    
+    font-family: 'Old Standard TT', serif;
+    font-size: 50px;
+    line-height: 40px;
+/*    letter-spacing: -15px;                */
+
+    color: black;
+    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-width: 1px;
+    
+    } 
+
+button {
+    font-family: 'Old Standard TT', serif;
+    font-size: 150px;
+    line-height: 120px;
+    letter-spacing: -15px;  
+    text-align: left;
+
+
+    color: black;
+    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-width: 3px;
+    }
