@@ -48,6 +48,7 @@
 >>>>>>> gh-pages
 1. [1_journeyinprovidence](https://andrewleclair.github.io/gdfortheweb-fall2016/doyun/1/)
 2. [2_arcadeclassics](https://andrewleclair.github.io/gdfortheweb-fall2016/doyun/2/)
+3. [3_theglasshouse](https://andrewleclair.github.io/gdfortheweb-fall2016/doyun/3/)
 
 ## Jinny Rim
 
@@ -56,10 +57,14 @@
 1. [convo](https://andrewleclair.github.io/gdfortheweb-fall2016/jinny/1/title)
 <<<<<<< HEAD
 2. [psychobarn](https://andrewleclair.github.io/gdfortheweb-fall2016/jinny/2/index)
+<<<<<<< HEAD
 =======
 
 >>>>>>> master
 >>>>>>> gh-pages
+=======
+3. [noguchi](https://andrewleclair.github.io/gdfortheweb-fall2016/jinny/3/index)
+>>>>>>> origin/master
 
 ## Janice Park
 
