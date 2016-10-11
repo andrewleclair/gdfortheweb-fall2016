@@ -1,9 +1,10 @@
 div	{
 
     
-  	background-size:auto; cover;
+  	background-size:cover;
   	background-repeat: no-repeat;
   	top: 0px; left:0px;
+  	backgroud-width:100%;
 }
 
 
