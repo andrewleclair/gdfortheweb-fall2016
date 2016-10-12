@@ -1,12 +1,29 @@
-
-
-	h1{
-	font-size:2vw
+h1{
+		font-family:'Helvetica';
+		font-size:20vw;
+		text-align:center;
+		border: 100px;
+		margin-top: 400px;
 	}
+
+span {    
+  transform:scale(2,11); 
+  -webkit-transform:scale(2,11);
+  display:inline-block; 
+}
 
 @media screen and (max-width:1024px){
+		
+		img {margin-right: auto
+			margin-bottom:100px;
+		width: 60%}
+}
 
-	}
 
 @media screen and (max-width:1600px){ 
-}
+	img { margin-top:90px;
+		margin-left:80px;
+		margin-right:80px;
+		width: 60%}
+	}
+
