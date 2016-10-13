@@ -1,7 +1,3 @@
-<html>
-<head>
-<script type="text/javascript">
-
 var links = new Array();
 links[0] = "rock";
 links[1] = "paper";
@@ -14,8 +10,13 @@ function openLink() {
   parent.location = links[i];
   return false;
 }
+var play = document.getElementById(“play”);
+h.onclick = openLink;
 
 </script>
 echo "<meta http-equiv='refresh' content=0;URL="openLink();">
+
+
+
 </body>
 </html>
