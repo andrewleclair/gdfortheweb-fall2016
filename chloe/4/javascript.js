@@ -1,22 +1,13 @@
 var links = new Array();
-links[0] = "rock";
-links[1] = "paper";
-links[2] = "scissors";
+links[0] = "rock.html";
+links[1] = "paper.html";
+links[2] = "scissors.html";
 
 
 function openLink() {
-  
   var i = Math.floor(Math.random() * links.length);
   parent.location = links[i];
   return false;
 }
-var play = document.getElementById(“play”);
-h.onclick = openLink;
-
-</script>
-echo "<meta http-equiv='refresh' content=0;URL="openLink();">
 
 
-
-</body>
-</html>
