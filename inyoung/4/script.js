@@ -3,11 +3,11 @@
 var SCREEN_WIDTH = window.innerWidth;
 var SCREEN_HEIGHT = window.innerHeight;
 
-var RADIUS = 70;
+var RADIUS = 130;
 
 var RADIUS_SCALE = 1;
 var RADIUS_SCALE_MIN = 1;
-var RADIUS_SCALE_MAX = 1.5;
+var RADIUS_SCALE_MAX = 2;
 
 var QUANTITY = 8;
 
@@ -47,12 +47,12 @@ function createParticles() {
 	
 	for (var i = 0; i < QUANTITY; i++) {
 		var particle = {
-			size: 120,
+			size: 20,
 			position: { x: mouseX, y: mouseY },
 			offset: { x: 0, y: 0 },
 			shift: { x: mouseX, y: mouseY },
-			speed: 0.001+Math.random()*0.04,
-			targetSize: 10,
+			speed: 0.001+Math.random()*0.03,
+			targetSize: 1000,
 			fillColor: '#' + (Math.random() * 0x404040 + 0xaaaaaa | 0).toString(16),
 			orbit: RADIUS*.6 + (RADIUS * .6 * Math.random())
 		};
