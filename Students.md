@@ -67,3 +67,5 @@
 
 1. [Just keep swimming](https://andrewleclair.github.io/gdfortheweb-fall2016/chloe/1)
 2. [James Turrell](https://andrewleclair.github.io/gdfortheweb-fall2016/chloe/2)
+3. [Rock Paper Scissors](https://andrewleclair.github.io/gdfortheweb-fall2016/chloe/5)
+4. [Museum of Feelings](https://andrewleclair.github.io/gdfortheweb-fall2016/chloe/4)
