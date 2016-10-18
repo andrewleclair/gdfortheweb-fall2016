@@ -8,6 +8,10 @@ var value = 0,
     shape = 10,
     e = 0
     f = 0;
+function preload(){
+    mySound = loadSound('ding.wav');
+}
+
 function setup() {
 	createCanvas(windowWidth, windowHeight);
 }
@@ -32,6 +36,8 @@ function draw() {
 
 	
 function mousePressed(){
+mySound.setVolume(0.1);
+  mySound.play();
   shape = random(10);
   e = random(10,40);
   f = random(1,15);
