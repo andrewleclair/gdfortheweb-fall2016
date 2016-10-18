@@ -7,3 +7,15 @@ a href{
     text-decoration: none;
 
 }
+
+body {
+	text-align: center;
+	background-color: yellow;
+}
+
+h1 {
+	text-align: center;
+	font-family: Helvetica;
+	font-weight: bold;
+	color: blue;
+}
