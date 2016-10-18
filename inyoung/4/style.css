@@ -1,6 +1,26 @@
-body { 
-  background-color: #000000; 
-  padding: 0; 
-  margin: 0; 
-  overflow: hidden;
+html, body, div, span, object, iframe, h1, p, section 
+{ margin:0; padding:0; border:0; outline:0;}
+
+body{
+    height:100%;
+    width:100%;
 }
+
+.box{
+    width:100%;
+    height:100%;
+    position: absolute;
+}
+
+.hide{
+    width:60px;
+    height:60px;
+    border-radius:50%;
+    opacity:0;
+    float:left;
+}
+
+.show{
+    opacity:1; 
+}
+
