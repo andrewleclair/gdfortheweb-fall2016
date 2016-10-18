@@ -19,5 +19,14 @@ $(function() {
    $(".hide").on("tap",function(){
    $(this).toggleClass("show");
     });
+    
+    var playing = false,
+        audioPlayers = $('.hide');
+    $('.hide').click(function() {  
+         
+            $(this).find('audio').get(0).play();  
+            playing = true;  
+        
+    });  
 
 });

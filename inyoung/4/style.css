@@ -2,19 +2,20 @@ html, body, div, span, object, iframe, h1, p, section
 { margin:0; padding:0; border:0; outline:0;}
 
 body{
-    height:100%;
+    height:300%;
     width:100%;
+    overflow: hidden;
 }
 
 .box{
     width:100%;
-    height:100%;
+    height:300%;
     position: absolute;
 }
 
 .hide{
-    width:60px;
-    height:60px;
+    width:80px;
+    height:80px;
     border-radius:50%;
     opacity:0;
     float:left;
@@ -24,3 +25,11 @@ body{
     opacity:1; 
 }
 
+@media (max-width: 600px) {
+    
+    .hide{
+        width:14vw;
+        height:14vw;
+    }
+    
+}
