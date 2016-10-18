@@ -19,7 +19,14 @@ body{
     border-radius:50%;
     opacity:0;
     float:left;
+    transition: width 1s, height 1s, transform 1s;
+    transition-timing-function: ease-in-out;
 }
+
+ .hide.taphold {
+    transform: scale(2,2);
+     opacity:.8;
+  }
 
 .show{
     opacity:1; 

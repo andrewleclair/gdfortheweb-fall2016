@@ -612,7 +612,15 @@
             
         </div>
         
-        
+        <script>
+$(function(){
+  $( ".hide" ).bind( "taphold", tapholdHandler );
+ 
+  function tapholdHandler( event ){
+    $( event.target ).addClass( "taphold" );
+  }
+});
+</script>
         
     </body>
 </html>
