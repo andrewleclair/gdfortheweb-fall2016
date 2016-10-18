@@ -1,4 +1,4 @@
-(function () {
+(console.log=function () {
     var video=document.getElementById('video'),
         vendorURL=window.url 
 
@@ -15,8 +15,7 @@
             video.play();
 
 },          function (error) {
-            // an error occured
-            // error.code
+           
 });
 
 })();

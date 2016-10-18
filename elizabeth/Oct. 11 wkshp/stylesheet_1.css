@@ -1,0 +1,57 @@
+
+body	{
+	background-color: navy;
+	background-size: cover;
+	position: fixed;
+
+
+}
+
+@media screen and (max-width:900px) {
+
+	body	{
+
+		background-color: black;
+		font-size: 75%;
+
+	div 	{
+		font-size-adjust: 10%;
+	}
+
+}}
+
+	
+div	{
+	color: white;
+	margin: 200px;
+
+}
+
+
+div p {
+
+	color:white;
+	margin:300px;
+	font-size:100px;
+
+}
+
+#two  {
+	color:orange;
+	font-size: 100px;
+	margin-left:100px;
+}
+
+#three {
+	color:pink;
+	font-size:60px;
+	margin-left:200px;
+}
+
+
+
+img { 
+	display:block;
+	width: 50%;
+	margin: 0 auto; 
+}

@@ -1,0 +1,42 @@
+
+body	{
+	background-color: navy;
+	background-size: cover;
+	position: fixed;
+	
+
+
+}
+
+@media screen and (max-width: 600px) {
+
+	body	{
+
+		background-color: red;
+		font-size: 75%;
+	}
+
+	div 	{
+		font-size-adjust: 10%;
+	}
+
+	p 		{
+		font-color: white;
+		font-size:24px;
+
+	}}
+
+
+	
+<div style="width: 200px; height: 100px; overflow-y: scroll;"> </div>    
+
+
+
+img { 
+	display:block;
+	width: 50%;
+	margin: 0 auto; 
+}
+
+
+

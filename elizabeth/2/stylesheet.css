@@ -1,10 +1,5 @@
 * {
 	background-color:black;
-	font-family:Courier New; Courier; Helvetica; sans-serif
-	margin-top:8px;
-	margin-left:15px;
-	margin-botton:15px;
-	margin-right:8px;
 	display:inline-block;
 	float:clear
 
@@ -12,19 +7,19 @@
 
 
 
-.div {
-	height:400px;
-	width:400px 
-	display:inline;
-	font-family:Courier, sans-serif;
-	font-size:100px;
-	margin-top:250px;
-	padding:50px;
+div {
+	height:30px;
+	width:60px 
+	display:inline-flex;
+	font-family:Courier New, sans-serif;
+	font-size:16px;
+	margin-top:25px;
+	margin-left:30px;
+	padding:5px;
+	float:clear;
 	
 }
 
-
-}
 
 .invite {
 	height:400px;
@@ -33,33 +28,30 @@
 	background-color:red;
 	text-decoration:none;
 	font-size:36px;
-	
 
 }
 
 
-#id {
+id {
 
-	font-family:Courier;sans-serif;
-	font-size:100px;
+	font-family: Courier New;sans-serif;
+	font-size: 42px;
 
 }
 
 
 #diane {
 	color: purple;
-	font-family: Courier New, Courier, sans-serif;
+	font-family: Helvetica Neue, sans-serif;
 	font-size:42px;
-	height:100px;
-	width:100px;
-	display:inline;
-	text-decoration:none;
-	position:centered;
+	height:50px;
+	width:300px;
+	position: centered;
 	text-decoration:none;
 	cursor:crosshair;
+	padding: 75px;
 
 }
-
 
 
 a:link {
