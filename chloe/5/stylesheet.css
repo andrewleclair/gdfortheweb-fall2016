@@ -1,0 +1,98 @@
+body{
+background: linear-gradient(180deg, white, white, white, #8BE8D7);
+background-repeat: repeat-x; 
+}
+
+html,body{
+	margin:0;
+	padding:0;
+}
+.grid{
+	width:33%;
+	height:33vh;
+	border:1px dashed red;
+	float:left;
+}
+	
+button {
+    display: inline-block;
+    background: linear-gradient(-90deg, #0CE8AF, #0DFAFF);
+    width: 10px;
+    height: 10px;
+    margin: 20px;
+    border: none;
+    outline: none;
+    
+}
+
+.rotatedtext{
+	margin-top: 70px;
+    margin-left: 100px;
+    height: 40vh;
+    -ms-transform: rotate(90deg); 
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+    font-family: "Helvetica Neue";
+    font-size: 17px;
+    text-shadow: 0 0 5px #8BE8D7;
+    font-weight:bold;
+    color:white;
+}
+
+
+.buttonOne{
+	float:right;
+}
+
+.buttonTwo{
+	float:right;
+	margin: 90vw 0 0 0;
+}
+
+table
+{ 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img { display: floating;
+    position: absolute;
+    padding: 20px;
+    /*cursor:pointer;*/
+}
+
+h1 {
+	font-family: "Helvetica Neue";
+	font-size: 50px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 100;
+	line-height: 41.8px;
+	color:white;
+	text-align:right;
+	vertical-align:top;
+	letter-spacing: 30px;
+	text-shadow: 0 0 5px green;
+	margin-top: 100px;
+}
+
+p{ font-family: "Helvetica Neue";
+	font-size: 10px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 100;
+	line-height: 41.8px;
+	color:white;
+	text-align: justify;
+	vertical-align:middle;
+	letter-spacing: 10px;
+	margin-top: 60px;
+	margin-left: 100px;
+    margin-right: 100px;
+
+}
+
+
+
+
+

@@ -1,0 +1,112 @@
+ <!DOCTYPE html>
+<html>
+	<head>
+	<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+	<style>
+ 
+</style>
+
+		<title>enviroball</title>
+		<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+	</head>
+<body>
+<!-- 
+	<h1></h1>
+<div class="planets">
+	<div><img src="logo.png" alt="logo" 
+	style="width:252px; height:250px; align:middle;"></div>
+
+
+	<div><img src="Enviro_ball_LR.gif" alt="enviroball" 
+	style="width:600px; height:450px; position:fixed;"></div>
+
+
+<table>
+	<tbody>
+		<tr>
+			<td colspan="2">
+				<div class="floating-box"></div>
+				<div class="floating-box"></div>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<div class="floating-box"></div>
+				<div class="floating-box"></div>		
+			</td>
+		</tr>
+</tbody>
+</table> -->
+
+<img src="logo.png" alt="logo" 
+	style="width:150px; align:middle; position:fixed">
+
+<img id="change" src="Enviro_ball_cloudy.gif" alt="enviroball" 
+	style="width:800px; position:fixed; margin-left:20vw; margin-top:vw;">
+
+<a href="https://darksky.net/41.8195,-71.4107"><img src="temp-05.png"
+	style="width:200px; position:fixed; margin-left:70vw; margin-top:15px;"></a>
+
+<a href="https://www.themuseumoffeelings.com/create-mood/"><img src="text-01.png" 
+	style="width:200px; position:fixed; margin-left:0vw; margin-top:250px;"></a>
+<a href="https://www.themuseumoffeelings.com/what-is-a-moodlens"><img src="text-02.png"
+	style="width:200px; position:fixed; margin-left:0vw; margin-top:300px;"></a>
+<a href="https://www.themuseumoffeelings.com/living-gallery/photo"><img src="text-03.png"
+	style="width:200px; position:fixed; margin-left:0vw; margin-top:350px;"></a>
+<a href="https://www.themuseumoffeelings.com/visit"><img src="text-04.png"
+	style="width:200px; position:fixed; margin-left:0vw; margin-top:400px;"></a>
+
+<img src="mood-06.png"
+	style="width:700px; position:fixed; margin-left: 52vw;  margin-top:70vh;">
+
+<div class="grid">
+	<button class="buttonOne"></button>
+	<div class="rotatedtext">TOUCH, FEEL, PLAY, IMAGINE AND BREATHE.STEP INTO THE FIRST KALEIDOSCOPE CONTROLLED BY EMOTION. FLOAT THROUGH THE FEELING OF CALM ON A LAVENDER CLOUD. USE YOUR OWN BIOMETRIC DATA TO CREATE A MOODLENS—OR UNIQUE EMOTIONAL SELFIE—AND MATCH IT WITH A PERFECT CUSTOM FRAGRANCE.</div>
+</div>
+<div class="grid"></div>
+<div class="grid">
+	<button></button>
+</div>
+<div class="grid"></div>
+<div class="grid"></div>
+<div class="grid"></div>
+<div class="grid">
+	<button class="buttonOne"></button>
+	</div>
+<div class="grid"></div>
+<div class="grid">
+	<button></button>
+	</div>
+
+<audio controls autoplay>
+  <source src="Mind.mp3" type="audio/mpeg">
+</audio>
+
+	
+<script type="text/javascript">
+	$(document).ready(function(){
+		var step = 0;
+		var maxStep = 3;
+		$("#change").click(function(){
+			if(step == 0){
+				$(this).attr('src', 'Enviro_ball_LR_Sunny.gif');
+						}
+			else if(step == 1){
+				$(this).attr('src', 'Enviro_ball_cloudy.gif');
+			}
+			else if(step ==2) {
+				$(this).attr('src', 'Enviro_ball_LR_rainy.gif');
+			}
+
+			if(step < maxStep - 1){
+				step++;
+			}
+			else{
+				step = 0;
+			}
+		});
+	});
+</script>
+
+	</body>
+</html>
