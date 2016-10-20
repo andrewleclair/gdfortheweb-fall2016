@@ -1,0 +1,127 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+@keyframes rotate {
+  100% {
+    transform: rotateZ(360deg);
+    }
+}
+
+.sec {
+    width: 35vw;
+    height: 35vw;
+    background-color: transparent;
+    border: 3px solid black;
+
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    margin: auto;
+    
+    animation: rotate 60s infinite steps(60);
+}
+
+.min {
+    width: 35vw;
+    height: 35vw;
+    background-color: transparent;
+    border: 3px solid black;
+
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    margin: auto;
+    
+    animation: rotate 3600s infinite steps(3600);
+}
+
+.hr {
+    width: 35vw;
+    height: 35vw;
+    background-color: transparent;
+    border: 3px solid black;
+
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    margin: auto;
+    
+    animation: rotate 216000s infinite steps(216000);
+}
+
+
+
+
+
+p{
+    font-family: "mrs-eaves-xl-serif";
+}
+
+.nonangle {
+    margin-left: 1vw;
+    margin-top: 1vw;
+    font-size: 2vw;
+}
+
+.angle {
+/*    margin-left: ?????????;*/
+    margin-top: 19vw;
+    margin-left: 34vw;
+    font-size: 2vw;
+    transform: rotate(180deg);
+    transform-origin: left;
+}
+
+.min p {
+    margin-left: 1vw;
+    margin-top: 1vw;
+    font-size: 2.5vw;
+}
+
+.hr p {
+    margin-left: 0.5vw;
+    margin-top: 0.5vw;
+    font-size: 2vw;
+}
+
+
+
+@media screen and (min-width: 100px) {
+    .
+}
+
+
+
+
+/*
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+    background: transparent left center;
+    margin: 0 auto;
+}
+
+
+
+
+.rect {
+    
+    position: fixed;
+    margin: 0 auto;
+    
+    width: 50vw;
+    height: 50vw;
+    border: 3px solid black;
+    
+}*/
