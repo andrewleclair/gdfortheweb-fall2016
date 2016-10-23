@@ -95,6 +95,9 @@ p{
     font-size: 2vw;
 }
 
+.audio {
+    display: none;
+}
 
 
 @media screen and (min-width: 100px) {
