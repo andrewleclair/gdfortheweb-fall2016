@@ -17,7 +17,7 @@ canvas {
 .button {
     background-color: transparent;
     max-width: 96vw;
-    border: 1px solid #000;
+    border: 1px double #000;
     display: inline-block;
     cursor: pointer;
     
