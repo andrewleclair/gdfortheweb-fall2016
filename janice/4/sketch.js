@@ -1,14 +1,17 @@
-var a = 0
-var d = 100
+var a = 0;
+var d = 100;
+var song;
+//
+//function preload() {
+//    song = loadSound (ticktock.mp3);
+//}
 
 function setup() {
-
     var theCanvas = createCanvas(windowWidth, windowHeight);
-//	frameRate(30);
 	blendMode (REPLACE);
-
+//    song.play();
+//    song.loop ();
 }
-
 
 function draw() {
 	strokeWeight (20);

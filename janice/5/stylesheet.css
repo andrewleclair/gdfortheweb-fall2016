@@ -1,0 +1,129 @@
+
+body {
+    background-image: url("urbanlight.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    
+}
+
+marquee {
+    position: relative;
+    font: 12px Helvetica;
+    font-family: sans-serif;
+    -webkit-marquee: auto medium infinite alternate normal;
+    direction: slide;
+    color: black;
+    overflow: hidden;
+    top: 120px;
+    right: 0px;
+    left: 00px;
+    
+}
+
+a href{
+    text-decoration: none;
+}
+
+a:link {
+    color: red;
+}
+
+a:visited {
+    color: yellow;
+}
+
+#logo {
+    position: fixed;
+    left: -10px;
+    top: 0px;
+}
+
+#logo img {
+    width: 200px;
+    height: auto;
+}
+
+
+iframe {
+    position: relative;
+    z-index: 1;
+}
+
+.item {
+    width: 50%;
+    box-sizing: border-box;
+    padding-left: 1em;
+    float: left;
+    margin-left: 3em;
+    margin-bottom: 1em;
+    margin-top: 200px;
+    display: inline-block;
+    height: 500px;
+    border: hidden;
+    overflow-x: hidden;
+    overflow-y: scroll;
+/*        background-color: black;*/
+    }
+
+.item img{
+    width: 30%;
+/*        opacity: 0.65;*/
+    }
+
+.videos {
+    position: absolute;
+    left: 756x;
+    right: 0px;
+    margin-right: 3em;
+    margin-bottom: 3em;
+    margin-top: 200px;
+    
+}
+
+h1 {
+    position:absolute;
+	font-size: 100px;
+    font-family: Helvetica, sans-serif;
+	font-weight: bold;
+    line-height: 45px;
+    color: black;
+    top: 50px;
+    right: 0px;
+    Left: 30px;
+}
+
+#exhibit {
+    position: absolute;
+    top: 80px;
+    left: 30px;
+    z-index: 99999;
+    margin-right: 1000px;
+    margin-top: 100px;
+    
+}
+
+h2 {
+	font-size: 20px;
+    font-family: sans-serif;
+    line-height: 15px;
+    color: crimson;
+    background-color: white;
+    padding: 10px;
+    border: 5px solid crimson;
+    float: left;
+    margin-right: 10px;
+}
+
+
+p {
+	font-size: 10px;
+    font-family: Helvetica, sans-serif;
+    line-height: 5px;
+    margin-right: 400px;
+    position: relative;
+    float: left;
+    color: black;
+    padding: 3px;
+    background-color: #D70000;
+}
