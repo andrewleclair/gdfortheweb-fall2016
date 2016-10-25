@@ -1,0 +1,63 @@
+
+<!DOCTYPE>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>the clock</title>
+<link rel="shortcut icon" href="favicon.ico">
+<link href="http://www.constantdullaart.com/site/int/css.css" rel="stylesheet" type="text/css">
+
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-20659535-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www');
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+<style type="text/css">
+  	body{overflow: hidden;}
+  	html, body, div, iframe { margin:0; padding:0; height:100%; }
+   iframe { display:block; width:100%; border:none; }
+  	#tdiv5{width:100%; height:100%
+  	background-color: white;  	
+  	}
+</style>
+</head>
+<body>	
+
+
+<div>
+  <div id="chicken" style="-webkit-transform: rotate(97deg); ">
+  	<iframe src="https://andrewleclair.github.io/gdfortheweb-fall2016/alice/2/" width="100%" height="100%"></iframe>
+  	</div>
+  <div style="clear: both;"></div>
+  </div>
+  <script type="text/javascript" language="javascript" charset="utf-8">
+function getTransformProperty(element) {
+    var properties = ['transform', 'msTransform', 'WebkitTransform', 'MozTransform' , 'OTransform'];
+    var p;
+    while (p = properties.shift()) {
+        if (typeof element.style[p] != 'undefined') {
+            return p;
+        }
+    }
+       return false;
+}
+var div = document.getElementById('chicken');
+var property = getTransformProperty(div);
+if (property) {
+    var d = 0;
+    setInterval(function () {div.style[property] = 'rotate(' + (d++ % 360) + 'deg)';}, 100);
+	} else {
+		window.location = "browsercheck.html"
+}
+</script>
+ <div>
+  </div>
+</body></html>

@@ -1,0 +1,27 @@
+@charset "UTF-8";
+/* CSS Document */
+
+* {
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+	margin-left: 0px;
+	margin-bottom: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+}
+
+html, body, div {
+	height: 100%;
+	width: 100%;
+}
+#pano {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+}
+
+h1.hid { line-height: 1px; font-size: 1px; margin-left: -2000px; padding-bottom: 0px;}
