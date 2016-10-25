@@ -44,6 +44,7 @@
 2. [Chiharu Shiota](https://andrewleclair.github.io/gdfortheweb-fall2016/janice/2/)
 3. [Gagosian Museum](https://andrewleclair.github.io/gdfortheweb-fall2016/janice/3/)
 4. [Will It Ever Be 3pm?](https://andrewleclair.github.io/gdfortheweb-fall2016/janice/4/)
+5. [LACMA Museum](https://andrewleclair.github.io/gdfortheweb-fall2016/janice/5/)
 
 
 ## Elizabeth Leeper
