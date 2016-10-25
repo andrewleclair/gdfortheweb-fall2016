@@ -13,6 +13,7 @@
 2. [FUNLAND!!!!](https://andrewleclair.github.io/gdfortheweb-fall2016/glenn/2)
 3. [PLEASE ALLOW POPUPS](https://andrewleclair.github.io/gdfortheweb-fall2016/glenn/3/)
 4. [C&R](https://andrewleclair.github.io/gdfortheweb-fall2016/glenn/4)
+5. [The Clock](https://andrewleclair.github.io/gdfortheweb-fall2016/glenn/5)
 
 ## Yaodan Wu
 
