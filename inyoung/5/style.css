@@ -62,6 +62,7 @@ h1{color:white;
 
 .text .in {
     display: inline;
+    text-decoration: underline;
 }
 
 .one {
