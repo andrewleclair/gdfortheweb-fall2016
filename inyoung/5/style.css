@@ -1,0 +1,221 @@
+img{
+    /*width: 50%;*/
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;   
+    background-position: bottom;
+    
+}
+
+iframe{
+    position:fixed;
+    right:0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+}
+
+marquee{
+    rotate(90deg);
+}
+
+h1{color:white;
+    position: absolute;
+    left: 700px;
+    top: 105px;
+}
+
+.rotateimg90 {
+  -webkit-transform:rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+}
+
+.hello{
+    left: 50px;
+    top: 70px;
+}
+
+/* inyoung */
+
+.text {
+    position: absolute;   
+}
+
+.effect1:hover .one{
+    display:block;   
+}
+
+.effect2:hover .two{
+    display:block;   
+}
+
+.effect3:hover .three{
+    display:block;   
+}
+
+.text .in {
+    display: inline;
+    text-decoration: underline;
+}
+
+.one {
+    position: absolute;  
+    width:1500px;
+    height:900px;
+    animation-name: move;
+    animation-duration: 4s;
+    animation-iteration-count:infinite;
+    display:none;
+    z-index: 99;
+}
+
+.one .bel{
+    display: inline-block;
+    padding:100px;   
+}
+
+.two {
+    position: absolute;  
+    width:1300px;
+    height:900px;
+    text-align: center;
+    margin-top:-300px;
+    animation-name: falling;
+    animation-duration: 5s;
+    animation-iteration-count:infinite;
+    display:none;
+    z-index: 99;
+}
+
+.two img {
+    display: inline-block;
+    margin:50px;   
+}
+
+.three {
+    position: absolute;  
+    width:1400px;
+    height:900px;
+    margin-top:450px;
+    text-align: center;
+    animation-name: pop;
+    animation-duration: 2s;
+    animation-iteration-count:infinite;
+    animation-timing-function: ease-in-out;
+    display:none;
+    z-index: 99;
+}
+
+.three .dia{
+    display: inline-block;   
+}
+
+.pac {
+     position: relative;
+    height: 70px;
+}
+
+.pac img {
+    position:absolute;
+    left:500px;
+    width:70px;
+}
+
+.pac .enemy {
+    position: absolute;
+    width:1700px;
+    height:1500px;
+    animation-name: ghost;
+    animation-duration: 7s;
+    animation-iteration-count:infinite;
+    animation-timing-function: ease-in-out;
+    display:none;
+    z-index: 99;
+}
+
+.pac .blue {
+    display: inline-block;
+    padding:10px;
+    position: static;
+    width:100px;
+    padding:100px;
+}
+
+.pac .big {
+    width:300px;
+}
+
+.pac:hover .enemy {
+    display:block;   
+}
+
+.pac2:hover .enemy2 {
+    display:block;   
+}
+
+.pac2 {
+    position: relative;
+    height: 100px;
+    margin-top:-550px;
+}
+
+.pac2 img {
+    position:absolute;
+    left:50px;
+    width:90px;
+}
+
+.pac2 .enemy2 {
+    position: absolute;
+    width:1400px;
+    height:1500px;
+    margin-top:-300px;
+    text-align: center;
+    display:none;
+    z-index: 99;
+}
+
+.pac2 .pink {
+    width:100px;
+    height:100px;
+    margin:auto; left:0; right:0;
+    animation-name: grow;
+    animation-duration: 7s;
+    animation-iteration-count:infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes move {
+    0%   {left:-500px; top:0px; opacity:.1;}
+    100% {left:500px; top:-400px; opacity:1;}
+}
+
+@keyframes falling {
+    0%   {left:-200px; top:0px;}
+    25%   {left:300px; top:350px;}
+    50%   {left:-200px; top:650px;}
+    100% {left:300px; top:1100px;}
+}
+
+@keyframes pop {
+    0%   { top:300px;}
+    100% { top:-2000px;}
+}
+
+@keyframes ghost {
+    0%   {left:1000px;  opacity:.1;}
+    50%  {left:500px; opacity: 1;}
+    100% {left:-1200px;  opacity:.1;}
+}
+
+@keyframes grow {
+    0%   {transform: scale(1)}
+    100% {transform: scale(20)}
+}
