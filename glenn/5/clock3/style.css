@@ -1,0 +1,205 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+
+@keyframes rotate {
+  100% {
+    transform: rotateZ(360deg);
+    }
+}
+
+p{
+    font-family: "mrs-eaves-xl-serif";
+    margin: 0;
+    color: black;
+/*
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1px;
+*/
+    
+/*    text-align: left;*/
+/*    line-height: 10vw:*/
+}
+
+.date  {
+    width: 100%;
+    
+    text-align: center;
+    font-size: 14px;
+    line-height: 12px;
+    
+    position: absolute;
+    top: 70%;
+}
+
+.sec {
+    width: 38vw;
+    height: auto;
+/*    background-color: blue;*/
+/*    border: 3px solid black;*/
+
+    position: absolute;
+    top:50%;
+/*    bottom: 0;*/
+    left: 50%;
+/*    right: 0;*/
+    transform: rotateZ(90deg);
+    transform-origin: 0% 0%;
+
+/*    margin: auto;*/
+    
+    animation: rotate 60s infinite steps(60);
+}
+
+.sec p {
+    font-size: 2.5vw;
+}
+
+.min {
+    width: 25vw;
+    height: auto;
+/*    background-color: turquoise;*/
+/*    border: 3px solid black;*/
+
+    position: absolute;
+    top:50%;
+/*    bottom: 0;*/
+    left: 50%;
+/*    right: 0;*/
+
+/*    margin: auto;*/
+    transform: rotateZ(220deg);
+    transform-origin: 0% 0%;
+
+    
+    animation: rotate 3600s infinite steps(3600);
+}
+
+.min p {
+/*
+    margin-left: 1vw;
+    margin-top: 1vw;
+*/
+    font-size: 2.5vw;
+    
+/*    text-align: center;*/
+}
+
+.hr {
+    width: 15vw;
+    height: auto;
+/*    background-color: skyblue;*/
+/*    border: 3px solid black;*/
+
+    position: absolute;
+    top:50%;
+/*    bottom: 0;*/
+    left: 50%;
+/*    right: 0;*/
+
+/*    margin: auto;*/
+    transform: rotateZ(330deg);
+    transform-origin: 0% 0%;
+
+    
+    animation: rotate 43200s infinite steps(43200);
+}
+
+.hr p {
+/*
+    margin-left: 0.5vw;
+    margin-top: 0.5vw;
+*/
+    font-size: 3vw;
+}
+
+
+
+/*
+.nonangle {
+    margin-left: 1vw;
+    margin-top: 1vw;
+    font-size: 1.5vw;
+}
+
+.angle {
+    margin-left: ;
+    margin-top: 33vw;
+    margin-left: 44vw;
+    font-size: 1.5vw;
+    transform: rotate(180deg);
+    transform-origin: left;
+}
+*/
+
+
+
+
+
+.audio {
+    display: none;
+}
+
+
+/*
+.center {
+    position:absolute;
+    
+    height: 1vw;
+    width: 1vw;
+    background-color: black;
+    border-radius: 50%;
+    border: 1px solid black;
+    top: 50%;
+    left: 50%;
+}
+*/
+
+@media screen and (max-width: 800px) {
+    body {
+        font-size: 15px;
+        line-height: 20px;
+    }
+    
+    .sec p {
+        font-size: 15px;
+    }
+    
+    .min p {
+        font-size: 15px;
+    }
+        
+    .hr p {
+        font-size: 15px;
+    }
+    
+    
+}
+
+
+
+
+/*
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+    background: transparent left center;
+    margin: 0 auto;
+}
+
+
+
+
+.rect {
+    
+    position: fixed;
+    margin: 0 auto;
+    
+    width: 50vw;
+    height: 50vw;
+    border: 3px solid black;
+    
+}*/
