@@ -49,7 +49,9 @@
 2. [Diane Arbus](https://andrewleclair.github.io/gdfortheweb-fall2016/elizabeth/2/)
 3. [dc](https://andrewleclair.github.io/gdfortheweb-fall2016/elizabeth/3)
 4. [Weather Bagel](https://andrewleclair.github.io/gdfortheweb-fall2016/elizabeth/4/weather_bagel)
-5. [Lacma Gradient](https://andrewleclair.github.io/gdfortheweb-fall2016/elizabeth/5)
+5. [Lacma Gradient](https://andrewleclair.github.io/gdfortheweb-fall2016/elizabeth/5/div_practice)
+
+
 ## Inyoung Kwon
 
 1. [Home](https://andrewleclair.github.io/gdfortheweb-fall2016/inyoung/1/)
