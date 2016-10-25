@@ -69,7 +69,7 @@
 2. [The Clock](https://andrewleclair.github.io/gdfortheweb-fall2016/alice/2/)
 3. [Pioneer Works](https://andrewleclair.github.io/gdfortheweb-fall2016/alice/3/now_upcoming.html)
 4. [Steps](https://andrewleclair.github.io/gdfortheweb-fall2016/alice/4/)
-4. [The Drawing Center](https://andrewleclair.github.io/gdfortheweb-fall2016/alice/5/)
+5. [The Drawing Center](https://andrewleclair.github.io/gdfortheweb-fall2016/alice/5/)
 
 ## Chloe Karayiannis
 
