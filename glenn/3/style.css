@@ -35,6 +35,12 @@ canvas {
     -webkit-text-stroke-color: black;
     -webkit-text-stroke-width: 1px;
     }
+
+.button:hover {
+    background-color: black;
+    -webkit-text-stroke-color: white;
+
+}
             
 /*.name {*/
 /*    margin-top: 40px;*/
