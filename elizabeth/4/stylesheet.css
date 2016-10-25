@@ -2,8 +2,6 @@
 body	{
 	background-color: #07BDFF;
 	background-size: cover;
-	position: fixed;
-	height: 5000px;
 }
 
 
@@ -61,8 +59,12 @@ body	{
 #body_copy	{
 		color: white;
 		font-size: 7em;
-		margin-left:200px;
-		margin-top:200px;
+		margin-left:20%;
+		margin-top: 20%;
+		margin-right: 20%;
+		border: 10px solid green;
+		background-color: red;
+		/* Andrew's suggestion for how to work out / debug when developing something, so you can see its placement */
 }
 
 

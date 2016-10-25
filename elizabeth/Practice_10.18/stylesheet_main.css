@@ -1,0 +1,70 @@
+body	{
+	background-color: #F84F00;
+	border: white, 30px;
+	font-family: Bodoni, Lucida Bright, Cambria, sans-serif;
+	font-size: .75em;
+	
+}
+
+
+h1	{
+	color: white;
+	font-size: 2em;
+	margin-left: 3%;
+	margin-top: 3%;
+	font-family: Helvetica;
+	font-weight: lighter;
+}
+
+.blue	{
+	width: 50%;
+	height: auto;
+	border: none;
+	color: white;
+	background-color: red;
+	padding: 2%;
+	margin: 10%;
+}
+
+img {
+	width: 50%;
+	height: auto;
+}
+
+
+.red	{
+	width: 50%;
+	height: auto;
+	margin-left:25%;
+	margin-right:10%;
+	color: white;
+	background-color: #02C2FF;
+	padding: 2%;
+
+
+
+}
+
+.purple		{
+	width: 20%;
+	height: auto;
+	margin: 10%;
+	font-color: #FF1DFC;
+	background-color: yellow;
+	padding: 2%;
+}
+
+.orange		{
+	width: 20%;
+	height: auto;
+	margin-left: 30%;
+	margin-right:10%;
+	padding: 2%;
+	font-color: gray;
+	background-color: #8E44AD;
+}
+
+
+
+
+
