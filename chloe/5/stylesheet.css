@@ -1,13 +1,19 @@
-body{
-background: linear-gradient(180deg, white, white, white, #8BE8D7);
-background-repeat: repeat-x; 
-}
+/* reset */
 
-html,body{
+html, body {
 	margin:0;
 	padding:0;
 }
-.grid{
+
+/* general */
+
+body {
+	font-family: "Helvetica Neue";
+	background: linear-gradient(180deg, white, white, white, #8BE8D7);
+	background-repeat: repeat-x; 
+}
+
+.grid {
 	width:33%;
 	height:33vh;
 	border:1px dashed red;
@@ -22,7 +28,6 @@ button {
     margin: 20px;
     border: none;
     outline: none;
-    
 }
 
 .rotatedtext{
@@ -32,7 +37,6 @@ button {
     -ms-transform: rotate(90deg); 
     -webkit-transform: rotate(90deg);
     transform: rotate(90deg);
-    font-family: "Helvetica Neue";
     font-size: 17px;
     text-shadow: 0 0 5px #8BE8D7;
     font-weight:bold;
@@ -55,14 +59,14 @@ table
     margin-right: auto;
 }
 
-img { display: floating;
+img {
+	/*display: floating;*/
     position: absolute;
     padding: 20px;
     /*cursor:pointer;*/
 }
 
 h1 {
-	font-family: "Helvetica Neue";
 	font-size: 50px;
 	font-style: normal;
 	font-variant: normal;
@@ -76,7 +80,7 @@ h1 {
 	margin-top: 100px;
 }
 
-p{ font-family: "Helvetica Neue";
+p{ 
 	font-size: 10px;
 	font-style: normal;
 	font-variant: normal;
@@ -92,6 +96,9 @@ p{ font-family: "Helvetica Neue";
 
 }
 
+audio {
+	opacity: 0;
+}
 
 
 
