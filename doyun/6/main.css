@@ -4,6 +4,7 @@ font-size: 90;
 margin-left: 800;
 position:absolute;
 padding-left: 40;
+margin-top: 300;
 }
 
 .list {
@@ -11,11 +12,13 @@ font-family: Helvetica;
 font-size: 35;
 line-height: 1.5;
 padding-left: 40;
+color: white;
+
 /*font-weight: bold;*/
 }
 
 ol:hover{
-    background-color: blue;
+    background-color: black;
 }
     
 
@@ -23,7 +26,7 @@ p {
 font-family: Helvetica;
 font-size: 45;
 padding-left: 40;
-padding-top: 200
+padding-top: 440;
 }
 
 @media only screen and (max-width: 800px) {
@@ -33,12 +36,13 @@ margin-left: 0;
 } 
     
 p{
-    padding-top: 300;
+    padding-top: 200;
     font-size: 35;
 }
     
 .list {
     font-size: 25;
+    margin-top: 300;
 }
     
 
