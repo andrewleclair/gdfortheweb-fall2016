@@ -1,0 +1,102 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video { margin:0; padding:0; border:0; outline:0; font-size:100%; vertical-align:baseline; background:transparent;}
+body {line-height:1;}
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {display:block;}
+ul li{list-style:none;}
+a {margin: 0; padding: 0; border: 0; vertical-align: baseline; background: transparent; text-decoration: none;}
+
+body, html{
+    font-size: 16px;   
+    /*font-family:WorkSans, sans-serif;*/
+    font-family: "Avenir Next LT Pro", helvetica, sans-serif;
+    width: 100%;
+    background-color: #f5f5f5;
+    overflow-x: hidden;
+}
+
+@font-face {
+    font-family: Avenir;
+    src: url(AvenirNextLTPro-Regular.otf);
+}
+
+@font-face {
+    font-family: Avenir;
+    src: url(AvenirNextLTPro-Bold.otf);
+    font-weight: bold;
+}
+
+div {
+    display: inline;
+    float: left;
+}
+
+.title {
+    width: 100%;
+    padding: 2em 4em;
+    position:fixed;
+}
+
+.human {
+    width: 12em;
+    height: 400px;
+    margin: 0 1em 0 4em;
+    text-align: right;
+    position:fixed;
+    top:9.5em;
+    left:0em;
+}
+
+.text {
+    width:58%;
+    margin-top:152px;
+    margin-left:17em;
+    padding-bottom:430px;
+}
+
+h1{
+    font-size: 3em;     
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+h2{
+    font-size: 2em;
+    font-weight: 400;
+}
+
+h3{
+    font-size: 1em;   
+    font-weight: 700;
+}
+
+p,ul{
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.6;
+    padding: .5em 0 1.5em 1.55em;
+}
+
+.text ul {
+    font-size: 100%;
+}
+
+.text li {
+    list-style: inherit;   
+}
+
+::selection {
+    background: #aeaeae; 
+    color: white;
+    /*color:white;*/
+}
