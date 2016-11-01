@@ -58,6 +58,8 @@
 
         color: black;
         -webkit-text-stroke: 0.08rem transparent;
+        
+        z-index: 99;
     }
     
     h2 a {
@@ -90,6 +92,7 @@
         letter-spacing: -0.02rem;
         
         color: black;
+        z-index: 999;
     }
     
     h3 a {
