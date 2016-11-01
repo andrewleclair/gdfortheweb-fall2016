@@ -31,6 +31,11 @@
       font-family: "unica bold";
     }
 
+    @font-face {
+      src: url('Neue_Haas_Unica_Medium.ttf');
+      font-family: "unica medium";
+    }
+
     
     html, body {
       font-family: "unica regular";
@@ -104,12 +109,13 @@
     
     div {
         position: fixed;
-        margin-top: 5vh;
+        margin-top: 2vh;
         margin-left: 82vw;
         
     }
     
     h4{
+        margin:0;
         position: relative;
         
         font-size: 0.5rem;
@@ -120,7 +126,8 @@
     }
     
     h4.signed {
-        font-size: 0.5rem;
+/*        font-size: 0.5rem;*/
+        margin-top: 3vh;
         margin-bottom: 0.5rem;
     }
     h4.and {
@@ -196,70 +203,92 @@
         color: transparent;
     }
     h4.c18:hover {
-        background-color: #8c0020;color: transparent;
+        background-color: #8c0020;
+        color: transparent;
     }
     h4.c19:hover {
-        background-color: #99002d;color: transparent;
+        background-color: #99002d;
+        color: transparent;
     }
     h4.c20:hover {
-        background-color: #b20046;color: transparent;
+        background-color: #b20046;
+        color: transparent;
     }
     h4.c21:hover {
-        background-color: #bf0053;color: transparent;
+        background-color: #bf0053;
+        color: transparent;
     }
     h4.c22:hover {
-        background-color: #cc0060;color: transparent;
+        background-color: #cc0060;
+        color: transparent;
     }
     h4.c23:hover {
-        background-color: #d9006d;color: transparent;
+        background-color: #d9006d;
+        color: transparent;
     }
     h4.c24:hover {
-        background-color: #e50079;color: transparent;
+        background-color: #e50079;
+        color: transparent;
     }
     h4.c25:hover {
-        background-color: #f20786;color: transparent;
+        background-color: #f20786;
+        color: transparent;
     }
     h4.c26:hover {
-        background-color: #ff1493;color: transparent;
+        background-color: #ff1493;
+        color: transparent;
     }
     h4.c27:hover {
-        background-color: #ff2ead;color: transparent;
+        background-color: #ff2ead;
+        color: transparent;
     }
     h4.c28:hover {
-        background-color: #ff47c6;color: transparent;
+        background-color: #ff47c6;
+        color: transparent;
     }
     h4.c29:hover {
-        background-color: #ff54d3;color: transparent;
+        background-color: #ff54d3;
+        color: transparent;
     }
     h4.c30:hover {
-        background-color: #ff6dec;color: transparent;
+        background-color: #ff6dec;
+        color: transparent;
     }
     h4.c31:hover {
-        background-color: #ff7af9;color: transparent;
+        background-color: #ff7af9;
+        color: transparent;
     }
     h4.c31:hover {
-        background-color: #ff87ff;color: transparent;
+        background-color: #ff87ff;
+        color: transparent;
     }
     h4.c32:hover {
-        background-color: #ffa0ff;color: transparent;
+        background-color: #ffa0ff;
+        color: transparent;
     }
     h4.c33:hover {
-        background-color: #ffadff;color: transparent;
+        background-color: #ffadff;
+        color: transparent;
     }
     
+.wrapper {
+    margin: 0;
+    padding: 0;
+    position:absolute;
+    margin-left: 0vw;
     
+    
+}
     
     p { 
+        position: relative;
         margin-left: 27vw;
-        padding-top: 4.5vh;
         
         max-width: 49vw;
         
         font-family: "unica regular";
         font-size: 1rem;
         letter-spacing: -0.01rem;
-        line-height: 1.3rem;
-    }
-    
-    
+        line-height: 1.2rem;
+    }    
 </style>
