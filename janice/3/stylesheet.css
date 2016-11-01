@@ -24,11 +24,17 @@ img {
     background-image: url("images/gagosian_indesign2.jpg");    
 }
 .imageback3 {
-    background-image: url("images/gagosian_indesign3.jpg");    
+    background-image: url("images/Gagosian_bck.gif");    
 }
 .imageback4 {
+    background-image: url("images/gagosian_indesign3.jpg");    
+}
+
+.imageback5 {
     background-image: url("images/gagosian_indesign4.jpg");    
 }
+
+
 
 #backrect {
     position: absolute;
@@ -36,7 +42,8 @@ img {
     width: 46%;
     height: 50%;
     color:none;
-    border: 1px solid black;
+    z-index: 1;
+    border: 1px;
 }
 #grect {
     position: absolute;
@@ -45,7 +52,6 @@ img {
     width: 10%;
     height: 23%;
     color:none;
-    border: 1px solid black;    
 }
 
 #arect {
@@ -55,7 +61,6 @@ img {
     width: 9%;
     height: 15%;
     color:none;
-    border: 1px solid black;
 }
 
 a {
