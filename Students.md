@@ -64,7 +64,8 @@
 2. [JOHN BALDESSARI](https://andrewleclair.github.io/gdfortheweb-fall2016/inyoung/2/)
 3. [TATE NOW](https://andrewleclair.github.io/gdfortheweb-fall2016/inyoung/3/)
 4. [Dotes](https://andrewleclair.github.io/gdfortheweb-fall2016/inyoung/4/)
-4. [ArcadeClassics!](https://andrewleclair.github.io/gdfortheweb-fall2016/inyoung/5/)
+5. [ArcadeClassics!](https://andrewleclair.github.io/gdfortheweb-fall2016/inyoung/5/)
+6. [Manifesto](https://andrewleclair.github.io/gdfortheweb-fall2016/inyoung/6/)
 
 
 ## Alice Yang
