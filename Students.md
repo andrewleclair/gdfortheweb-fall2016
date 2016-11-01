@@ -80,7 +80,7 @@
 3. [Pioneer Works](https://andrewleclair.github.io/gdfortheweb-fall2016/alice/3/now_upcoming.html)
 4. [Steps](https://andrewleclair.github.io/gdfortheweb-fall2016/alice/4/)
 5. [DC](https://andrewleclair.github.io/gdfortheweb-fall2016/alice/5/index.html)
-5. [First Things First](https://andrewleclair.github.io/gdfortheweb-fall2016/alice/6/index.html)
+6. [First Things First](https://andrewleclair.github.io/gdfortheweb-fall2016/alice/6/index.html)
 
 ## Chloe Karayiannis
 
@@ -90,4 +90,3 @@
 3. [Paper Scissors Rock](https://andrewleclair.github.io/gdfortheweb-fall2016/chloe/4)
 6. [GlenN](https://andrewleclair.github.io/gdfortheweb-fall2016/chloe/6)
 7. [10 Principles of Design](https://andrewleclair.github.io/gdfortheweb-fall2016/chloe/7)
-
