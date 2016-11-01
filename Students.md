@@ -7,7 +7,7 @@
 3. [Urban Lights] (https://andrewleclair.github.io/gdfortheweb-fall2016/jay/3/lacma.html)
 4. [last nights debate] (https://andrewleclair.github.io/gdfortheweb-fall2016/jay/4/honestly.html)
 5. [I already miss Obama] (https://andrewleclair.github.io/gdfortheweb-fall2016/jay/5/weather_bagel.html)
-
+6. [be nice pls] (https://andrewleclair.github.io/gdfortheweb-fall2016/jay/6/be nice pls.html)
 ## Glenn Jeon
 
 1. [Let's play a game](https://andrewleclair.github.io/gdfortheweb-fall2016/glenn/1)
