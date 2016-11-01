@@ -1,0 +1,50 @@
+h1 {
+font-family: Helvetica;
+font-size: 90;
+margin-left: 800;
+position:absolute;
+padding-left: 40;
+}
+
+.list {
+font-family: Helvetica;
+font-size: 35;
+line-height: 1.5;
+padding-left: 40;
+/*font-weight: bold;*/
+}
+
+ol:hover{
+    background-color: blue;
+}
+    
+
+p {
+font-family: Helvetica;
+font-size: 45;
+padding-left: 40;
+padding-top: 200
+}
+
+@media only screen and (max-width: 800px) {
+h1 { 
+color: blue;
+margin-left: 0;
+} 
+    
+p{
+    padding-top: 300;
+    font-size: 35;
+}
+    
+.list {
+    font-size: 25;
+}
+    
+
+
+
+
+
+ 
+    
