@@ -1,0 +1,57 @@
+#hiddenmap {
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  background-color: black;
+  z-index: -3;
+  position: fixed;
+  opacity: 0.1;
+}
+
+#map {
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  background-color: black;
+  z-index: -2;
+  position: fixed;
+}
+/*
+#mask {
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  background-color: white;
+  opacity: 0.9;
+  z-index: 2;
+  position: fixed;
+  display: none;
+}
+*/
+
+#position1 {
+  height: 10px;
+  width: 10px;
+  border-radius: 10px;
+  background-color: white;
+  left: 50px;
+  top: 100px;
+  position: fixed;
+  z-index: 1;
+}
+
+#image1 {
+  height: 500px;
+  width: 800px;
+  background-color: yellow;
+  z-index: 2;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  margin-left: -400px;
+  margin-top: -250px;
+  display: none;
+}
