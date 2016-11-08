@@ -1,59 +1,233 @@
 <!DOCTYPE html>
-<html>
 
+<html>
     <head>
-    <link rel="stylesheet" href="style.css">
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+        <script src="jquery-3.1.1.min.js"></script>
+        <script>
+        
+            $(document).ready(function(){
+   
+var timer;
+$(".dot").mouseenter(function() {
+    var that = this;
+    timer = setTimeout(function(){
+        $(that).addClass('black');
+    }, 300);
+}).mouseleave(function() {
+    clearTimeout(timer);
+});
+                
+$(".close").click(function(){
+    $(".how").hide();
+});
+                
+});
+            
+        </script>
     </head>
     <body>
+        
         <header>
-            
-            <h1>GD4WEB</h1>
+        
+            <h1>Make your own TATE!</h1>
         
         </header>
         
-        <div class="boader">
+        <div class="board">
         
-            <div class="img1">
-            <img src="">
-            
-                <p>A website, also written as web site,[1] is a collection of related web pages, including multimedia content, typically identified with a common domain name, and published on at least one web server. A web site may be accessible via a public Internet Protocol (IP) network, such as the Internet, or a private local area network (LAN), by referencing a uniform resource locator (URL) that identifies the site.
-
-Websites have many functions and can be used in various fashions; a website can be a personal website, a commercial website for a company, a government website or a non-profit organization website. Websites can be the work of an individual, a business or other organization, and are typically dedicated to a particular topic or purpose, ranging from entertainment and social networking to providing news and education. All publicly accessible websites collectively constitute the World Wide Web, while private websites, such as a company's website for its employees, are typically a part of an intranet.</p>
-                
-            </div>
-            <div class="img1">
-            <img src="">
-            
-                <p>Web pages, which are the building blocks of websites, are documents, typically composed in plain text interspersed with formatting instructions of Hypertext Markup Language (HTML, XHTML). They may incorporate elements from other websites with suitable markup anchors. Web pages are accessed and transported with the Hypertext Transfer Protocol (HTTP), which may optionally employ encryption (HTTP Secure, HTTPS) to provide security and privacy for the user. The user's application, often a web browser, renders the page content according to its HTML markup instructions onto a display terminal.</p>
-                
-            </div>
-            <div class="img2">
-            <img src="">
-            
-                <p>A website, also written as web site,[1] is a collection of related web pages, including multimedia content, typically identified with a common domain name, and published on at least one web server. A web site may be accessible via a public Internet Protocol (IP) network, such as the Internet, or a private local area network (LAN), by referencing a uniform resource locator (URL) that identifies the site.
-
-Websites have many functions and can be used in various fashions; a website can be a personal website, a commercial website for a company, a government website or a non-profit organization website. Websites can be the work of an individual, a business or other organization, and are typically dedicated to a particular topic or purpose, ranging from entertainment and social networking to providing news and education. All publicly accessible websites collectively constitute the World Wide Web, while private websites, such as a company's website for its employees, are typically a part of an intranet.</p>
-                
-            </div>
-            <div class="img1">
-            <img src="">
-            
-                <p>Web pages, which are the building blocks of websites, are documents, typically composed in plain text interspersed with formatting instructions of Hypertext Markup Language (HTML, XHTML). They may incorporate elements from other websites with suitable markup anchors. Web pages are accessed and transported with the Hypertext Transfer Protocol (HTTP), which may optionally employ encryption (HTTP Secure, HTTPS) to provide security and privacy for the user. The user's application, often a web browser, renders the page content according to its HTML markup instructions onto a display terminal.</p>
-                
-            </div>
-            <div class="img1">
-            <img src="">
-            
-                <p>A website, also written as web site,[1] is a collection of related web pages, including multimedia content, typically identified with a common domain name, and published on at least one web server. A web site may be accessible via a public Internet Protocol (IP) network, such as the Internet, or a private local area network (LAN), by referencing a uniform resource locator (URL) that identifies the site.
-
-Websites have many functions and can be used in various fashions; a website can be a personal website, a commercial website for a company, a government website or a non-profit organization website. Websites can be the work of an individual, a business or other organization, and are typically dedicated to a particular topic or purpose, ranging from entertainment and social networking to providing news and education. All publicly accessible websites collectively constitute the World Wide Web, while private websites, such as a company's website for its employees, are typically a part of an intranet.</p>
-                
-            </div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+                     
         
         </div>
         
-        
-        
+        <div class="how">
+            <p>Put your mouse on a circle!</p>
+            <p class="close">X</p>
+        </div>
+
     </body>
-    
 </html>

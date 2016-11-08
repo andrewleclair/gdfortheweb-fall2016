@@ -16,54 +16,58 @@ footer,header,hgroup,menu,nav,section {display:block;}
 ul li{list-style:none;}
 a {margin: 0; padding: 0; border: 0; vertical-align: baseline; background: transparent; text-decoration: none;}
 
-
-
-body{
-    background-color:#dedede;   
+body, html{
+    width:100%;
+    height:100%;
+    font-family:Verdana,sans-serif;
 }
 
-
-header{
-    font-size:10em;
+header {
+    padding:75px 0px 45px;
     text-align: center;
 }
 
-.boader{
-    width:100%;
-    height:auto;
+.board{
+    text-align: center;
+    width:62%;   
+    height:520px;
+    margin:auto;
+    margin-top:20px;
+    overflow:hidden;
 }
 
-div{
-    position:relative;
-    display: inline-block;
-    overflow: hidden;
+.dot{
     float:left;
+    width:25px;
+    height:25px;
+    border-radius:50%;
+    margin:5px;
+    border:1px solid black;
 }
 
-div p{
+.black{
+    background-color:black; 
+    border:3px solid black;
+    margin:3px;
+}
+
+.how{
     position:absolute;
-    display: inline-block;
-    width:50%;
-    left:44%;
-    top:10px;
+    width:130px;
+    height:200px;
+    bottom:10px;
+    right:10px;
+    text-align:center;
+    background-color:black;
 }
 
-.img1{
-    width:49.5%;
-    height:400px;
-    border: 1px solid lightgrey;
+p{
+    font-size:13px;
+    line-height: 1.6;
+    margin:45px 10px 40px 10px;
+    color:white;
 }
 
-img{
-    position:absolute;
-    margin:10px;
-    width:40%;
-    height:95%;
-}
-
-.img2{
-    width:99%;
-    height:400px;
-     border: 1px solid grey;
-}
+.close{
+    font-size:16px; 
 }
