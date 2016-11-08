@@ -99,3 +99,4 @@
 3. [Paper Scissors Rock](https://andrewleclair.github.io/gdfortheweb-fall2016/chloe/4)
 6. [GlenN](https://andrewleclair.github.io/gdfortheweb-fall2016/chloe/6)
 7. [10 Principles of Design](https://andrewleclair.github.io/gdfortheweb-fall2016/chloe/7)
+9. [identity](https://andrewleclair.github.io/gdfortheweb-fall2016/chloe/9)
