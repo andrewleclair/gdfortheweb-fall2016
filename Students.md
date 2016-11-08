@@ -57,7 +57,7 @@
 4. [Will It Ever Be 3pm?](https://andrewleclair.github.io/gdfortheweb-fall2016/janice/4/)
 5. [LACMA Museum](https://andrewleclair.github.io/gdfortheweb-fall2016/janice/5/)
 6. [Manifesto](https://andrewleclair.github.io/gdfortheweb-fall2016/janice/6/)
-6. [Gagosian Museum System](https://andrewleclair.github.io/gdfortheweb-fall2016/janice/7/)
+7. [Gagosian Museum System](https://andrewleclair.github.io/gdfortheweb-fall2016/janice/7/)
 
 
 ## Elizabeth Leeper
