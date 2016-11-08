@@ -11,11 +11,11 @@ function draw() {
   
   fill(150);
   triangle(0, 0, 0, windowHeight/2, x, y);
-  triangle(0, windowHeight/2, windowWidth/4, windowHeight/2, x, y);
+  triangle(0, windowHeight/2, x, windowHeight/2, x, y);
   
   fill(200);
   triangle(windowWidth/2,0, windowWidth/2, windowHeight/2, x, y);
-  triangle(windowWidth/4, windowHeight/2, windowWidth/2, windowHeight/2, x, y)
+  triangle(x, windowHeight/2, windowWidth/2, windowHeight/2, x, y)
   
   fill(240);
   triangle(0,0, windowWidth/2, 0 ,x, y);
