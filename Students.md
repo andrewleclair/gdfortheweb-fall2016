@@ -43,6 +43,7 @@
 4. [touch](https://andrewleclair.github.io/gdfortheweb-fall2016/jinny/4/sketch/index)
 5. [The Glasshouse](https://andrewleclair.github.io/gdfortheweb-fall2016/jinny/5/index)
 6. [Manifesto](https://andrewleclair.github.io/gdfortheweb-fall2016/jinny/6/index)
+7. [noguchi](https://andrewleclair.github.io/gdfortheweb-fall2016/jinny/7/index)
 
 ## Janice Park
 
