@@ -82,6 +82,7 @@
 4. [Steps](https://andrewleclair.github.io/gdfortheweb-fall2016/alice/4/)
 5. [DC](https://andrewleclair.github.io/gdfortheweb-fall2016/alice/5/index.html)
 6. [First Things First](https://andrewleclair.github.io/gdfortheweb-fall2016/alice/6/index.html)
+7. [Pioneer Works Branding](https://andrewleclair.github.io/gdfortheweb-fall2016/alice/7/index.html)
 
 ## Chloe Karayiannis
 
