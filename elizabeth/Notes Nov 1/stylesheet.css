@@ -1,0 +1,13 @@
+html	{
+	background: #fffff;
+	background: cover;
+}
+
+div small	{
+	width: 25%;
+
+}
+
+div large	{
+	width: 75%;
+}

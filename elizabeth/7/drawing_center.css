@@ -1,0 +1,37 @@
+
+div	{
+	width:75%;
+	margin: 0 auto;
+
+}
+
+.title	{
+	font-size: 2rem;
+	font-family: "Helvetica";
+	color: white;
+	display: inline;
+	margin: 0 auto;
+	line-height: 3rem;
+	
+
+}
+
+.br	{
+	font-size: 6rem;
+	font-family: "Avant Garde";
+	color: white;
+	display: inline;
+	margin: 0 auto;
+	line-height: 4rem;
+	border: 2px dotted white;
+}
+
+
+html	{
+	background: linear-gradient(-15deg, #ff1550, #d8efff); 
+	font-size: 72px, 1rem;
+
+
+	
+}
+
