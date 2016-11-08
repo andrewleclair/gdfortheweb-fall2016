@@ -1,0 +1,58 @@
+div {
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  background-color: white;
+  position: relative;
+  margin-left: -4px;
+  margin-top: -4px;
+}
+
+#frame {
+  width: auto;
+  height: auto;
+  border-radius: 0;
+  background-color: white;
+}
+
+table {
+  position: absolute;
+  left: 50%;
+  margin-left: -480px;
+  top: 50%;
+  margin-top: -52.5px;
+}
+
+/*
+color shift
+
+ffffff
+e0e0e0
+c6c6c6
+aaaaaa
+8e8e8e
+727272
+565656
+3a3a3a
+1e1e1e
+000000
+*/
+
+
+
+@-webkit-keyframes type4 {
+  0% { background-color: #565656; }
+  33% { background-color: #565656; }
+  34% { background-color: #8e8e8e; }
+  67% { background-color: #8e8e8e; }
+  68% { background-color: #ffffff; }
+  100% { background-color: #ffffff; }
+}
+
+
+.type4 {
+    background-color: black;
+  -webkit-animation-name: type4;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-duration: 1.5s;
+}
