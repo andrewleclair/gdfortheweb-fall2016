@@ -80,6 +80,7 @@
 5. [ArcadeClassics!](https://andrewleclair.github.io/gdfortheweb-fall2016/inyoung/5/)
 6. [Manifesto](https://andrewleclair.github.io/gdfortheweb-fall2016/inyoung/6/)
 7. [Your Tate](https://andrewleclair.github.io/gdfortheweb-fall2016/inyoung/7/)
+7. [Receipts](https://andrewleclair.github.io/gdfortheweb-fall2016/inyoung/8/)
 
 
 ## Alice Yang
