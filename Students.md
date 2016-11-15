@@ -59,6 +59,7 @@
 5. [LACMA Museum](https://andrewleclair.github.io/gdfortheweb-fall2016/janice/5/)
 6. [Manifesto](https://andrewleclair.github.io/gdfortheweb-fall2016/janice/6/)
 7. [Gagosian Museum System](https://andrewleclair.github.io/gdfortheweb-fall2016/janice/7/)
+8. [Cellos](https://andrewleclair.github.io/gdfortheweb-fall2016/janice/8/)
 
 
 ## Elizabeth Leeper
