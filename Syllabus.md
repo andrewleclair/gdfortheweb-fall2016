@@ -81,9 +81,9 @@ At the end of the semester, we will work as a class to collaboratively document 
 |7|10/25|Javascript 7-8, [Website #5](./Websites/Website5.md)|
 |8|11/1|JQuery 1–3, [Website #6](./Websites/Website6.md)|
 |9|11/8|JQuery 4-5, [Website #7](./Websites/Website7.md)|
-|10|11/15|Website #8|
+|10|11/15|[Website #8](./Websites/Website8.md)|
 ||11/22|No class (Thanksgiving)|
-|11|11/29|Website #9|
+|11|11/29|[Website #9]((./Websites/Website9.md)|
 |12|12/6|[Website #10](./Websites/Website10.md), Final crit|
 
 # Grading
