@@ -40,7 +40,6 @@
 
 ## Jinny Rim
 
-
 1. [convo](https://andrewleclair.github.io/gdfortheweb-fall2016/jinny/1/title)
 2. [psychobarn](https://andrewleclair.github.io/gdfortheweb-fall2016/jinny/2/index)
 3. [noguchi](https://andrewleclair.github.io/gdfortheweb-fall2016/jinny/3/index)
@@ -48,6 +47,7 @@
 5. [The Glasshouse](https://andrewleclair.github.io/gdfortheweb-fall2016/jinny/5/index)
 6. [Manifesto](https://andrewleclair.github.io/gdfortheweb-fall2016/jinny/6/index)
 7. [noguchi](https://andrewleclair.github.io/gdfortheweb-fall2016/jinny/7/index)
+8. [CD player](https://andrewleclair.github.io/gdfortheweb-fall2016/jinny/8/index)
 
 ## Janice Park
 
