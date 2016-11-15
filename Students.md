@@ -21,7 +21,7 @@
 5. [The Clock3](https://andrewleclair.github.io/gdfortheweb-fall2016/glenn/5/clock3)
 6. [FIRST THINGS FIRST 2000](https://andrewleclair.github.io/gdfortheweb-fall2016/glenn/6)
 7. [EYEBEAM](https://andrewleclair.github.io/gdfortheweb-fall2016/glenn/7)
-8. [EYEBEAM](https://andrewleclair.github.io/gdfortheweb-fall2016/glenn/8)
+8. [Flights](https://andrewleclair.github.io/gdfortheweb-fall2016/glenn/8)
 
 ## Yaodan Wu
 
