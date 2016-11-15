@@ -1,0 +1,53 @@
+html, body {
+  font-family: Courier;
+  font-size: 12pt;
+  line-height: 1.3;
+}
+
+#title {
+  top: 30px;
+  left: 30px;
+  position: absolute;
+}
+
+#list {
+  top: 100px;
+  left: 30px;
+  position: absolute;
+}
+
+.detail {
+  top: 100px;
+  left: 200px;
+  position: absolute;
+}
+
+#position,  #color,  #size, #category {
+  display: none;
+}
+
+#item {
+  position: relative;
+  top: 370px;
+  left: 30px;
+  column-count: 5;
+  column-width: 220px;
+  column-gap: 30px;
+}
+
+p {
+  margin: 0;
+}
+
+/*hover*/
+
+.list:hover, .position:hover, .category:hover,  #title:hover{
+  text-decoration: underline;
+  color: grey;
+  font-weight: bold;
+}
+
+p:hover {
+  text-decoration: underline;
+  font-weight: bold;
+}
