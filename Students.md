@@ -72,6 +72,7 @@
 6. [Lacma alternative](https://andrewleclair.github.io/gdfortheweb-fall2016/elizabeth/5.5/lacma_simple)
 7. [Ten Things, Milton Glaser](https://andrewleclair.github.io/gdfortheweb-fall2016/elizabeth/6/manifesto)
 8. [The Drawing Center](https://andrewleclair.github.io/gdfortheweb-fall2016/elizabeth/7/test)
+9. [Cookbox](https://andrewleclair.github.io/gdfortheweb-fall2016/elizabeth/8/cookbox)
 
 ## Inyoung Kwon
 
