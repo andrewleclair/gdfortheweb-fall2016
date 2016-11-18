@@ -1,7 +1,5 @@
 function setup() {
-    var theCanvas = createCanvas(windowWidth, windowHeight);
-	blendMode (LIGHTEST);
-    
+    var theCanvas = createCanvas(windowWidth, windowHeight);    
 }
 
 
