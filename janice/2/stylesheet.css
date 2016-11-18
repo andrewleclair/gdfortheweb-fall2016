@@ -1,6 +1,5 @@
 body{
-    background-color:black;
-    color:white;
+    background-color:white;
     text-decoration:none;
     text-decoration-line: none;
     font-size:30px;
@@ -8,3 +7,59 @@ body{
     font-family: "Arial black", gadget, sans-serif;
 }
 
+p {
+    font-family: "Arial black";
+    line-height: 80px;
+    position: relative;
+}
+
+h1,h2,h3,h4,ul {
+    position: absolute;
+    line-height: 25px;
+    font-family: "Arial";
+    left: 400px;
+}
+
+h1 {
+  top: 420px;
+  font-size: 30px;
+    left: 300px;
+}
+
+h2 {
+  top: 470px;
+    font-size: 20px;  
+    left: 350px;
+    width: 300px;
+    
+}
+ 
+ul {
+    list-style-type: none;
+    top: 520px;
+    width: 300px;
+    font-size: 15px;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+    border: 10px solid black;
+    padding: 10px 20px;
+    font-size: 5vw;
+    box-shadow: 20px 20px black;
+    position: absolute;
+}
+
+a:hover {
+      background-color: lightpink;
+      border: 10px solid red;
+      color: white;
+      box-shadow: 20px 20px red;
+}
+
+a:active {
+      box-shadow: 1px 1px red;
+      position: relative;
+      line-height: 10px;
+}
