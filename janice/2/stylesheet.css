@@ -5,6 +5,23 @@ body{
     font-size:30px;
     text-decoration-color: none;
     font-family: "Arial black", gadget, sans-serif;
+/*    background-image: url(lockedroomdoor.jpg);*/
+}
+
+iframe {
+    width: 100px;
+    height: 300px;
+    margin-top: 350px;
+    margin-left: 100px;
+    position: absolute;
+}
+
+#2video iframe{
+    width: 100px;
+    height: 300px;
+    margin-top: 30px;
+    margin-left: 500px;
+    position: absolute;
 }
 
 p {
@@ -31,24 +48,27 @@ h2 {
     font-size: 20px;  
     left: 350px;
     width: 300px;
-    
 }
  
 ul {
     list-style-type: none;
-    top: 520px;
+    top: 540px;
     width: 300px;
     font-size: 15px;
 }
 
+
+
 a{
     text-decoration: none;
     color: inherit;
-    border: 10px solid black;
-    padding: 10px 20px;
+    border: 2px solid black;
     font-size: 5vw;
     box-shadow: 20px 20px black;
     position: absolute;
+    left: 20px;
+    top: 20px;
+    z-index: 3;
 }
 
 a:hover {
