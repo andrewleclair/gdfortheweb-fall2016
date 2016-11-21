@@ -14,11 +14,11 @@ function draw() {
   // stroke(51, 255, 215 ,50)
   // text("identity",touchX,touchY);
   
-  textSize(50)
-  fill(255,255,0)
-  stroke(255,102,153)
-  strokeWeight(2)
-  text("identity",touchX,touchY)
+  // textSize(50)
+  // fill(255,255,0)
+  // stroke(255,102,153)
+  // strokeWeight(2)
+  // text("identity",touchX,touchY)
 
   var img;
       function preload() {
