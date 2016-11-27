@@ -1,7 +1,7 @@
 var anchor = [0,0]
 
 //this isn't working
-// var lines = strokeWeight;
+
 // lines = (random(1,15);
 
 var r, g, b;
