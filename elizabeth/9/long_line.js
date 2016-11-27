@@ -1,8 +1,8 @@
 var anchor = [0,0]
 
 //this isn't working
-var lines = strokeWeight;
-lines = (random(1,15);
+// var lines = strokeWeight;
+// lines = (random(1,15);
 
 var r, g, b;
 
@@ -12,6 +12,7 @@ function setup() {
   r = random(255);
   b = random(255);
   g = random(255);
+
 }
 
 function mousePressed() {
@@ -25,7 +26,7 @@ if (mouseIsPressed){
 line(mouseX, mouseY, anchor[0], anchor[1])
 console.log(mouseIsPressed);
 //stroke(r, g, b, random(0,0)); //controlling for color and transparency
-strokeWeight (lines);
+strokeWeight = (.75);
 //fill (random(200,255),random(200,255), random(200, 250));
 }
 }
