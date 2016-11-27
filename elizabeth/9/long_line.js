@@ -25,8 +25,8 @@ function draw() {
 if (mouseIsPressed){
 line(mouseX, mouseY, anchor[0], anchor[1])
 console.log(mouseIsPressed);
-//stroke(r, g, b, random(0,0)); //controlling for color and transparency
-strokeWeight = (.75);
+//stroke(255); //controlling for color and transparency
+strokeWeight(.75);
 //fill (random(200,255),random(200,255), random(200, 250));
 }
 }
