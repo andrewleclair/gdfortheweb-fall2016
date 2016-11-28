@@ -1,72 +1,60 @@
 <!DOCTYPE html>
 <html>
-        <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>  
-            <meta charset="UTF-8">
-        <script language="javascript" type="text/javascript" src="libraries/p5.js"></script>
-        <script language="javascript" type="text/javascript" src="sketch.js"></script>
+<head>
+      <meta charset="UTF-8">
+     <link rel="stylesheet" type="text/css" href="style.css">
+     <script type="text/javascript" src="wheelzoom.jquery.js"></script>
 
-    <head>
+    <title>ImagesOfScreens</title>
+</head>
 
-            </head>
+
 <body>
+	<!-- <img class='zoom' src='skin_1.jpg' alt='skin_1'/>
+	<script src="wheelzoom.js"></script>
+	<script>
+		wheelzoom(document.querySelector('img.zoom'));</script>
+	<img class='zoom' src='skin_1.jpg' alt='skin_1' width='10'/>
+ -->
+<h1>Screen Skin</h1>
 
-            <img id="change" src="skin_1.jpg" class="stretch" alt="skin">
+<div id="Box">
+    <div class="imgBox">
+        <div class="image">
+            <img class='zoom' src='skin_1.jpg' alt='skin_1'/>
+        </div>
+        <div class="image">
+            <img class='zoom' src='skin_2.jpg' alt='skin_2'/>
+        </div>
+        <div class="image">
+            <img src="skin_3.jpg">
+        </div>
+        <div class="image">
+            <img src="skin_4.jpg">
+        </div>
+        <div class="image">
+            <img src="skin_5.jpg">
+        </div>
+        <div class="image">
+            <img src="skin_6.jpg">
+        </div>
+        <div class="image">
+            <img src="skin_7.jpg">
+        </div>
+        <div class="image">
+            <img src="skin_8.jpg">
+        </div>
+        <div class="image">
+            <img src="skin_9.jpg">
+        </div>
 
-<script type="text/javascript">
+        <script src="wheelzoom.js"></script>
+            <script>
+		wheelzoom(document.querySelector('img.zoom'));</script>
 
-    $(document).ready(function(){
-        var step = 0;
-        var maxStep = 15;
-
-        $("#change").click(function(){
-            if(step == 0){
-                $(this).attr('src', 'skin_2.jpg');
-                        }
-            else if(step == 1){
-                $(this).attr('src', 'skin_3.jpg');
-            }
-            else if(step ==2) {
-                $(this).attr('src', 'skin_5.jpg');
-            }
-            else if(step ==2) {
-                $(this).attr('src', 'skin_8.jpg');
-            }
-            else if(step ==2) {
-                $(this).attr('src', 'skin_9.jpg');
-            }
-            else if(step ==2) {
-                $(this).attr('src', 'skin_10.jpg');
-            }
-             else if(step ==2) {
-                $(this).attr('src', 'skin_12.jpg');
-            }
-             else if(step ==2) {
-                $(this).attr('src', 'skin_13.jpg');
-            }
-             else if(step ==2) {
-                $(this).attr('src', 'skin_15.jpg');
-            }
-             else if(step ==2) {
-                $(this).attr('src', 'skin_18.jpg');
-            }
-             else if(step ==2) {
-                $(this).attr('src', 'skin_19.jpg');
-            }
-             else if(step ==2) {
-                $(this).attr('src', 'skin_20.jpg');
-            }
-             else if(step ==2) {
-                $(this).attr('src', 'skin_21.jpg');
-            }
-            if(step < maxStep - 1){
-                step++;
-            }
-            else{
-                step = 0;
-            }
-        });
-    });
-</script>
+    </div>
+</div>
+	
 
  </body>
-</html>
+</html> 
