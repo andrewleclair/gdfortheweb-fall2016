@@ -109,5 +109,5 @@
 7. [10 Principles of Design](https://andrewleclair.github.io/gdfortheweb-fall2016/chloe/7)
 9. [identity](https://andrewleclair.github.io/gdfortheweb-fall2016/chloe/9)
 10. [ScreenSkin](https://andrewleclair.github.io/gdfortheweb-fall2016/chloe/10)
-9. [Kim](https://andrewleclair.github.io/gdfortheweb-fall2016/chloe/11)
+11. [Kim](https://andrewleclair.github.io/gdfortheweb-fall2016/chloe/11)
 
