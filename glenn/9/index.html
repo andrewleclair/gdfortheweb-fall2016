@@ -1,0 +1,79 @@
+<html>
+
+<head>
+	<meta charset="UTF-8">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<meta name="apple-mobile-web-app-capable" content="yes">
+
+	<style>
+		html,
+		body {
+			padding: 0;
+			margin: 0;
+			color: #111;
+			width: 100vw;
+			height: 100vh;
+			-webkit-touch-callout: none;
+			-webkit-user-select: none;
+			-khtml-user-select: none;
+			-moz-user-select: none;
+			-ms-user-select: none;
+			user-select: none;
+		
+            font-family: gidole;
+        }
+        
+        @font-face {
+            font-family: gidole;
+            src: url(font/Gidole.ttf);
+        }
+        
+        .weare {  
+            position:absolute;
+            margin: auto, 0;
+            width: 50%;
+
+            
+            background-color: (255,255,255, 0.1);
+            
+            text-align: center;
+            font-family: gidole;
+            font-size: 10vw;
+            
+            -webkit-text-fill-color: transparent;
+            -webkit-text-stroke-width: 3px;
+   -webkit-text-stroke-color: black;
+            
+        }
+        
+	</style>
+
+	<script type="text/javascript">
+		function blockMove() {
+			event.preventDefault();
+		}
+	</script>
+
+</head>
+
+<body ontouchmove="blockMove()">
+	<div id="syllabus-sketch">
+	</div>
+    
+    <div class="weare">
+     <p>We are</p>
+    </div>
+
+	<script language="javascript" type="text/javascript" src="support-files/library/p5.min.js"></script>
+
+	<script language="javascript" type="text/javascript" src="support-files/utitilies-from-chris.js"></script>
+
+	<script language="javascript" type="text/javascript" src="sketch.js"></script>
+
+
+
+</body>
+
+</html>
