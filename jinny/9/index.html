@@ -1,0 +1,186 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>chocolate cookie</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-3.1.1.min.js" >
+    </script>
+<script>
+        $(document).ready(function(){
+        $("div#square")
+            .mousedown(function(){
+            $('#right').css('opacity','0');
+            $('#bottom').css('opacity','0');
+            $('#left').css('width','100%');
+            $('#left').css('height','100%');
+        })
+            .mouseup(function(){
+            $('#right').css('opacity','1');
+            $('#bottom').css('opacity','1');
+            $('#left').css('width','50%');
+            $('#left').css('height','70%');
+        });
+        $("div#circle")
+            .mousedown(function(){
+            $('#left').css('opacity','0');
+            $('#bottom').css('opacity','0');
+            $('#right').css('width','100%');
+            $('#right').css('height','100%');
+            $('#cookies').css('margin','0 auto');
+        })
+            .mouseup(function(){
+            $('#left').css('opacity','1');
+            $('#bottom').css('opacity','1');
+            $('#right').css('width','50%');
+            $('#right').css('height','70%');
+        });
+        $("div#choco-cookie")
+            .mousedown(function(){
+            $('#left').css('opacity','0');
+            $('#right').css('opacity','0');
+            $('#bottom').css('width','100%');
+            $('#bottom').css('height','100%');
+        })
+            .mouseup(function(){
+            $('#left').css('opacity','1');
+            $('#right').css('opacity','1');
+            $('#bottom').css('width','100%');
+            $('#bottom').css('height','30%');
+        });
+        });
+    </script>
+</head>
+<body>
+    <h3>HOME SWEET HOME</h3>
+    <div id="left">
+        <h1>choco</h1>
+        <div id = "chocolate">
+            <div id="square">
+            <img class ="rect" src="images/choco/1480396137035.jpeg">
+            </div>
+            <div id="square">
+            <img class="rect" src="images/choco/1480396136604.jpeg"></div>
+            <div id="square">
+            <img class="rect" src ="images/choco/1480396137376.jpeg"></div>
+            <div id="square">
+            <img class="rect" src ="images/choco/1480396137579.jpeg"></div>
+            <div id="square">
+            <img class="rect" src ="images/choco/20140601_122220.jpg"></div>
+            <div id="square"><img class="rect" src ="images/choco/20140604_231503.jpg"></div>
+            <div id="square"><img class="rect" src ="images/choco/20140604_231511.jpg"></div>
+            <div id="square"><img class="rect" src ="images/choco/20140724_122828.jpg"></div>
+            <div id="square"><img class="rect" src ="images/choco/20140724_122836.jpg"></div>
+            <div id="square"><img class="rect" src ="images/choco/20140907_223234.jpg"></div>
+            <div id="square"><img class="rect" src ="images/choco/20140907_223257.jpg"></div>
+            <div id="square">
+            <img class="rect" src ="images/choco/20140907_223301.jpg"></div>
+            <div id="square"><img class="rect" src ="images/choco/20140910_110646.jpg"></div>
+            <div id="square"><img class="rect" src ="images/choco/20141210_114935.jpg"></div>
+            <div id="square"><img class="rect" src ="images/choco/20150207_233830.jpg"></div>
+            <div id="square"><img class="rect" src ="images/choco/20150207_233856.jpg"></div>
+            <div id="square"><img class="rect" src ="images/choco/20150323_142223.jpg"></div>
+            <div id="square"><img class="rect" src ="images/choco/20150430_231131.jpg"></div>
+            <div id="square"><img class="rect" src ="images/choco/20150823_115200.jpg"></div>
+            <div id="square"><img class="rect" src ="images/choco/20150823_115208.jpg"></div>
+            <div id="square"><img class="rect" src ="images/choco/20160719_123849.jpg"></div>
+            <div id="square"><img class="rect" src ="images/choco/20160908_120747.jpg"></div>
+            <div id="square"><img class="rect" src="images/both/1480396137221.jpeg"></div>
+        </div>
+    </div>
+    
+    <div id="right">
+        <h1>cookie</h1>
+        <div id="cookies">
+            <div id="circle">
+            <img class="circle" src = "images/cookie/1.jpeg"></div>
+            <div id="circle">
+            <img class="circle" src ="images/cookie/2.jpg"></div>
+            <div id="circle"><img class="circle" src ="images/cookie/3.jpg"></div>
+            <div id="circle"><img class="circle" src ="images/cookie/4.jpg"></div>
+            <div id="circle"><img class="circle" src ="images/cookie/5.jpg"></div>
+            <div id="circle"><img class="circle" src="images/cookie/6.jpg"></div>
+            <div id="circle"><img class="circle" src ="images/cookie/7.jpg"></div>
+            <div id="circle"><img class="circle" src ="images/cookie/8.jpg"></div>
+            <div id="circle"><img class="circle" src ="images/cookie/9.jpg"></div>
+            <div id="circle"><img class="circle" src ="images/cookie/10.jpg"></div>
+            <div id="circle"><img class="circle" src ="images/cookie/11.jpg"></div>
+            <div id="circle"><img class="circle" src ="images/cookie/13.jpg"></div>
+            <div id="circle"><img class="circle" src ="images/cookie/14.jpg"></div>
+            <div id="circle"><img class="circle" src ="images/cookie/15.jpg"></div>
+            <div id="circle"><img class="circle" src ="images/cookie/16.jpg"></div>
+            <div id="circle"><img class="circle" src ="images/cookie/17.jpeg"></div>
+            <div id="circle"><img class="circle" src ="images/cookie/18.jpeg"></div>
+            <div id="circle"><img class="circle" src ="images/cookie/19.jpeg"></div>
+            <div id="circle"><img class="circle" src="images/both/1480396137155.jpeg"></div>
+            <div id="circle"><img class="circle" src="images/cookie/12.jpg"></div>
+        </div>
+    </div>
+    
+    <div id="bottom">
+        <h2>chocolate chip cookie</h2>
+        <div id="choco-cookie">
+            <img class="final" src="images/both/1388532405716(1).jpg">
+        </div>
+        <div id="choco-cookie">
+            <img class="final" src="images/both/1480396136936.jpeg">
+        </div>
+        <div id="choco-cookie">
+            <img class="final" src="images/both/1480396136896.jpeg">
+        </div>
+        <div id="choco-cookie">
+            <img class="final" src="images/both/1480396137094.jpeg">
+        </div>
+        <div id="choco-cookie">
+            <img class="final" src="images/both/1480396137539.jpeg">
+        </div>
+        <div id="choco-cookie">
+            <img class="final" src="images/both/1480396137629.jpeg">
+        </div>
+        <div id="choco-cookie">
+            <img class="final" src="images/both/20131126_175653.jpg">
+        </div>
+        <div id="choco-cookie">
+            <img class="final" src="images/both/20131225_114542.jpg">
+        </div>
+        <div id="choco-cookie">
+            <img class="final" src="images/both/20140105_112943.jpg">
+        </div>
+        <div id="choco-cookie">
+            <img class="final" src="images/both/20140105_112953.jpg">
+        </div>
+        <div id="choco-cookie">
+            <img class="final" src="images/both/20140105_113022.jpg">
+        </div>
+        <div id="choco-cookie">
+            <img class="final" src="images/both/20140217_111425.jpg">
+        </div>
+        <div id="choco-cookie">
+            <img class="final" src="images/both/20140620_235512.jpg">
+        </div>
+        <div id="choco-cookie">
+            <img class="final" src="images/both/20140722_232755.jpg">
+        </div>
+        <div id="choco-cookie">
+            <img class="final" src="images/both/20140722_232815.jpg">
+        </div>
+        <div id="choco-cookie">
+            <img class="final" src="images/both/20140724_122745.jpg">
+        </div>
+        <div id="choco-cookie"><img class="final" src="images/both/20140724_122821.jpg"></div>
+        <div id="choco-cookie">
+            <img class="final" src="images/both/20140804_211831.jpg">
+        </div>
+        <div id="choco-cookie">
+            <img class="final" src="images/both/20141011_095009.jpg">
+        </div>
+        <div id="choco-cookie">
+            <img class="final" src="images/both/20141011_095019.jpg">
+        </div>
+        <div id="choco-cookie">
+            <img class="final" src="images/both/20141210_114909.jpg">
+        </div>
+    </div>
+</body>
+</html>
