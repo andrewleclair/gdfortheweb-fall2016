@@ -88,7 +88,9 @@
 5. [ArcadeClassics!](https://andrewleclair.github.io/gdfortheweb-fall2016/inyoung/5/)
 6. [Manifesto](https://andrewleclair.github.io/gdfortheweb-fall2016/inyoung/6/)
 7. [Your Tate](https://andrewleclair.github.io/gdfortheweb-fall2016/inyoung/7/)
-7. [Receipts](https://andrewleclair.github.io/gdfortheweb-fall2016/inyoung/8/)
+8. [Receipts](https://andrewleclair.github.io/gdfortheweb-fall2016/inyoung/8/)
+9. [Moments](https://andrewleclair.github.io/gdfortheweb-fall2016/inyoung/9_1/)
+9. [Playlist](https://andrewleclair.github.io/gdfortheweb-fall2016/inyoung/9/)
 
 
 ## Alice Yang
