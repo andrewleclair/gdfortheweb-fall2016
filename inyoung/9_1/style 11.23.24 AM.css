@@ -1,0 +1,138 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video { margin:0; padding:0; border:0; outline:0; font-size:100%; vertical-align:baseline; background:transparent;}
+body {line-height:1;}
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {display:block;}
+ul li{list-style:none;}
+a {margin: 0; padding: 0; border: 0; vertical-align: baseline; background: transparent;}
+
+body{
+    font-family: 'Bree Serif', sans-serif;
+}
+
+/*-- index --*/
+
+
+header{
+    height:30px;
+}
+
+header a{
+    position: fixed;
+    top:18px;
+    right:20px;
+    font-size:22px;
+    color:black;
+    display: none;
+}
+
+.container{
+}
+
+.travel{
+    position:relative;
+    font-size:48px;
+    padding:18px;
+}
+
+.num{
+    opacity:0; 
+    width:32px;
+}
+
+.travel p{
+    display:inline-block;
+}
+
+.preview{
+    position:absolute;
+    display: inline-block;
+    opacity:0; 
+    height:200px;
+    right:40px;
+    margin-left:0px;
+    margin-top:-22px;
+}
+
+.preview a{
+    position:absolute;
+    font-size:32px;
+    top:33px;
+    left:138px;
+    color:black;
+}
+
+.preview img{
+    width:120px;
+    margin-right:24px;
+}
+
+.travel .upcoming{
+    opacity:1;   
+}
+
+.travel:hover .preview{
+    opacity:1;   
+}
+
+.travel:hover .num{
+    opacity:1;   
+}
+
+/*-- sub --*/
+
+.subbody{
+    height:100%;
+    overflow-y:hidden;
+    background-color: rgba();
+}
+
+.title{
+    position: fixed;
+    height:90px;
+    padding:20px;   
+    z-index: 99;
+}
+
+h1{
+    font-size:72px;   
+}
+
+.hold{
+    position:absolute;
+    bottom:0px;   
+    height:100%;
+}
+
+.photobook{
+    position: relative;
+    width:16000px;
+    height:100%;
+}
+
+.photobook img{
+    height:100%;
+    margin:0 170px;
+}
+
+.subbody footer{
+    position:fixed;
+    bottom:40px;
+    right:40px;
+    font-size:40px;
+}
+
+footer a{
+    color:black;   
+}
+
