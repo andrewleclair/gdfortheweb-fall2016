@@ -1,60 +1,236 @@
 <!DOCTYPE html>
+
 <html>
-<head>
-      <meta charset="UTF-8">
-     <link rel="stylesheet" type="text/css" href="style.css">
-     <script type="text/javascript" src="wheelzoom.jquery.js"></script>
+  <head>
+    <title>Kim Crying</title>
 
-    <title>ImagesOfScreens</title>
-</head>
+   
+    <style >
+  body{
+  background-image: url(images/Kim-Kardashian-Cry.jpg);   
+  background-size: 100vw 100vh;
+  background-repeat: no-repeat;
+  cursor:url(smi298.cur) 4 12, auto;
+  height: 100vh;
+  width: 100vw;
+   cursor:url(smi298.cur) 4 12, auto;
+   overflow: hidden;
 
 
-<body>
-	<!-- <img class='zoom' src='skin_1.jpg' alt='skin_1'/>
-	<script src="wheelzoom.js"></script>
-	<script>
-		wheelzoom(document.querySelector('img.zoom'));</script>
-	<img class='zoom' src='skin_1.jpg' alt='skin_1' width='10'/>
- -->
-<h1>Screen Skin</h1>
+  }
+  
 
-<div id="Box">
-    <div class="imgBox">
-        <div class="image">
-            <img class='zoom' src='skin_1.jpg' alt='skin_1'/>
-        </div>
-        <div class="image">
-            <img class='zoom' src='skin_2.jpg' alt='skin_2'/>
-        </div>
-        <div class="image">
-            <img src="skin_3.jpg">
-        </div>
-        <div class="image">
-            <img src="skin_4.jpg">
-        </div>
-        <div class="image">
-            <img src="skin_5.jpg">
-        </div>
-        <div class="image">
-            <img src="skin_6.jpg">
-        </div>
-        <div class="image">
-            <img src="skin_7.jpg">
-        </div>
-        <div class="image">
-            <img src="skin_8.jpg">
-        </div>
-        <div class="image">
-            <img src="skin_9.jpg">
-        </div>
 
-        <script src="wheelzoom.js"></script>
-            <script>
-		wheelzoom(document.querySelector('img.zoom'));</script>
 
+  #theLink{
+      
+      font-size: 100px;
+      color: white;
+    position: fixed;
+    bottom: 3vh;
+    right: 10px;
+    z-index: 4;
+    width: 25vw;
+    height: 20vh;
+    background-color: none;
+  
+  }
+
+#theLink:hover{
+    
+
+  }
+
+
+    #theOtherLink{
+
+  font-size: 100px;
+  color: white;
+    position: fixed;
+    bottom: 6vh;
+    z-index: 4;
+    width: 30vw;
+    max-height: 40vh;
+    background-color: none;
+   
+  }
+
+  #theOtherLink:hover{
+
+
+  }
+
+
+
+  #parent{
+    position: fixed; 
+    font-family: arial;
+    top: 10px;
+    right: 10px;
+    color: black;
+    font-size: 20px; 
+
+
+  }
+
+
+
+
+    </style>
+  </head>
+ 
+
+
+  <body>
+   
+    <div id="parent">
+      &#9612;&#9612;
+
+          <audio autoplay id="child">
+                <source src="sounds/baby.mp3" type="audio/mpeg">
+          </audio>
     </div>
-</div>
-	
 
- </body>
-</html> 
+
+    <img src="text/buyme.gif" id="theLink" >
+     
+
+    <img src="text/useme.gif" id="theOtherLink" >
+     
+
+    
+   
+
+
+
+
+
+<script type="text/javascript">
+
+var playPause = document.getElementById('parent');
+
+
+var childA = document.getElementById("child");
+
+  var on = true;
+
+  playPause.onclick = function(event){
+        
+        if (on == true) {
+        
+          on = false;
+
+        console.log('turned off');
+        playPause.innerHTML = '&#9654; ';
+        playPause.removeChild(childA);
+
+
+        } else{
+
+          on = true;
+          console.log('turned on');
+          playPause.innerHTML = '&#9612;&#9612;';
+          playPause.innerHTML += '<audio autoplay id="child"><source src="sounds/baby.mp3" type="audio/mpeg"></audio>';
+
+          childA = document.getElementById("child");
+
+        };
+
+        
+};
+
+
+var buyMe = document.getElementById('theLink');
+
+buyMe.onclick = function(event) {
+  
+  window.open('https://www.etsy.com/listing/198837482/crying-kim-kardashian-greeting-card?ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=kim%20kardashian&ref=sr_gallery_5', "", "width = 1000, height=800");
+  
+
+  window.open('https://www.etsy.com/listing/214617963/kim-kardashion-set-of-4-kim-kardashian?ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=kim%20kardashian&ref=sr_gallery_4', "", "width = 1000, height=800");
+  window.open('https://www.etsy.com/listing/218250943/kim-kardashian-crying-kim-face-post-stud?ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=kim%20kardashian&ref=sr_gallery_9', "", "width = 1000, height=800");
+  window.open('https://www.etsy.com/listing/236404057/kim-kardashian-and-kanye-west-keychains?ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=kim%20kardashian&ref=sr_gallery_11', "", "width = 1000, height=800");
+  window.open('https://www.etsy.com/listing/122243632/kim-kardashian-ugly-cry-crying-humor?ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=kim%20kardashian&ref=sr_gallery_18', "", "width = 1000, height=800");
+  window.open('https://www.etsy.com/listing/245133352/kim-kardashian-crying-face-poster-print?ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=kim%20kardashian&ref=sr_gallery_19', "", "width = 1000, height=800");
+  window.open('https://www.etsy.com/listing/234704268/kim-kardashian-crying-phone-case-iphone?ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=kim%20kardashian&ref=sr_gallery_22', "", "width = 1000, height=800");
+  window.open('https://www.etsy.com/listing/247692871/1-kim-kardashian-and-kanye-west-pin?ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=kim%20kardashian&ref=sr_gallery_23', "", "width = 1000, height=800");
+  window.open('https://www.etsy.com/listing/231871335/kim-kardashian-crying-face-head-kawaii?ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=kim%20kardashian&ref=sr_gallery_34', "", "width = 1000, height=800");
+  window.open('https://www.etsy.com/listing/202120874/kim-kardashian-crying-face-candle?ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=kim%20kardashian&ref=sr_gallery_27', "", "width = 1000, height=800");
+  window.open('https://www.etsy.com/listing/223719571/kim-k-kim-kardashian-mug-kim-crying-mug?ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=kim%20kardashian&ref=sr_gallery_31', "", "width = 1000, height=800");
+  window.open('https://www.etsy.com/listing/242947599/kim-kardashian-kanye-west-kimye-1?ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=kim%20kardashian&ref=sr_gallery_1', "", "width = 1000, height=800");
+  window.open('https://www.etsy.com/listing/227514317/funny-kim-kardashian-collage-iphone-6-5s?ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=kim%20kardashian&ref=sr_gallery_39', "", "width = 1000, height=800");
+  window.open('https://www.etsy.com/listing/249096207/kim-kardashian-crying-belly-ring?ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=kim%20kardashian&ref=sr_gallery_27', "", "width = 1000, height=800");
+  window.open('https://www.etsy.com/listing/239063962/kim-kardashian-ugly-cry-inspirational?ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=kim%20kardashian&ref=sr_gallery_12', "", "width = 1000, height=800");
+  window.open('https://www.etsy.com/listing/243272758/kim-kardashian-crying?ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=kim%20kardashian&ref=sr_gallery_16', "", "width = 1000, height=800");
+  window.open('https://www.etsy.com/listing/241405525/kim-kardashian-crying-watercolor?ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=kim%20kardashian&ref=sr_gallery_21', "", "width = 1000, height=800");
+  window.open('https://www.etsy.com/listing/219758406/kim-kardashian-beanie?ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=kim%20kardashian&ref=sr_gallery_24', "", "width = 1000, height=800");
+  window.open('https://www.etsy.com/listing/243971559/kings-road-kardashian?ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=kim%20kardashian&ref=sr_gallery_10', "", "width = 1000, height=800");
+  window.open('https://www.etsy.com/listing/230470293/sorry-card-kim-kardashian-crying-sorry?ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=kim%20kardashian&ref=sr_gallery_24', "", "width = 1000, height=800");
+  window.open('https://www.etsy.com/listing/244384597/2015-summer-sport-tee-kim-kardashian?ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=kim%20kardashian&ref=sr_gallery_14', "", "width = 1000, height=800");
+  window.open('https://www.etsy.com/listing/245805108/stickers-kim-and-kanye?ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=kim%20kardashian&ref=sr_gallery_40', "", "width = 1000, height=800");
+  window.open('https://www.etsy.com/listing/248821174/crying-celebrities-badges-kim-k-lindsay?ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=kim%20kardashian&ref=sr_gallery_23', "", "width = 1000, height=800");
+  window.open('https://www.etsy.com/listing/245472424/sad-kim?ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=kim%20kardashian&ref=sr_gallery_20', "", "width = 1000, height=800");
+  window.open('https://www.etsy.com/listing/237592257/kim-k-tye-dye-cap?ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=kim%20kardashian&ref=sr_gallery_34', "", "width = 1000, height=800");
+  window.open('https://www.etsy.com/listing/210945224/kim-kardashian-crying-stud-post-earrings?ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=kim%20crying&ref=sr_gallery_29', "", "width = 1000, height=800");
+  window.open('https://www.etsy.com/listing/210521013/crying-kim-kardashian-t-shirt-watercolor?ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=kim%20kardashian&ref=sr_gallery_12', "", "width = 1000, height=800");
+ // window.open('http://yahoo.com');
+  window.open('https://www.etsy.com/listing/248487101/crying-kim-k-sticker-set?ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=kim%20kardashian&ref=sr_gallery_24', "", "width = 1000, height=800");
+  window.open('http://www.thehunt.com/the-hunt/Fx5noz-kim-kardashian-crying-face-tee', "", "width = 1000, height=800");
+  window.open('http://www.hlntv4u.com/article/2014/08/15/kim-kardashian-crying-shirt', "", "width = 1000, height=800");
+  window.open('https://thegreasediner.com/product/kim-crying-print-by-lizzee-solomon/', "", "width = 1000, height=800");
+  window.open('https://www.pinterest.com/pin/108438303503655383/', "", "width = 1000, height=800");
+  window.open('https://www.etsy.com/listing/246398015/notebook-kim-pocket-journal?ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=kim%20kardashian&ref=sr_gallery_20', "", "width = 1000, height=800");
+  window.open('https://www.etsy.com/listing/182793627/crying-kim-kardashian-watercolor?ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=kim%20kardashian&ref=sr_gallery_32', "", "width = 1000, height=800");
+  window.open('http://ca.complex.com/style/2015/02/pintrill-releases-kim-kardashian-tears-pin', "", "width = 1000, height=800");
+
+
+};
+
+var useMe = document.getElementById('theOtherLink');
+
+useMe.onclick = function(event) {
+  
+  
+  window.open('http://zeeboxbuzz.com/2014/03/12/kim-kardashians-crying-face-bombs-the-biggest-game-of-thrones-scenes-gallery/', "", "width = 1000, height=800");
+  window.open('https://33.media.tumblr. com/5b50d2dc4191e7c554672ff5cfd96fca/tumblr_na7q629o5C1rcfmrqo1_500.gif', "", "width = 1000, height=800");
+  window.open('http://www.co-styles.com/', "", "width = 1000, height=800");
+  window.open('https://41.media.tumblr.com/fc44a4ce201a329fe35804bcd9803cd9/tumblr_mradi2fAMk1sonmkko1_400.jpg', "", "width = 1000, height=800");
+  window.open('https://38.media.tumblr.com/tumblr_lt7dvuSXw71r2l6oto1_500.gif', "", "width = 1000, height=800");
+  window.open('https://40.media.tumblr.com/2e24ce59ecd44c7407291569dbe20609/tumblr_mu5n7c0J6Q1qgt3ngo1_1280.png', "", "width = 1000, height=800");
+  window.open('https://40.media.tumblr.com/cd665e99b97be96ab2dc7d2dbf6273a5/tumblr_msksuakfQo1rx7jyfo1_1280.jpg', "", "width = 1000, height=800");
+  window.open('https://41.media.tumblr.com/23c135eea7baddca09f41d3d45c19969/tumblr_mwjbm6FD1x1sauv0fo1_500.jpg', "", "width = 1000, height=800");
+  window.open('https://41.media.tumblr.com/87bd8d629a8ebfde9c4c06d939c0d2c5/tumblr_motc6inMaf1spx7u7o1_1280.jpg', "", "width = 1000, height=800");
+  window.open('https://cdn.stepfeed.com/uploads/2015/03/06124931/funny-Kim-Kardashian-crying-hair-tie.jpg', "", "width = 1000, height=800");
+  window.open('https://www.pinterest.com/pin/108438303503655664/', "", "width = 1000, height=800");
+  window.open('https://www.pinterest.com/pin/108438303503655648/', "", "width = 1000, height=800");
+  window.open('https://36.media.tumblr.com/83d4c6bbe4f3906e3989609f4c4bce10/tumblr_nak11l66KT1ro8qj9o1_1280.jpg', "", "width = 1000, height=800");
+  window.open('https://41.media.tumblr.com/802b348b54afe99ba4e6c809b837bf85/tumblr_n6im00ipov1rl3jjro1_500.png', "", "width = 1000, height=800");
+  window.open('http://lecritic.com/2014/11/11/why-is-kim-kardashian-crying/', "", "width = 1000, height=800");
+  window.open('https://www.pinterest.com/pin/334462709797946886/', "", "width = 1000, height=800");
+  window.open('http://ifunny.co/fun/QjcUONO42', "", "width = 1000, height=800");
+  window.open('http://memegenerator.net/instance/56548918', "", "width = 1000, height=800");
+  window.open('http://www.backhandspringsblog.com/search?updated-max=2013-09-20T09:45:00-07:00&max-results=7', "", "width = 1000, height=800");
+  window.open('http://www.buzzfeed.com/jessicamisener/which-kim-kardashian-cry-face-are-you#.ahBzPJ8mj', "", "width = 1000, height=800");
+  window.open('http://www.usmagazine.com/entertainment/pictures/celebrity-memes-the-funniest-and-most-viral-internet-phenoms-of-2013-20131312/34561', "", "width = 1000, height=800");
+  window.open('http://41.media.tumblr.com/155ad100d8c4094e1293aac648cd9858/tumblr_nom76xyV071qzbyqeo2_540.jpg', "", "width = 1000, height=800");
+  window.open('http://lecritic.com/2014/11/12/why-is-kim-kardashian-crying-2/', "", "width = 1000, height=800");
+  window.open('https://41.media.tumblr.com/0d76cbc118a0f0ffd7df5451b2d83d82/tumblr_nom76xyV071qzbyqeo1_540.jpg', "", "width = 1000, height=800");
+  window.open('http://hollywoodlife.com/2015/09/03/celebrity-crying-faces-ugly-cry-face-pics/', "", "width = 1000, height=800");
+  window.open('http://hahamate.com/funny-memes-someone-screenshots-your-snapchat/', "", "width = 1000, height=800");
+  window.open('http://www.owned.com/This-applies-to-the-majority-of-Hollywood/', "", "width = 1000, height=800");
+  window.open('http://www.mamaplaats.nl/blog/its-a-kenkel-kinda-day', "", "width = 1000, height=800");
+  window.open('http://littlestar21.deviantart.com/art/Kim-Kardashin-cry-face-line-art-539986053', "", "width = 1000, height=800");
+  window.open('http://hollywoodlife.com/2015/03/09/miley-cyrus-mocks-kim-kardashian-blonde-hair-pic-instagram/', "", "width = 1000, height=800");
+  window.open('https://www.pinterest.com/pin/560627853585514026/', "", "width = 1000, height=800");
+  window.open('http://www.elle.com/culture/celebrities/news/a19141/the-scariest-selfie-kim-kardashian-has-ever-taken/', "", "width = 1000, height=800");
+  window.open('https://www.pinterest.com/pin/493707177877867546/', "", "width = 1000, height=800");
+  window.open('http://38.media.tumblr.com/76a818955a4a320b36e4d045d0a32cb6/tumblr_nkr5v6HT2K1qzbyqeo1_500.gif', "", "width = 1000, height=800");
+  window.open('http://s33.photobucket.com/user/cnojeda/media/00Selfies.jpg.html', "", "width = 1000, height=800");
+
+}  
+
+
+
+</script>
+  </body>
+</html>
