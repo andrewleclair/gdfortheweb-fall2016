@@ -1,0 +1,460 @@
+/* remove built-in styling */
+
+html, html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+
+
+
+
+
+/* insert font */
+
+@font-face {
+  src: url('FZCHSJW.TTF');
+  font-family: "cuheisong";
+}
+
+body, html {
+  font-family: 'cuheisong', Fallback, sans-serif;
+  background-color: black;
+
+}
+
+
+
+
+
+
+
+/* timeline text */
+
+span {
+  font-family: 'cuheisong', Fallback, sans-serif;
+}
+
+.indent {
+  margin-left: 35px;
+}
+
+
+
+
+
+
+/* timeline shapes */
+
+.line {
+  position: fixed;
+  width: 2px;
+  left: 50px;
+  z-index: 5;
+  background-color: white;
+}
+
+.short {
+  height: 1%;
+}
+
+#linemiddle {
+  height: 80%;
+  top: 5%;
+}
+
+#line1 {
+  top: 1%;
+}
+
+#line2 {
+  top: 3%;
+}
+
+#line3 {
+  top: 86%;
+}
+
+#line4 {
+  top: 88%;
+}
+
+#line5 {
+  top: 90%;
+}
+
+#line6 {
+  top: 92%;
+}
+
+#line7 {
+  top: 94%;
+}
+
+#line8 {
+  top: 96%;
+}
+
+#line9 {
+  top: 98%;
+}
+
+.circle {
+  width: 10px;
+  height: 10px;
+  background-color: black;
+  border-radius: 10px;
+  border: 2px solid white;
+  position: fixed;
+  z-index: 5;
+  left: 43.5px;
+}
+
+#circle05 {
+  top: 10.15%;
+}
+
+#circle06 {
+  top: 16.30%;
+}
+
+#circle07 {
+  top: 22.45%;
+}
+
+#circle08 {
+  top: 28.60%;
+}
+
+#circle09 {
+  top: 34.75%;
+}
+
+#circle10 {
+  top: 40.90%;
+}
+
+#circle11 {
+  top: 47.05%;
+}
+
+#circle12 {
+  top: 53.20%;
+}
+
+#circle13 {
+  top: 59.35%;
+}
+
+#circle14 {
+  top: 65.50%;
+}
+
+#circle15 {
+  top: 71.65%;
+}
+
+#circle16 {
+  top: 77.80%;
+}
+
+.circle:hover {
+  width: 14px;
+  height: 14px;
+  border-radius: 14px;
+  left: 41.5px;
+}
+
+.year {
+  position: fixed;
+  font-family: 'Patua One', cursive;
+  left: 80px;
+  z-index: 5;
+  font-size: 16px;
+  color: white;
+  display: none;
+  background-color: grey;
+  padding: 15px 5px 15px 5px;
+}
+
+#year2005 {
+  top: 10.15%;
+}
+
+#year2006 {
+  top: 16.30%;
+}
+
+#year2007 {
+  top: 22.45%;
+}
+#year2008 {
+  top: 28.60%;
+}
+
+#year2009 {
+  top: 34.75%;
+}
+
+#year2010 {
+  top: 40.90%;
+}
+
+#year2011 {
+  top: 47.05%;
+}
+
+#year2012 {
+  top: 53.20%;
+}
+
+#year2013 {
+  top: 59.35%;
+}
+
+#year2014 {
+  top: 65.50%;
+}
+
+#year2015 {
+  top: 71.65%;
+}
+
+#year2016 {
+  top: 77.80%;
+}
+
+
+
+
+
+/* titles */
+
+.description {
+  font-size: 22px;
+  position: relative;
+  left: 10%;
+  top: -300px;
+  z-index: 4;
+  color: white;
+  line-height: 1.4;
+  background-color: #333333;
+  width: 650px;
+  padding: 25px 8px 25px 8px;
+}
+
+.descriptiontitle {
+  font-size: 40px;
+}
+
+.info {
+  font-size: 12px;
+}
+
+.indent2 {
+  margin-left: 42px;
+}
+
+#name {
+  top: -400px;
+}
+
+#hanqiu {
+  top: 50px;
+}
+
+#wudi {
+  top: 100px;
+  left: 30%;
+}
+
+#huangjin {
+  top: -500px;
+  left: 45%;
+}
+
+#langyabang {
+  top: -500px;
+  left: 40%;
+}
+
+#huanlesong {
+  left: 10%;
+  top: -300px;
+}
+
+#woniu {
+  left: 50%;
+  top: -500px;
+}
+
+/*img*/
+
+#hand1 {
+  width: 100%;
+  min-width: 1024px;
+  left: 0;
+  right: 0;
+  position: relative;
+  z-index: 1;
+}
+
+#hand2 {
+  width: 100%;
+  min-width: 1024px;
+  min-height: 100%;
+  left: 0;
+  right: 0;
+  position: fixed;
+  z-index: 2;
+}
+
+.images {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.box {
+  z-index: 3;
+  position: relative;
+  height: 0;
+}
+
+#box1 {
+  width: 66.66%;
+  left: 33.33%;
+  padding-bottom: 16%;
+  opacity: 0.9;
+  top: -150px;
+}
+
+#box2 {
+  width:45%;
+  opacity: 0.8;
+  padding-bottom: 25%;
+}
+
+#box4 {
+  width: 50%;
+  padding-bottom: 50%;
+  left: 50%;
+  right: 0;
+  opacity: 0.9;
+  top: -50px;
+}
+
+#box5 {
+  width: 50%;
+  padding-bottom: 35%;
+  left: 0;
+  top: -300px;
+}
+
+#box6 {
+  width: 80%;
+  padding-bottom: 45%;
+  left: 0;
+  opacity: 0.8;
+  top: -400px;
+}
+
+#box7 {
+  width: 60%;
+  padding-bottom: 40%;
+  left: 40%;
+  opacity: 0.8;
+  top: -600px;
+}
+
+#box8 {
+  width: 100%;
+  padding-bottom: 65%;
+  left: 0;
+  top: -600px;
+}
+
+#box9 {
+  width: 70%;
+  padding-bottom: 40%;
+  left: 0;
+  top: -400px;
+}
+
+
+
+/* end */
+
+#end {
+  z-index: 6;
+  font-family: 'cuheisong', Fallback, sans-serif;
+  font-size: 20px;
+  color: white;
+  position: relative;
+  top: -20px;
+  right: 20px;
+  text-align: right;
+
+}
+
+
+/* position */
+
+.position {
+  z-index: 6;
+  position: relative;
+}
+
+#position1 {
+  top: -100px;
+}
+
+#position2 {
+  top: -500px;
+}
+
+#position3 {
+  top: -500px;
+}
