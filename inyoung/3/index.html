@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <title>Tate Now</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,500" rel="stylesheet">
+    <script src="script.js"></script>
+    <script src="https://use.fontawesome.com/e7b2eb616a.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script>
+      $( function() {
+        $( "#scrollbtn" ).draggable({ axis: 'x', containment: 'parent'});
+      } );x
+    </script>
+</head>
+<body onload="startTime()">
+
+    <div class="nav">
+        <a class="menu" href="second.html">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </a>
+        <img src="img/logo.jpg">   
+        <a class="home" href="http://www.tate.org.uk/">
+            <p>HOME</p>
+        </a>
+    </div>
+
+    <div id="board">
+        <div class="modern">
+            <div class="one" title="28days">
+                <div class="hover"><p>BHUPEN KHAKHAR</p></div>
+            </div>
+            <div class="two" title="21days">
+                <div class="hover"><p>GEORGIA O’KEEFFE</p></div>
+            </div>
+            <div class="three" title="13weeks">
+                <div class="hover"><p>THE EY</p></div>
+            </div>
+            <div class="four" title="25weeks">
+                <div class="hover"><p>PHILIPPE</p></div>
+            </div>
+            
+            <div class="tate"><p><i class="fa fa-angle-left" aria-hidden="true"></i> Tate Modern</p></div>
+            
+            <div class="brone" title="49days">
+                <div class="hover"><p>IK PRIZE 2016</p></div>
+            </div>
+            <div class="brtwo" title="12weeks">
+                <div class="hover"><p>TURNER 2016</p></div>
+            </div>
+            
+            <div class="tate"><p><i class="fa fa-angle-left" aria-hidden="true"></i> Tate<br>Britain</p></div>
+            
+            <div class="lpone" title="11weeks">
+                <div class="hover"><p>RAZZLE DAZZLE</p></div>
+            </div>
+            <div class="lptwo" title="7days">
+                <div class="hover"><p>LIVERPOOL BIENNIAL 2016</p></div>
+            </div>
+            <div class="lpthree" title="10months">
+                <div class="hover"><p>TRACEY EMIN</p></div>
+            </div>
+            
+            <div class="tate"><p><i class="fa fa-angle-left" aria-hidden="true"></i> Tate Liverpoool</p></div>
+        
+        </div>
+    </div>
+    
+    <div class="bar">
+        
+        <div class="scrollbar">
+            <div id="scrollbtn"></div>
+            <div class="part before2"></div>
+            <div class="part before1"></div>
+            <div class="part today">
+                <div class="datetoday">
+            <p class="date">
+                <script type="text/javascript">
+                    <!--
+                    var currentTime = new Date()
+                    var month = currentTime.getMonth() + 1
+                    var day = currentTime.getDate()
+                    var year = currentTime.getFullYear()
+                    document.write(month + "/" + day + "/" + year)
+                //-->
+                </script>
+            </p>
+            <div class="chat">▾</div>
+        </div>
+            </div>
+            <div class="part after1"></div>
+            <div class="part after2"></div>
+        </div>
+        
+        
+        
+    </div>
+
+
+</body>
