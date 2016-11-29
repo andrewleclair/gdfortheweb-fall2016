@@ -23,6 +23,7 @@
 6. [FIRST THINGS FIRST 2000](https://andrewleclair.github.io/gdfortheweb-fall2016/glenn/6)
 7. [EYEBEAM](https://andrewleclair.github.io/gdfortheweb-fall2016/glenn/7)
 8. [Flights](https://andrewleclair.github.io/gdfortheweb-fall2016/glenn/8)
+9. [Idiot Films](https://andrewleclair.github.io/gdfortheweb-fall2016/glenn/9)
 
 ## Yaodan Wu
 
