@@ -50,6 +50,7 @@
 6. [Manifesto](https://andrewleclair.github.io/gdfortheweb-fall2016/jinny/6/index)
 7. [noguchi](https://andrewleclair.github.io/gdfortheweb-fall2016/jinny/7/index)
 8. [CD player](https://andrewleclair.github.io/gdfortheweb-fall2016/jinny/8/index)
+9. [Home Sweet Home](https://andrewleclair.github.io/gdfortheweb-fall2016/jinny/9/index)
 
 ## Janice Park
 
