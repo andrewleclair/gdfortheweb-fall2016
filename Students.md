@@ -2,7 +2,7 @@
 
 ## Jay Park
 
-1. [game](https://andrewleclair.github.io/gdfortheweb-fall2016/jay/1/link.html)
+1. [the struggle is real](https://andrewleclair.github.io/gdfortheweb-fall2016/jay/1/link.html)
 2. [Narcissus](https://andrewleclair.github.io/gdfortheweb-fall2016/jay/2/invite.html)
 3. [Urban Lights] (https://andrewleclair.github.io/gdfortheweb-fall2016/jay/3/lacma.html)
 4. [last nights debate] (https://andrewleclair.github.io/gdfortheweb-fall2016/jay/4/honestly.html)
