@@ -9,7 +9,7 @@
 5. [I already miss Obama] (https://andrewleclair.github.io/gdfortheweb-fall2016/jay/5/weather_bagel.html)
 6. [be nice pls] (https://andrewleclair.github.io/gdfortheweb-fall2016/jay/6/benice.html)
 7. [twinkle twinkle] (https://andrewleclair.github.io/gdfortheweb-fall2016/jay/7/urbanlights.html)
-8. [poster everyday] (http://imgur.com/a/323Ka)
+8. [poster everyday] (https://andrewleclair.github.io/gdfortheweb-fall2016/jay/8/postereverday.html)
 9. [johns awesome website] (https://andrewleclair.github.io/gdfortheweb-fall2016/jay/9/jjjj.html)
 
 ## Glenn Jeon
