@@ -1,0 +1,10 @@
+body {
+     background-image: url("loopy.gif");
+}
+
+/* Start http://www.cursors-4u.com */ 
+body, a:hover {cursor: url(http://cur.cursors-4u.net/others/oth-2/oth192.cur), progress !important;} /* End http://www.cursors-4u.com */
+
+audio { 
+   display:none;
+}
