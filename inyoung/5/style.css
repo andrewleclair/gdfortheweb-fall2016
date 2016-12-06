@@ -1,12 +1,11 @@
 body{
     background-color:;
-    color:;
+    font-family:serif;
 }
 
-h1{color:;
+h1{ color:;
     position: absolute;
     left: 20px;
-    font-family:serif;
 }
 
 h1 p{
