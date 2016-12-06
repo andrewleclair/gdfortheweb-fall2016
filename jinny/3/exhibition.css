@@ -1,0 +1,22 @@
+img{
+    display:inline-block;
+    margin-top:20px;
+}
+.info{
+    display:inline-block;
+    font-size:18px;
+    float:right;
+    justify-content: flex-end;
+}
+    
+@media screen and (max-width:750px){
+    section{
+        text-align:center;
+    }
+    .info{
+        text-align:left;
+    }
+    section img{
+        margin-top:30px;
+    }
+}

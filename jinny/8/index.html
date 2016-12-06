@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Computer</title>
+    <link rel = "stylesheet" href="stylesheet.css" type="text/css"/>
+    <script type = "text/javascript" scr="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-3.1.1.min.js" >
+    </script>
+    <script type="text/javascript" src="http://beneposto.pl/jqueryrotate/js/jQueryRotateCompressed.js"></script>
+    <audio></audio>
+    <script>    
+$(document).ready(function(){
+        
+    
+    $('div.header').click(function(){
+        location.reload();
+    });
+    
+   $('img').mouseenter(function(){
+        $(this).css('z-index',5);
+        $(this).css('width','400px');
+       
+    });
+    
+    $('img').mouseleave(function(){
+        $('img').css('width','250px');
+        $('img').css('z-index',1);
+    });
+            
+    $('img').mousedown(function() {
+        $('img').css('width','250px');
+        $('img').css('z-index',1);
+        $(this).css('z-index',2);
+        $(this).css('width', '400px');
+        $('.container').css('margin-left',0); $('.container').css('display','inline-block');
+        
+    });   
+        
+/*CD 1 */  
+        
+$('#1').click(function(){
+        
+ $('#narration').css('width','50%');
+        $('li').css('opacity','0');
+        $('h1').css('opacity','0');
+        $('.1').css('opacity','1'); 
+        $('.1 h1').css('opacity','1');
+       $('.1 li').css('opacity','1');
+    
+    
+    var rotation = function (){
+    $('img#1').rotate({
+      angle:0, 
+      animateTo:360, 
+      callback: rotation,
+      easing: function (x,t,b,c,d){  
+          return c*(t/d)+b;}
+})
+    };
+    rotation();    
+
+/*    $('audio').each(function(){
+    ('audio').pause(); // Stop playing
+    ('audio').currentTime = 0; // Reset time
+});*/
+    
+
+    $("<audio></audio>").attr({ 
+		'src':'audio/1.mp3', 
+		'volume':0.4,
+		'autoplay':'autoplay'
+	}).appendTo("body");
+});
+
+
+
+   
+    
+        
+/*CD 2 */  
+        
+$('#2').click(function(){
+        $('li').css('opacity','0');
+        $('h1').css('opacity','0');
+        $('.2 h1').css('opacity','1');
+        $('.2').css('opacity','1'); 
+       $('.2 li').css('opacity','1'); $('#narration').css('width','50%');
+        
+        var rotation = function (){
+           $('#2').rotate({
+               angle:0, 
+               animateTo:360, 
+               callback: rotation,easing: function (x,t,b,c,d){        // t: current time, b: begInnIng value, c: change In value, d: duration
+          return c*(t/d)+b;}
+        })
+        };
+rotation();
+        
+    /*var bool = $("audio").prop("muted");
+    $("audio").prop("muted",!bool);*/
+    
+    /*$('audio').each(function(){
+    ('audio').pause(); // Stop playing
+    ('audio').currentTime = 0; // Reset time
+});*/
+    
+    $("<audio></audio>").attr({ 
+		'src':'audio/2.mp3', 
+		'volume':0.4,
+		'autoplay':'autoplay'
+	}).appendTo("body");
+});
+   
+        
+/*CD 3 */
+    $('#3').mousedown(function(){
+        $('li').css('opacity','0');
+        $('h1').css('opacity','0');
+        $('.3 h1').css('opacity','1');
+        $('.3').css('opacity','1'); 
+       $('.3 li').css('opacity','1'); $('#narration').css('width','50%');
+        var rotation = function (){
+           $('#3').rotate({
+               angle:0, 
+               animateTo:360, 
+               callback: rotation,easing: function (x,t,b,c,d){        // t: current time, b: begInnIng value, c: change In value, d: duration
+          return c*(t/d)+b;}
+        })
+        };
+rotation();
+        
+/*    var bool = $("audio").prop("muted");
+    $("audio").prop("muted",!bool);       
+
+    $('audio').each(function(){*/
+
+        
+        $("<audio></audio>").attr({ 
+		'src':'audio/3.mp3', 
+		'volume':0.4,
+		'autoplay':'autoplay'
+	}).appendTo("body");
+    });
+    
+        
+/*CD 4 */        
+    $('#4').mousedown(function(){
+        $('li').css('opacity','0');
+        $('h1').css('opacity','0');
+        $('.4 h1').css('opacity','1');
+        $('.4').css('opacity','1'); 
+       $('.4 li').css('opacity','1'); $('#narration').css('width','50%');
+        var rotation = function (){
+           $('#4').rotate({
+               angle:0, 
+               animateTo:360, 
+               callback: rotation,easing: function (x,t,b,c,d){        // t: current time, b: begInnIng value, c: change In value, d: duration
+          return c*(t/d)+b;}
+        })
+        }
+rotation();
+        
+    /*var bool = $("audio").prop("muted");
+    bool();
+    $("this").prop("muted",!bool);*/ 
+        
+        $("<audio></audio>").attr({ 
+		'src':'audio/4.mp3', 
+		'volume':0.4,
+		'autoplay':'autoplay'
+	}).appendTo("body");
+    });
+    
+        
+/*CD 5 */        
+    $('#5').mousedown(function(){
+        $('li').css('opacity','0');
+        $('h1').css('opacity','0');
+        $('.5 h1').css('opacity','1');
+        $('.5').css('opacity','1'); 
+       $('.5 li').css('opacity','1'); $('#narration').css('width','50%');
+        var rotation = function (){
+           $('#5').rotate({
+               angle:0, 
+               animateTo:360, 
+               callback: rotation,easing: function (x,t,b,c,d){        // t: current time, b: begInnIng value, c: change In value, d: duration
+          return c*(t/d)+b;}
+        })
+        }
+rotation();
+        
+        /*var bool = $("audio").prop("muted");
+    bool();
+    $("this").prop("muted",!bool); */
+        
+        $("<audio></audio>").attr({ 
+		'src':'audio/5.mp3', 
+		'volume':0.4,
+		'autoplay':'autoplay'
+	}).appendTo("body");
+        
+    });
+    
+        
+/*CD 6-1 */
+    $('#6_1').mousedown(function(){
+        $('li').css('opacity','0');
+        $('h1').css('opacity','0');
+        $('.6_1 h1').css('opacity','1');
+        $('.6_1').css('opacity','1'); 
+       $('.6_1 li').css('opacity','1'); $('#narration').css('width','50%');
+        var rotation = function (){
+           $('#6_1').rotate({
+               angle:0, 
+               animateTo:360, 
+               callback: rotation,easing: function (x,t,b,c,d){        // t: current time, b: begInnIng value, c: change In value, d: duration
+          return c*(t/d)+b;}
+        })
+        }
+rotation();
+        
+        /*var bool = $("audio").prop("muted");
+    bool();
+    $("this").prop("muted",!bool); */
+        
+        $("<audio></audio>").attr({ 
+		'src':'audio/6.mp3', 
+		'volume':0.4,
+		'autoplay':'autoplay'
+	}).appendTo("body");
+        
+    });
+    
+/*        $('#6_2').mousedown(function(){
+        $('li').css('opacity','0');
+        $('h1').css('opacity','0');
+        $('.6_2 h1').css('opacity','1');
+        $('.6_2').css('opacity','1'); 
+       $('.6_2 li').css('opacity','1'); $('#narration').css('width','50%');
+            var rotation = function (){
+           $('#6_2').rotate({
+               angle:0, 
+               animateTo:360, 
+               callback: rotation,easing: function (x,t,b,c,d){        // t: current time, b: begInnIng value, c: change In value, d: duration
+          return c*(t/d)+b;}
+        })
+        }
+rotation();
+            $("<audio></audio>").attr({ 
+		'src':'audio/2.mp3', 
+		'volume':0.4,
+		'autoplay':'autoplay'
+	}).appendTo("body");
+            
+    });*/
+    
+        
+/*CD 7 */
+    $('#7').mousedown(function(){
+        $('li').css('opacity','0');
+        $('h1').css('opacity','0');
+        $('.7 h1').css('opacity','1');
+        $('.7').css('opacity','1'); 
+       $('.7 li').css('opacity','1'); $('#narration').css('width','50%');
+        var rotation = function (){
+           $('#7').rotate({
+               angle:0, 
+               animateTo:360, 
+               callback: rotation,easing: function (x,t,b,c,d){        // t: current time, b: begInnIng value, c: change In value, d: duration
+          return c*(t/d)+b;}
+        })
+        }
+rotation();
+        
+        /*var bool = $("audio").prop("muted");
+    bool();
+    $("this").prop("muted",!bool); */
+        
+        $("<audio></audio>").attr({ 
+		'src':'audio/7.mp3', 
+		'volume':0.4,
+		'autoplay':'autoplay'
+	}).appendTo("body");
+    });
+});
+        
+            /*var rotate_factor = 0;
+
+function rotateMe(e) {
+    rotate_factor += 1;
+    var rotate_angle = (180 * rotate_factor) % 360;
+    $(e).rotate({angle:rotate_angle});
+}
+});*/
+    
+    </script>
+    
+</head>
+    
+<body>
+    <div class="header">nell</div>
+        
+    <div class="container">
+        <img src="images/1.jpg" id="1" onclick='rotateMe(this);'>
+        <img src="images/2.jpeg" id="2">
+        <img src="images/3.jpg" id="3">
+        <img src="images/4.jpg" id="4">
+        <img src="images/5.jpg" id="5">
+        <img src="images/6.jpg" id="6_1">
+<!--        <img src="images/6.jpg" id="6_2">-->
+        <img src="images/7.jpg" id="7">
+    </div>
+        
+        <div id = "narration">
+                <div class="1">
+                <h1>Let it Rain</h1>
+                <h1>2003.06.12</h1>
+                <ol>
+                    <li>유령의 노래</li>
+                    <li>고양이</li>
+                    <li>Stay</li>
+                    <li>어차피 그런거</li>
+                    <li>시작의 끝</li>
+                    <li>믿어선 안될 말</li>
+                    <li>인어의 별</li>
+                    <li>낙엽의 비</li>
+                    <li>미련에게</li>
+                    <li>기생충</li>
+                    <li>Eden</li>
+                </ol>
+                </div>
+                
+                <div class="2">
+                <h1>Walk Through Me</h1>
+                <h1>2004.11.18</h1>
+                <ol>
+                    <li>미아</li>
+                    <li>백색왜성</li>
+                    <li>Thank You</li>
+                    <li>Selfish Love</li>
+                    <li>Unsaid</li>
+                    <li>피터팬은 죽었다</li>
+                    <li>부서진 입가에 머물다</li>
+                    <li>몽중인의 현실 체험기</li>
+                    <li>자해</li> <li>Marionette</li>
+                    <li>Last Advice</li>
+                    <li>One Time Best Seller</li>
+                </ol>   
+            </div>
+                
+            <div class="3">
+                <h1>Healing Process</h1>
+                <h1>2006.09.21</h1>
+                <ol>
+                    <li>현실의 현실</li>
+                    <li>섬</li>
+                    <li>Good Night</li>
+                    <li>Counting Pulses</li>
+                    <li>그리움</li>
+                    <li>Beautiful Day</li>
+                    <li>치유</li>
+                    <li>마음을 잃다</li>
+                    <li>안녕히 계세요</li>
+                    <li>어떻게 생각해</li> 
+                    <li>얼음 산책</li> <li>Meaningless</li>
+                    <li>오후와의 대화</li>
+                </ol>
+            </div>
+                
+            <div id = "4" class="4">
+                <h1>Separation Anxiety</h1>
+                <h1>2008.03.21</h1>
+                <ol>
+                    <li>Separation Anxiety</li>
+                    <li>Moonlight Punch Romance</li>
+                    <li>기억을 걷는 시간</li>
+                    <li>멀어지다</li>
+                    <li>Promise Me</li>
+                    <li>1:03</li>
+                    <li>Fisheye Lens</li>
+                    <li>Afterglow</li>
+                    <li>Toyko</li>
+                    <li>12 Seconds</li> 
+                    <li></li>
+                </ol>
+            </div>   
+                
+                <div id = "5" class="5">
+                <h1>Slip Away</h1>
+                <h1>2012.04.20</h1>
+                <ol>
+                    <li>The Ending</li>
+                    <li>Go</li>
+                    <li>In Days Gone By</li>
+                    <li>그리고, 남겨진 것들</li>
+                    <li>Standing In The Rain</li>
+                    <li>Loosing Control</li>
+                    <li>Beautiful Stranger</li>
+                    <li>Cliff Påarade</li>
+                    <li>Hopeless Valentine</li>
+                    <li>Slip Away</li> 
+                </ol>
+            </div> 
+                
+                <div id = "6_1" class="6_1">
+                <h1>Newton's Apple</h1>
+                <h1>2014.02.27</h1>
+                <ol>
+                    <li>Decompose</li>
+                    <li>Fantasy</li>
+                    <li>타인의 기억</li>
+                    <li>침묵의 역사</li>
+                    <li>지구가 태양을 네번</li>
+                    <li>Grey zone</li>
+                    <li>Newton's Apple</li>
+                    <li>환생의 밤</li>
+                    <li>소멸탈출</li>
+                    <li>Dear Genovese</li> 
+                    <li>Sunshine</li>
+                </ol>
+            </div> 
+            
+<!--            <div id = "6_2" class="6_2">
+                <h1>Newton's Apple</h1>
+                <h1>2014.02.27</h1>
+                <ol>
+                    <li>Coin Seller</li>
+                    <li>백야</li>
+                    <li>Holding onto Gravity</li>
+                    <li>Blue</li>
+                    <li>Boy-x</li>
+                    <li>Ocean of Light</li>
+                    <li>Perfect</li>
+                    <li>Burn</li>
+                    <li>Haven</li>
+                    <li>Walk out.</li> 
+                </ol>
+            </div> -->
+                
+           <div id = "7" class="7">
+                <h1>C</h1>
+                <h1>2016.08.19</h1>
+                <ol>
+                    <li>습관적 아이러니</li>
+                    <li>Day after day</li>
+                    <li>시간의 지평선</li>
+                    <li>Dream Catcher</li>
+                    <li>어떤 날중에 그런 날</li>
+                    <li>Home</li>
+                    <li>이명</li>
+                    <li>Full Moon</li>
+                    <li>Sing for Me</li>
+                    <li>Lets the hope shine</li> 
+                    <li>Too Late</li>
+                </ol>
+            </div>
+            
+        </div>
+        <div>
+            <p class="copyright"> Copyright © nell.  All rights reserved.</p>
+        </div>
+    </body>
+</html>
