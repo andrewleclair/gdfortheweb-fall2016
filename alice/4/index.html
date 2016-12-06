@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <link type="text/css" rel="stylesheet" href="stylesheet.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+   <script type="text/javascript">
+      $(document).ready(function(){
+         var i = 0;
+      $(window).click(function () {
+         i++;
+         if (i % 2 !== 0) {
+      var img = document.createElement("img");
+         img.src="left.png";
+         img.className = 'left';
+      document.body.insertBefore(img, document.body.firstChild);
+      } else { var img = document.createElement("img");
+         img.src="right.png";
+         img.className = 'right';
+         document.body.insertBefore(img, document.body.firstChild);
+         }
+      });
+
+      })
+</script>
+
+
+
+
+</head>
+</body>
+<img id="image" class="step" src= "right.png"/>
+
+</body>
+
+</html>
