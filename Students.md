@@ -16,11 +16,9 @@
 
 1. [Let's play a game](https://andrewleclair.github.io/gdfortheweb-fall2016/glenn/1)
 2. [FUNLAND!!!!](https://andrewleclair.github.io/gdfortheweb-fall2016/glenn/2)
-3. [PLEASE ALLOW POPUPS](https://andrewleclair.github.io/gdfortheweb-fall2016/glenn/3/)
+3. [PLEASE ALLOW POPUPS](https://andrewleclair.github.io/gdfortheweb-fall2016/glenn/3)
 4. [C&R](https://andrewleclair.github.io/gdfortheweb-fall2016/glenn/4)
-5. [The Clock](https://andrewleclair.github.io/gdfortheweb-fall2016/glenn/5/clock)
-5. [The Clock2](https://andrewleclair.github.io/gdfortheweb-fall2016/glenn/5/clock2)
-5. [The Clock3](https://andrewleclair.github.io/gdfortheweb-fall2016/glenn/5/clock3)
+5. [The Clock](https://andrewleclair.github.io/gdfortheweb-fall2016/glenn/5)
 6. [FIRST THINGS FIRST 2000](https://andrewleclair.github.io/gdfortheweb-fall2016/glenn/6)
 7. [EYEBEAM](https://andrewleclair.github.io/gdfortheweb-fall2016/glenn/7)
 8. [Flights](https://andrewleclair.github.io/gdfortheweb-fall2016/glenn/8)
