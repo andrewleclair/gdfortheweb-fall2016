@@ -19,6 +19,10 @@ text-decoration: none;
     font-size:29px;
 }
 
+.hover:hover{
+    cursor: nw-resize;   
+}
+
 /*--- nav top ---*/
 
 .nav{
