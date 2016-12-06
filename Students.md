@@ -38,7 +38,7 @@
 5. [5_rotatingwebsite](https://andrewleclair.github.io/gdfortheweb-fall2016/doyun/5/)
 6. [6_manifesto](https://andrewleclair.github.io/gdfortheweb-fall2016/doyun/6/)
 7. [7_theglasshouselogo](https://andrewleclair.github.io/gdfortheweb-fall2016/doyun/7/)
-8. [8_bottlecaps](https://andrewleclair.github.io/gdfortheweb-fall2016/doyun/8/)
+8. [8_bottlecaps](https://andrewleclair.github.io/gdfortheweb-fall2016/doyun/8/index.html)
 9. [9_photoalblum](https://andrewleclair.github.io/gdfortheweb-fall2016/doyun/9/)
 
 ## Jinny Rim
