@@ -8,65 +8,56 @@ body{
 /*    background-image: url(lockedroomdoor.jpg);*/
 }
 
-#vid1 {
-    width:200px;
-    height: 350px;
+iframe {
+    width: 100px;
+    height: 300px;
     margin-top: 350px;
     margin-left: 100px;
     position: absolute;
 }
 
-#vid2 {
-    width: 150px;
-    height: 250px;
-    margin-top: 18px;
-    margin-left: 1150px;
-    position: absolute;
-}
-
-#vid3 {
-    width: 350px;
-    height: 550px;
-    margin-top: 300px;
-    margin-left: 880px;
+#2video iframe{
+    width: 100px;
+    height: 300px;
+    margin-top: 30px;
+    margin-left: 500px;
     position: absolute;
 }
 
 p {
-    font-family: serif;
-    line-height: 5px;
+    font-family: "Arial black";
+    line-height: 80px;
     position: relative;
-    margin-left: 10px;
-    margin-right: 190px;
 }
 
 h1,h2,h3,h4,ul {
     position: absolute;
     line-height: 25px;
     font-family: "Arial";
-    left: 420px;
-    z-index: 2;
+    left: 400px;
 }
 
 h1 {
-  top: 340px;
+  top: 420px;
   font-size: 30px;
-  left: 340px;
+    left: 300px;
 }
 
 h2 {
-  top: 400px;
-  font-size: 20px;  
-  left: 400px;
-  width: 300px;
+  top: 470px;
+    font-size: 20px;  
+    left: 350px;
+    width: 300px;
 }
  
 ul {
     list-style-type: none;
-    top: 460px;
+    top: 540px;
     width: 300px;
     font-size: 15px;
 }
+
+
 
 a{
     text-decoration: none;
