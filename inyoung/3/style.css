@@ -10,6 +10,17 @@ a{
 text-decoration: none;   
 }
 
+#countbox1, #countbox2, #countbox3, #countbox4{
+    position:absolute;
+    margin:auto; left:0; right:0;
+    margin-top:52%;
+    font-family: 'futura', sans-serif;
+    color:white;
+    font-size:29px;
+}
+
+/*--- nav top ---*/
+
 .nav{
     position:relative;
     width:100%;
@@ -51,127 +62,7 @@ text-decoration: none;
     display:inline-block;
 }
 
-#board{
-    position:absolute;
-    width:100%;
-    height:auto;
-    text-align: center;
-    margin-top:20px;
-}
-
-#board .modern{
-    height:200px;
-}
-
-#board .modern .tate{
-    font-family: 'futura', sans-serif;
-    display:inline-block;
-    width:90px; height:90px;
-    border-radius:50%;
-    margin:1% 0;
-    background-color:black;    
-    color:white;
-}
-
-#board .modern .tate p{
-    margin-top:25%;   
-}
-
-#board div{
-    display: inline-block;
-        background-position: center;
-    background-size: cover;
-}
-
-#board .modern .one{
-    height:160%;
-    width:320px;
-    border-radius:50%;
-    background-image: url(img/one.jpg);
-}
-
-#board .modern .two{
-    height:180%;
-    width:360px;
-    border-radius:50%;
-    background-image: url(img/two.jpg);
-}
-
-#board .modern .three{
-    height:100%;
-    width:200px;
-    border-radius:50%;
-    background-image: url(img/three.jpg);
-}
-
-#board .modern .four{
-    height:100%;
-    width:200px;
-    border-radius:50%;
-    background-image: url(img/four.jpg);
-}
-
-#board .modern .brone{
-    height:120%;
-    width:240px;
-    border-radius:50%;
-    background-image: url(img/brone.png);
-}
-
-#board .modern .brtwo{
-    height:100%;
-    width:200px;
-    border-radius:50%;
-    background-image: url(img/brtwo.jpg);
-}
-
-#board .modern .lpone{
-    height:100%;
-    width:200px;
-    border-radius:50%;
-    background-image: url(img/lpone.jpg);
-}
-
-#board .modern .lptwo{
-    height:190%;
-    width:380px;
-    border-radius:50%;
-    background-image: url(img/lptwo.png);
-}
-
-#board .modern .lpthree{
-    height:100%;
-    width:200px;
-    border-radius:50%;
-    background-image: url(img/lpthree.jpg);
-}
-
-#board .modern .hover{
-    height:100%;
-    width:100%;
-    border-radius:50%;
-    background-color:black;
-    transition: .2s ease-in-out;
-}
-
-#board .modern .hover{
-    opacity:0;
-    text-align: center;
-    position:relative;
-}
-
-#board .modern .hover:hover {
-    opacity:.8;
-}
-
-.hover p{
-    position:absolute;
-    margin:auto; left:0; right:0;
-    margin-top:43%;
-    font-family: 'futura', sans-serif;
-    color:white;
-    font-size:29px;
-}
+/*--- bar btm ---*/
 
 .bar {
     position:fixed;
@@ -196,15 +87,18 @@ text-decoration: none;
 
 .bar #scrollbtn {
     position:absolute;
-    width:6px;
-    height:24px;
-    background-color:#000;
+    width: 0; 
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 23px solid #000;
+    margin:auto;
+    left:0; right:0;
     top:-10px;
-    left:49.5%;
 }
 
 .bar .part {
-    width:20%;
+    width:25%;
     height: 1500%;
     margin-top:-22px;
     float:left;
@@ -214,12 +108,49 @@ text-decoration: none;
     position:absolute;
     width:106px;
     height:32px;
-    background-color:#fff;
-    top:-53px;
+    background-color:#000;
+    color:white;
+    top:-40px;
     margin:auto; left:0; right:0;
-    box-shadow: 0px 2px 0px #000;
     transition-timing-function: ease-in-out;
     transition-duration: .2s;
+    opacity:0;
+}
+
+.ago1 {
+    position:absolute;
+    width:inherit;
+    top:-27px;
+    font-size:14px;
+    font-weight:bold;
+    margin:auto; left:0; right:0;
+    transition-timing-function: ease-in-out;
+    transition-duration: .2s;
+    display:none;
+}
+
+.ago2 {
+    position:absolute;
+    width:inherit;
+    top:-27px;
+    font-size:14px;
+    font-weight:bold;
+    margin:auto; left:0; right:0;
+    transition-timing-function: ease-in-out;
+    transition-duration: .2s;
+    display:none;
+}
+
+.later {
+    position:absolute;
+    width:inherit;
+    top:-27px;
+    font-size:14px;
+    font-weight:bold;
+    margin:auto; left:0; right:0;
+    transition-timing-function: ease-in-out;
+    transition-duration: .2s;
+    display:none;
 }
 
 .bar .chat {
@@ -235,15 +166,595 @@ text-decoration: none;
     font-size:17px;
 }
 
-.bar .datetoday {
-    opacity:0;   
-}
-
 .bar .today:hover .datetoday{
     opacity:1;
 }
 
-.bar .before1:hover .boardbefore1{
-    display: block;
+
+/*--- board 1 ---*/
+
+#board1{
+    position:absolute;
+    width:100%;
+    height:auto;
+    text-align: center;
+    margin-top:20px;
+    margin-bottom:140px;
+    display:;
 }
 
+#board1 .modern{
+    height:200px;
+}
+
+#board1 .modern .tate{
+    font-family: 'futura', sans-serif;
+    display:inline-block;
+    width:90px; height:90px;
+    border-radius:50%;
+    margin:1% 0;
+    background-color:black;    
+    color:white;
+}
+
+#board1 .modern .tate p{
+    margin-top:14px;  
+    font-weight:700;
+}
+
+#board1 .modern i{
+    font-size:13px;   
+}
+
+#board1 div{
+    display: inline-block;
+        background-position: center;
+    background-size: cover;
+}
+
+#board1 .modern .one{
+    height:150%;
+    width:300px;
+    border-radius:50%;
+    background-image: url(img/one.jpg);
+}
+
+#board1 .modern .two{
+    height:180%;
+    width:360px;
+    border-radius:50%;
+    background-image: url(img/two.jpg);
+}
+
+#board1 .modern .three{
+    height:100%;
+    width:200px;
+    border-radius:50%;
+    background-image: url(img/three.jpg);
+}
+
+#board1 .modern .four{
+    height:130%;
+    width:260px;
+    border-radius:50%;
+    background-image: url(img/four.jpg);
+}
+
+#board1 .modern .brone{
+    height:120%;
+    width:240px;
+    border-radius:50%;
+    background-image: url(img/brone.png);
+}
+
+#board1 .modern .brtwo{
+    height:150%;
+    width:300px;
+    border-radius:50%;
+    background-image: url(img/brtwoo.jpg);
+}
+
+#board1 .modern .lpone{
+    height:100%;
+    width:200px;
+    border-radius:50%;
+    background-image: url(img/lpone.jpg);
+}
+
+#board1 .modern .lptwo{
+    height:200%;
+    width:400px;
+    border-radius:50%;
+    background-image: url(img/lptwo.png);
+}
+
+#board1 .modern .lpthree{
+    height:190%;
+    width:380px;
+    border-radius:50%;
+    background-image: url(img/lpthree.jpg);
+}
+
+#board1 .modern .hover{
+    height:100%;
+    width:100%;
+    border-radius:50%;
+    background-color:black;
+    transition: .2s ease-in-out;
+}
+
+#board1 .modern .hover{
+    opacity:0;
+    text-align: center;
+    position:relative;
+}
+
+#board1 .modern .hover:hover {
+    opacity:.8;
+}
+
+.hover p{
+    position:absolute;
+    margin:auto; left:0; right:0;
+    margin-top:45%;
+    font-family: 'futura', sans-serif;
+    color:white;
+    font-size:29px;
+}
+
+#board1 .lpone .hover p{
+    margin-top:33%;   
+}
+
+
+/**--- board 2 ---**/
+
+
+
+#board2{
+    position:absolute;
+    width:100%;
+    height:auto;
+    text-align: center;
+    margin-top:20px;
+    margin-bottom:140px;
+    display:none;
+}
+
+#board2 .modern{
+    height:200px;
+}
+
+#board2 .modern .tate{
+    font-family: 'futura', sans-serif;
+    display:inline-block;
+    width:90px; height:90px;
+    border-radius:50%;
+    margin:1% 0;
+    background-color:black;    
+    color:white;
+}
+
+#board2 .modern .tate p{
+    margin-top:14px;  
+    font-weight:700;
+}
+
+#board2 .modern i{
+    font-size:13px;   
+}
+
+#board2 div{
+    display: inline-block;
+    background-position: center;
+    background-size: cover;
+}
+
+#board2 .modern .one{
+    height:170%;
+    width:340px;
+    border-radius:50%;
+    background-image: url(img/one.jpg);
+}
+
+#board2 .modern .two{
+    height:200%;
+    width:400px;
+    border-radius:50%;
+    background-image: url(img/two.jpg);
+}
+
+#board2 .modern .three{
+    height:100%;
+    width:200px;
+    border-radius:50%;
+    background-image: url(img/three.jpg);
+}
+
+#board2 .modern .four{
+    height:150%;
+    width:300px;
+    border-radius:50%;
+    background-image: url(img/four.jpg);
+}
+
+#board2 .modern .brone{
+    height:140%;
+    width:280px;
+    border-radius:50%;
+    background-image: url(img/brone.png);
+}
+
+#board2 .modern .brtwo{
+    height:170%;
+    width:340px;
+    border-radius:50%;
+    background-image: url(img/brtwoo.jpg);
+}
+
+#board2 .modern .lpone{
+    height:100%;
+    width:200px;
+    border-radius:50%;
+    background-image: url(img/lpone.jpg);
+}
+
+#board2 .modern .lptwo{
+    height:300%;
+    width:600px;
+    border-radius:50%;
+    background-image: url(img/lptwo.png);
+}
+
+#board2 .modern .lpthree{
+    height:200%;
+    width:400px;
+    border-radius:50%;
+    background-image: url(img/lpthree.jpg);
+}
+
+#board2 .modern .hover{
+    height:100%;
+    width:100%;
+    border-radius:50%;
+    background-color:black;
+    transition: .2s ease-in-out;
+}
+
+#board2 .modern .hover{
+    opacity:0;
+    text-align: center;
+    position:relative;
+}
+
+#board2 .modern .hover:hover {
+    opacity:.8;
+}
+
+#board2 .lpone .hover p{
+    margin-top:33%;   
+}
+
+
+
+/**--- board 3 ---**/
+
+
+
+#board3{
+    position:absolute;
+    width:100%;
+    height:auto;
+    text-align: center;
+    margin-top:20px;
+    margin-bottom:140px;
+    display:none;
+}
+
+#board3 .modern{
+    height:200px;
+}
+
+#board3 .modern .tate{
+    font-family: 'futura', sans-serif;
+    display:inline-block;
+    width:90px; height:90px;
+    border-radius:50%;
+    margin:1% 0;
+    background-color:black;    
+    color:white;
+}
+
+#board3 .modern .tate p{
+    margin-top:14px;  
+    font-weight:700;
+}
+
+#board3 .modern i{
+    font-size:13px;   
+}
+
+#board3 div{
+    display: inline-block;
+    background-position: center;
+    background-size: cover;
+}
+
+#board3 .modern .one{
+    height:190%;
+    width:380px;
+    border-radius:50%;
+    background-image: url(img/one.jpg);
+}
+
+#board3 .modern .three{
+    height:120%;
+    width:240px;
+    border-radius:50%;
+    background-image: url(img/three.jpg);
+}
+
+#board3 .modern .four{
+    height:170%;
+    width:340px;
+    border-radius:50%;
+    background-image: url(img/four.jpg);
+}
+
+#board3 .modern .newone{
+    height:100%;
+    width:200px;
+    border-radius:50%;
+    background-image: url(img/newone.jpg);
+}
+
+#board3 .modern .brone{
+    height:170%;
+    width:340px;
+    border-radius:50%;
+    background-image: url(img/brone.png);
+}
+
+#board3 .modern .brtwo{
+    height:200%;
+    width:400px;
+    border-radius:50%;
+    background-image: url(img/brtwoo.jpg);
+}
+
+#board3 .modern .newtwo{
+    height:100%;
+    width:200px;
+    border-radius:50%;
+    background-image: url(img/newtwo.jpg);
+}
+
+#board3 .modern .lpone{
+    height:100%;
+    width:200px;
+    border-radius:50%;
+    background-image: url(img/lpone.jpg);
+}
+
+#board3 .modern .lpthree{
+    height:300%;
+    width:600px;
+    border-radius:50%;
+    background-image: url(img/lpthree.jpg);
+}
+
+#board3 .modern .newthree{
+    height:100%;
+    width:200px;
+    border-radius:50%;
+    background-image: url(img/newthree.jpg);
+}
+
+#board3 .modern .newfour{
+    height:100%;
+    width:200px;
+    border-radius:50%;
+    background-image: url(img/newfour.jpg);
+}
+
+#board3 .modern .newfive{
+    height:170%;
+    width:340px;
+    border-radius:50%;
+    background-image: url(img/newfive.jpg);
+}
+
+#board3 .modern .hover{
+    height:100%;
+    width:100%;
+    border-radius:50%;
+    background-color:black;
+    transition: .2s ease-in-out;
+}
+
+#board3 .modern .hover{
+    opacity:0;
+    text-align: center;
+    position:relative;
+}
+
+#board3 .modern .hover:hover {
+    opacity:.8;
+}
+
+#board3 .lpone .hover p{
+    margin-top:33%;   
+}
+
+.newthree .hover p{
+    margin-top:33%;   
+}
+
+.newfour .hover p{
+    margin-top:33%;   
+}
+
+
+
+
+/**--- board 4 ---**/
+
+
+
+#board4{
+    position:absolute;
+    width:100%;
+    height:auto;
+    text-align: center;
+    margin-top:20px;
+    margin-bottom:140px;
+    display:none;
+}
+
+#board4 .modern{
+    height:200px;
+}
+
+#board4 .modern .tate{
+    font-family: 'futura', sans-serif;
+    display:inline-block;
+    width:90px; height:90px;
+    border-radius:50%;
+    margin:1% 0;
+    background-color:black;    
+    color:white;
+}
+
+#board4 .modern .tate p{
+    margin-top:14px;  
+    font-weight:700;
+}
+
+#board4 .modern i{
+    font-size:13px;   
+}
+
+#board4 div{
+    display: inline-block;
+    background-position: center;
+    background-size: cover;
+}
+
+#board4 .modern .one{
+    height:300%;
+    width:600px;
+    border-radius:50%;
+    background-image: url(img/one.jpg);
+}
+
+#board4 .modern .three{
+    height:140%;
+    width:280px;
+    border-radius:50%;
+    background-image: url(img/three.jpg);
+}
+
+#board4 .modern .four{
+    height:190%;
+    width:380px;
+    border-radius:50%;
+    background-image: url(img/four.jpg);
+}
+
+#board4 .modern .newone{
+    height:100%;
+    width:200px;
+    border-radius:50%;
+    background-image: url(img/newone.jpg);
+}
+
+#board4 .modern .brone{
+    height:190%;
+    width:380px;
+    border-radius:50%;
+    background-image: url(img/brone.png);
+}
+
+#board4 .modern .brtwo{
+    height:300%;
+    width:600px;
+    border-radius:50%;
+    background-image: url(img/brtwoo.jpg);
+}
+
+#board4 .modern .newtwo{
+    height:120%;
+    width:240px;
+    border-radius:50%;
+    background-image: url(img/newtwo.jpg);
+}
+
+#board4 .modern .lpone{
+    height:100%;
+    width:200px;
+    border-radius:50%;
+    background-image: url(img/lpone.jpg);
+}
+
+#board4 .modern .newthree{
+    height:120%;
+    width:240px;
+    border-radius:50%;
+    background-image: url(img/newthree.jpg);
+}
+
+#board4 .modern .newfour{
+    height:100%;
+    width:200px;
+    border-radius:50%;
+    background-image: url(img/newfour.jpg);
+}
+
+#board4 .modern .newfive{
+    height:190%;
+    width:380px;
+    border-radius:50%;
+    background-image: url(img/newfive.jpg);
+}
+
+#board4 .modern .newsix{
+    height:100%;
+    width:200px;
+    border-radius:50%;
+    background-image: url(img/newsix.jpg);
+}
+
+#board4 .modern .hover{
+    height:100%;
+    width:100%;
+    border-radius:50%;
+    background-color:black;
+    transition: .2s ease-in-out;
+}
+
+#board4 .modern .hover{
+    opacity:0;
+    text-align: center;
+    position:relative;
+}
+
+#board4 .modern .hover:hover {
+    opacity:.8;
+}
+
+#board4 .lpone .hover p{
+    margin-top:33%;   
+}
+
+.newthree .hover p{
+    margin-top:33%;   
+}
+
+.newfour .hover p{
+    margin-top:33%;   
+}
+
+.newsix .hover p{
+    margin-top:33%;   
+    font-size:24px;
+}
