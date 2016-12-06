@@ -30,7 +30,7 @@ marquee{
 
 h1{color:white;
     position: absolute;
-    left: 700px;
+    left: 450px;
     top: 105px;
 }
 
@@ -45,10 +45,5 @@ h1{color:white;
 .hello{
     left: 50px;
     top: 70px;
-}
-
-container{
-    position: absolute;
-    top: 900px;
 }
 
