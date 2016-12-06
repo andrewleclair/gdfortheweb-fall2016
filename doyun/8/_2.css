@@ -1,0 +1,32 @@
+images {
+    white-space: nowrap;
+    box-sizing: border-box;
+    moz-box-sizing: border-box;
+    webkit-box-sizing: border-box;
+    position:absolute;
+    width:1440px;
+    height:auto;
+    position: absolute;    
+}
+
+images2 {
+    white-space: nowrap;
+    box-sizing: border-box;
+    moz-box-sizing: border-box;
+    webkit-box-sizing: border-box;
+    position:absolute;
+    width:1440px;
+    height:auto;
+    position: relative;
+    
+}
+
+
+images {
+    width: 1440px;
+}
+
+html, body {
+    width: 1440px;
+}
+
