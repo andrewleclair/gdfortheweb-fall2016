@@ -3,10 +3,10 @@ body {
 }
 
 .speaker {
-	height: 30px;
-	width: 30px;
-	position: relative;
-	overflow: hidden;
+    height: 30px;
+    width: 30px;
+    position: relative;
+    overflow: hidden;
     display: inline-block;
 }
 
@@ -16,7 +16,7 @@ h1 {
     top: 500px;
     left: 30px;
     line-height: 105px;
-    color: 	#E8E8E8;
+    color: #E8E8E8;
     z-index: 5;
     width: 300px;
 }
@@ -24,9 +24,8 @@ h1 {
 a {
     text-decoration: none;
 }
-    
 
-p{
+p {
     font-family: serif;
     font-size: 10px;
     width: 100px;
@@ -37,7 +36,7 @@ p{
     width: 400px;
     height: 750px;
     border: 10px solid black;
-    top:30px;
+    top: 30px;
     left: 0px;
     background-color: transparent;
 }
@@ -47,7 +46,7 @@ p{
     width: 20px;
     height: 800px;
     border: 20px solid #F8F8F8;
-    top:-20px;
+    top: -20px;
     left: 520px;
     background-color: transparent;
 }
@@ -56,8 +55,8 @@ p{
     position: absolute;
     width: 20px;
     height: 800px;
-    border: 20px solid #F8F8F8 ;
-    top:-20px;
+    border: 20px solid #F8F8F8;
+    top: -20px;
     left: 620px;
     background-color: transparent;
 }
@@ -66,8 +65,8 @@ p{
     position: absolute;
     width: 16px;
     height: 800px;
-    border: 20px solid #F8F8F8 ;
-    top:-20px;
+    border: 20px solid #F8F8F8;
+    top: -20px;
     left: 720px;
     background-color: transparent;
 }
@@ -76,8 +75,8 @@ p{
     position: absolute;
     width: 18px;
     height: 800px;
-    border: 20px solid #F8F8F8 ;
-    top:-20px;
+    border: 20px solid #F8F8F8;
+    top: -20px;
     left: 822px;
     background-color: transparent;
 }
@@ -87,7 +86,7 @@ p{
     width: 10px;
     height: 800px;
     border: 20px solid #F8F8F8;
-    top:-20px;
+    top: -20px;
     left: 925px;
     background-color: transparent;
 }
@@ -160,46 +159,50 @@ p{
     left: 35px;
     z-index: 3;
     display: none;
- 
 }
 
-
-#whole:hover #imgDescription, #whole:hover #imgpreview {
-  visibility: visible;
-  opacity: 1;
-  display: block;
-
+#whole:hover #imgDescription,
+#whole:hover #imgpreview {
+    visibility: visible;
+    opacity: 1;
+    display: block;
 }
 
-#string:hover, #string2:hover, #string3:hover, #string4:hover, #string5:hover {
-    background:red;
+#string:hover,
+#string2:hover,
+#string3:hover,
+#string4:hover,
+#string5:hover {
+    background: red;
 }
 
-#whole1:hover #imgDescription2, #whole1:hover #imgpreview{
-  visibility: visible;
-  opacity: 1;
-  display: block;
+#whole1:hover #imgDescription2,
+#whole1:hover #imgpreview {
+    visibility: visible;
+    opacity: 1;
+    display: block;
 }
 
-#whole2:hover #imgDescription3, #whole2:hover #imgpreview {
-  visibility: visible;
-  opacity: 1;
-  display: block;
-    
+#whole2:hover #imgDescription3,
+#whole2:hover #imgpreview {
+    visibility: visible;
+    opacity: 1;
+    display: block;
 }
 
-#whole3:hover #imgDescription4, #whole3:hover #imgpreview {
-  visibility: visible;
-  opacity: 1;
-  display: block;
+#whole3:hover #imgDescription4,
+#whole3:hover #imgpreview {
+    visibility: visible;
+    opacity: 1;
+    display: block;
 }
 
-#whole4:hover #imgDescription5, #whole4:hover #imgpreview {
-  visibility: visible;
-  opacity: 1;
-  display: block;
+#whole4:hover #imgDescription5,
+#whole4:hover #imgpreview {
+    visibility: visible;
+    opacity: 1;
+    display: block;
 }
-
 
 #string {
     font-size: 25px;
@@ -239,7 +242,7 @@ p{
 
 #string4 {
     font-size: 25px;
-    color:  white;
+    color: white;
     position: fixed;
     top: 400px;
     left: 790px;
@@ -261,7 +264,6 @@ p{
     font-family: "Arial"
 }
 
-
 #firststring {
     position: absolute;
     top: 0px;
@@ -269,7 +271,6 @@ p{
     width: 20px;
     height: 800px;
     float: left;
-
 }
 
 #firststring2 {

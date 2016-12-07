@@ -1,29 +1,38 @@
 var a = 0;
-var d = 100;
-var song;
-//
-//function preload() {
-//    song = loadSound (ticktock.mp3);
-//}
+var b = 100;
+var c = 500;
+var d = 900;
 
 function setup() {
+
     var theCanvas = createCanvas(windowWidth, windowHeight);
+//	frameRate(30);
 	blendMode (REPLACE);
-//    song.play();
-//    song.loop ();
 }
+
+
 
 function draw() {
 	strokeWeight (20);
-	stroke ((255), random (10), random (255));
+	stroke (255, 183, 195);
 	background (245,5);
-	a = (a + 1)%width;
+	a = (a + 2)%width;
 	line (a,0,10,height);
 	
 	strokeWeight (10);
-	stroke (0);
-	d = (d + 0.5)%width;
-	line (d,0,10,height);
+	stroke (158, 255, 255);
+	d = (d + 3)%width;
+	line (d,5,10,height);
+    
+    strokeWeight (10);
+	stroke (255, 234, 183);
+	c = (c + 1.5);
+	line (c,1,20,height);
+    
+    strokeWeight (10);
+	stroke (243, 204, 255);
+	b = (b + 4)%width;
+	line (b,0,10,height);
 	
 }
 

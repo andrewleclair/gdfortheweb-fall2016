@@ -73,7 +73,7 @@
                  padding-right:10rem;
              }
         }
-   @media all and (min-width: 1000px) {
+        @media all and (min-width: 1000px) {
              p {
                  padding-right:11   rem;
              }

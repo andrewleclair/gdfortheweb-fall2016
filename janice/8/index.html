@@ -1,74 +1,72 @@
 <html>
 <header>
-    <link rel = "stylesheet" href = "style.css">
+    <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Oswald" rel="style">
-
 </header>
 
 <body>
-    
-  <audio src = "Adele%20-%20HelloLacrimosa%20(Mozart)The%20Piano%20Guys.mp3" controls autoplay="true"></audio>
-    
-    
-    <h1> Cello Brands</h1>
-        <div class = box> </div>
-        <div id = pseudo></div>
-        <div id = "whole">
-        <span> <h2 id = "string"> Guarneri </h2> </span>
-             <img id = "firststring" src = "images//guarneri%20cello.jpg"> 
-            <img id = "imgpreview" src = "images/guarneri.jpg">
-        <p id = "imgDescription">John Sharp and his cello. 1964 </p> 
-        </div>
-    
-    <div id = pseudo1></div>
-    <div id = whole1>
-        <span> <h2 id = "string2"> Guadagnini </h2> </span>
-        <img id = "firststring2" src = "images/Guadagnini.jpg">
-        <img id = "imgpreview" src = "images/Guadagnini.jpg">
-    <p id = "imgDescription2"> Giovanni Battista Guadagnini, Turin, the 'Simpson'. 1777 </p>
-    </div>
-    
-    <div id = pseudo2></div>
-    <div id = "whole2">
-        <span> <h2 id = "string3"> Montagnana </h2> </span>
-         <img id = "firststring3" src = "images/MONTAGNANA.jpg">
-        <img id = "imgpreview" src = "images/MONTAGNANA.jpg">
-        <p id = "imgDescription3">Owned by Guilhermina Suggia. 1710 </p>
-    </div>
-    
-    <div id = pseudo3></div>
-     <div id = "whole3">
-        <span> <h2 id = "string4"> Stradivarius </h2> </span>
-         <img id = "firststring4" src = "images/Bernard%20Greenhouse%20with%20his%20Stradivarius%20cello%20in%201975.jpg"> 
-         <img id = "imgpreview" src = "images/mag-15Cello-t_CA0-jumbo.jpg">
-    <p id = "imgDescription4">The Countess of Stainlein cello, one of the few remaining Stradivariuses. 1707</p>
-    </div>
-    
-    <div id = pseudo4></div>
-    <div id = "whole4">
-        <span> <h2 id = "string5"> Amati </h2> </span>
-        <img id = "firststring5" src = "images/amati.png">
-        <img id = "imgpreview" src = "images/amati2.png">
-        <p id = "imgDescription5"> Strad Replica Cello Red. 1703 </p>
-    </div>
-    
-<script>
-    
-  $('.speaker').click(function(e) {
-  e.preventDefault();
+    <audio src="Adele%20-%20HelloLacrimosa%20(Mozart)The%20Piano%20Guys.mp3" controls autoplay="true">
+  </audio>
 
-	$(this).toggleClass('mute');
-});
-    
-//    $(document).ready(function(){
-//        $('.firststring').mouseenter(function(){
-//            $('.firststring h2').css('color','red');
-//        }); 
-//        $('.firststring').mouseleave(function(){
-//            $('.firststring h2').css('color','#A3DAFF');
-//        }); 
-//});
+    <h1> Cello Brands</h1>
+    <div class=b ox> </div>
+    <div id=p seudo></div>
+    <div id="whole">
+        <span> <h2 id = "string"> Guarneri </h2> </span>
+        <img id="firststring" src="images//guarneri%20cello.jpg">
+        <img id="imgpreview" src="images/guarneri.jpg">
+        <p id="imgDescription">John Sharp and his cello. 1964 </p>
+    </div>
+
+    <div id=p seudo1></div>
+    <div id=w hole1>
+        <span> <h2 id = "string2"> Guadagnini </h2> </span>
+        <img id="firststring2" src="images/Guadagnini.jpg">
+        <img id="imgpreview" src="images/Guadagnini.jpg">
+        <p id="imgDescription2"> Giovanni Battista Guadagnini, Turin, the 'Simpson'. 1777 </p>
+    </div>
+
+    <div id=p seudo2></div>
+    <div id="whole2">
+        <span> <h2 id = "string3"> Montagnana </h2> </span>
+        <img id="firststring3" src="images/MONTAGNANA.jpg">
+        <img id="imgpreview" src="images/MONTAGNANA.jpg">
+        <p id="imgDescription3">Owned by Guilhermina Suggia. 1710 </p>
+    </div>
+
+    <div id=p seudo3></div>
+    <div id="whole3">
+        <span> <h2 id = "string4"> Stradivarius </h2> </span>
+        <img id="firststring4" src="images/Bernard%20Greenhouse%20with%20his%20Stradivarius%20cello%20in%201975.jpg">
+        <img id="imgpreview" src="images/mag-15Cello-t_CA0-jumbo.jpg">
+        <p id="imgDescription4">The Countess of Stainlein cello, one of the few remaining Stradivariuses. 1707</p>
+    </div>
+
+    <div id=p seudo4></div>
+    <div id="whole4">
+        <span> <h2 id = "string5"> Amati </h2> </span>
+        <img id="firststring5" src="images/amati.png">
+        <img id="imgpreview" src="images/amati2.png">
+        <p id="imgDescription5"> Strad Replica Cello Red. 1703 </p>
+    </div>
+
+    <script>
+        $('.speaker').click(function(e) {
+            e.preventDefault();
+
+            $(this).toggleClass('mute');
+        });
+
+        $(document).ready(function() {
+            $('.firststring').mouseenter(function() {
+                $('.firststring h2').css('color', 'red');
+            });
+            $('.firststring').mouseleave(function() {
+                $('.firststring h2').css('color', '#A3DAFF');
+            });
+        });
     </script>
-    
+
+
 </body>
 </html>
