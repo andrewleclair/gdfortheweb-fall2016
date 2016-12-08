@@ -1,10 +1,94 @@
 body {
-     background-image: url("loopy.gif");
+  height: 100vh;
+  width: 100vw;
+  background: #ebf9fe;
+  background: transparent;   
+   #💸 {
+      position: fixed;
+      top:0px;
+      left:0px;
+      width:100%;
+      height:100%;
+   }
 }
 
 /* Start http://www.cursors-4u.com */ 
-body, a:hover {cursor: url(http://cur.cursors-4u.net/others/oth-2/oth192.cur), progress !important;} /* End http://www.cursors-4u.com */
+a:hover {cursor: url(http://cur.cursors-4u.net/others/oth-2/oth192.cur), progress !important;} /* End http://www.cursors-4u.com */
 
 audio { 
    display:none;
+}
+svg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  }
+
+@import url(http://fonts.googleapis.com/css?family=Russo+One);
+
+svg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  }
+
+.demo--text {
+    font: 16em/1 'Russo One', Impact;
+    letter-spacing: .05em;
+    }
+
+$colors: 
+  hsl(220,100,50),
+  hsl(165,100,50),
+  hsl(5,100,50),
+  hsl(40,100,50),
+;
+
+$max-colors: length($colors);
+
+$max-copies: 4;
+$time: 3s;
+$time-step: $time/$max-colors;
+$stroke-width-step: 5;
+
+.text--item {
+/*   fill: none; */
+  fill-opacity: .5;
+  stroke: transparent;
+  stroke-width: 2;
+  animation: anim-stroke $time linear infinite alternate;
+  animation-name: anim-stroke, anim-move;
+  animation-duration: $time, $time*2;
+  
+  @for $item from 1 through $max-copies {
+    &:nth-child(#{$max-copies}n + #{$item}) {
+      fill: nth($colors, $item);
+      animation-delay: -$time-step*$item;
+      }
+    }
+  }
+
+g:hover .text--item {
+      animation: none;
+    }
+
+@keyframes anim-stroke {
+  @for $item from 1 through $max-colors {
+    $perc: 100 - 100/$item;
+    
+    #{$perc}% {
+      fill: nth($colors, $item);
+      }
+    }
+}
+
+$move-step: 50px;
+
+@keyframes anim-move {
+  30% {
+    transform: translate($move-step, 0);
+    }
+  60% {
+    transform: translate(-$move-step, 0);
+    }
 }
