@@ -1,0 +1,40 @@
+
+<!DOCTYPE>
+<html>
+
+<head>
+<title>the clock</title>
+<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>	
+
+
+<div>
+  <div id="rotate" style="-webkit-transform: rotate(97deg); ">
+  	<iframe src="https://andrewleclair.github.io/gdfortheweb-fall2016/alice/2/" width="100%" height="100%"></iframe>
+  	</div>
+  <div style="clear: both;"></div>
+  </div>
+  <script type="text/javascript" language="javascript" charset="utf-8">
+function getTransformProperty(element) {
+    var properties = ['transform', 'msTransform', 'WebkitTransform', 'MozTransform' , 'OTransform'];
+    var p;
+    while (p = properties.shift()) {
+        if (typeof element.style[p] != 'undefined') {
+            return p;
+        }
+    }
+       return false;
+}
+var div = document.getElementById('rotate');
+var property = getTransformProperty(div);
+if (property) {
+    var d = 0;
+    setInterval(function () {div.style[property] = 'rotate(' + (d++ % 360) + 'deg)';}, 100);
+	} else {
+		window.location = "browsercheck.html"
+}
+</script>
+ <div>
+  </div>
+</body></html>
