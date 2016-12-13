@@ -24,11 +24,6 @@
 8. [Flights](https://andrewleclair.github.io/gdfortheweb-fall2016/glenn/8)
 9. [Idiot Films](https://andrewleclair.github.io/gdfortheweb-fall2016/glenn/9)
 
-## Yaodan Wu
-
-1. [3 Emotions](https://andrewleclair.github.io/gdfortheweb-fall2016/yaodan/1/homepage.html)
-2. [The Mapping Journey Project](https://andrewleclair.github.io/gdfortheweb-fall2016/yaodan/2/hw2)
-
 ## Do Yun Kwak
 
 1. [1_journeyinprovidence](https://andrewleclair.github.io/gdfortheweb-fall2016/doyun/1/)
