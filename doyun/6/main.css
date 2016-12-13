@@ -17,10 +17,14 @@ color: white;
 /*font-weight: bold;*/
 }
 
-ol:hover{
+/*ol:hover{
     background-color: black;
+} */
+
+::selection {
+    background-color: black;
+    color: white;
 }
-    
 
 p {
 font-family: Helvetica;
