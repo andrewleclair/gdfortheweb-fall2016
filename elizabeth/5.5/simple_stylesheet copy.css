@@ -1,0 +1,98 @@
+body	{
+
+	width: 100%
+	height: auto;
+	background-color: yellow;
+	margin:0, auto;
+}
+
+div	{
+	background-color: yellow;
+	display: inline-block;
+	margin: 0, auto;
+	padding: 0, auto;
+
+}
+
+.wrap_overall	{
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	margin: 0, auto;
+}
+
+
+.wrap	{
+	display: inline-block;
+	width: 100%;
+	height: auto;
+}
+
+.wrap_small	{
+	display: inline-block;
+	width: 100%;
+	height: 5%;
+	
+}
+
+
+/*hey	{
+	background-color: tomato;
+	width: 7.14%;
+	height: 40px;
+}*/
+
+.l	{
+	background-color: #feb135;
+	width: 6%;
+	height: 30px;
+	margin:0;
+	
+} 
+
+.a	{
+	background-color: #2dbfff;
+	width: 6%;
+	height: 30px;
+	margin:0;
+} 
+
+.c	{
+	background-color: #e10ee1;
+	width: 6%;
+	height: 30px;
+	margin:0;
+	
+} 
+
+
+
+.empty	{
+	background-color: transparent;
+	width: 6%;
+	height: 30px;
+	margin:0;
+	
+} 
+
+.empty_small	{
+	background-color: transparent;
+	width: 6%;
+	height: 30px;
+	margin:0;
+	
+} 
+
+.m	{
+	background-color: aqua;
+	width: 6%;
+	height: 30px;
+	margin:0;
+	
+} 
+
+
+
+
+
+

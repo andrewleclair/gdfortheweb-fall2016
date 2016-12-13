@@ -1,0 +1,57 @@
+html	{
+
+	background: cover;
+	width: 100%;
+	height: auto;
+	background-color: black;
+
+}
+
+div		{
+	margin: auto;
+	width: 25%;
+	height: 100%;
+
+
+
+}
+
+h1		{
+	font-family: Helvetica;
+	color: white;
+	font-size: 2rem;
+	text-align: center;
+	margin-top: 25%;
+	text-decoration: none;
+
+}
+
+
+
+a:link {
+	outline-color: white;
+	text-decoration: none;
+	
+
+}
+
+a:visited	{
+	color: white;
+	text-decoration: none;
+
+}	
+
+
+
+a:hover	{
+	color: pink;
+	text-decoration: none;
+	font-size: 2rem;
+	font-family: Helvetica;
+
+
+}
+
+a: active 	{
+	font-size: 3rem;
+}

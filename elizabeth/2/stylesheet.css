@@ -13,7 +13,7 @@ div {
 	display:inline-flex;
 	font-family:Courier New, sans-serif;
 	font-size:16px;
-	margin-top:25px;
+	margin-top:15px;
 	margin-left:30px;
 	padding:5px;
 	float:clear;
@@ -34,7 +34,7 @@ div {
 
 id {
 
-	font-family: Courier New;sans-serif;
+	font-family: Courier New; sans-serif;
 	font-size: 42px;
 
 }

@@ -1,0 +1,77 @@
+	body 	{
+
+	width: 100%
+	height: auto;
+	background-color: white;
+	margin: 0, auto;	
+
+}
+
+	a {
+		text-decoration: none;
+	}
+
+	a: link {
+				color: black;
+				text-decoration: none;
+			}
+
+		a: visited {
+				color: black;
+				text-decoration: none;
+			}
+
+		a: hover {
+				color: green;
+				text-decoration: none;
+			}
+
+		a: active	{
+				color: blue;
+				text-decoration: none;
+		}
+
+
+	#room 	{
+		font-family: Helvetica;
+		font-size: 11px;
+		font-weight: bold;
+		color: black;
+		display: inline;
+		position: fixed;
+		max-width: 15%; 
+		margin-left:3%;
+		text-decoration: none;
+
+	}
+
+	#point {
+		font-family: Courier;
+		font-size: 12px;
+		color: black;
+		display: inline;
+		position: fixed;
+		max-width: 15%; 
+		margin-left: 3%;
+		margin-top: 30%;
+	    text-decoration: none;
+	}
+
+	
+	
+
+	#point_right {
+		font-family: Courier;
+		font-size: 12px;
+		color: black;
+		display: inline;
+		position: fixed;
+		max-width: 15%; 
+		margin-left: 95%;
+		margin-top: 30%;
+	    text-decoration: none;
+	}
+
+	
+		
+	

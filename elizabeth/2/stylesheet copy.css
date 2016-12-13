@@ -1,0 +1,104 @@
+* {
+	background-color:black;
+	display:inline-block;
+	float:clear
+
+}
+
+
+
+div {
+	height:30px;
+	width:60px 
+	display:inline-flex;
+	font-family:Courier New, sans-serif;
+	font-size:16px;
+	margin-top:25px;
+	margin-left:30px;
+	padding:5px;
+	float:clear;
+	
+}
+
+
+.invite {
+	height:400px;
+	width:400px;
+	display:center-inline;
+	background-color:red;
+	text-decoration:none;
+	font-size:36px;
+
+}
+
+
+id {
+
+	font-family: Courier New;sans-serif;
+	font-size: 42px;
+
+}
+
+
+#diane {
+	color: purple;
+	font-family: Helvetica Neue, sans-serif;
+	font-size:42px;
+	height:50px;
+	width:300px;
+	position: centered;
+	text-decoration:none;
+	cursor:crosshair;
+	padding: 75px;
+
+}
+
+
+a:link {
+	text-decoration:none;
+}
+
+
+a:hover {
+	color:gray;
+	text-decoration:none;
+	cursor:crosshair;
+}
+
+#info {
+	font-family:Courier New; Courier; Helvetica; sans-serif;
+	margin-top:300px;
+	margin-left:15px;
+	margin-botton:15px;
+	margin-right:8px;
+	display:inline-block;
+	color: purple;
+	font-size: 32px;
+
+}
+
+#exhibition {
+	display:left;
+	color:gray;
+	font-size:24px;
+	
+}
+
+#met {
+	color:gray;
+	text-indent:18px;
+	font-size:16px;
+	
+}
+
+#gram {
+	color: white;
+	text-indent:-4px;
+}
+
+
+
+
+
+
+	

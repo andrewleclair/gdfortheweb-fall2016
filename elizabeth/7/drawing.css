@@ -2,11 +2,7 @@
 
 
 
-/*Submitted by Marcin Wojtowicz [one_spook@hotmail.com] 
-Featured on JavaScript Kit (http://javascriptkit.com)
-Modified by JK to be IE7+/ Firefox compatible
-For this and over 400+ free scripts, visit http://javascriptkit.com
-*/
+/*Submitted by Marcin Wojtowicz [one_spook@hotmail.com] /*
 
 var trailLength = 25 // The length of trail (8 by default; put more for longer "tail")
 var path = "drawing.png" // URL of your image
