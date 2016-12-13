@@ -63,7 +63,7 @@
 
 ## Elizabeth Leeper
 
-1. [Alarm](https://andrewleclair.github.io/gdfortheweb-fall2016/elizabeth/1/Alarm)
+1. [Alarm](https://andrewleclair.github.io/gdfortheweb-fall2016/elizabeth/1/Alarm/)
 2. [Diane Arbus](https://andrewleclair.github.io/gdfortheweb-fall2016/elizabeth/2/)
 3. [dc](https://andrewleclair.github.io/gdfortheweb-fall2016/elizabeth/3)
 4. [Weather Bagel](https://andrewleclair.github.io/gdfortheweb-fall2016/elizabeth/4/weather_bagel)
@@ -72,7 +72,7 @@
 7. [Ten Things, Milton Glaser](https://andrewleclair.github.io/gdfortheweb-fall2016/elizabeth/6/manifesto)
 8. [The Drawing Center](https://andrewleclair.github.io/gdfortheweb-fall2016/elizabeth/7/test)
 9. [Cookbox](https://andrewleclair.github.io/gdfortheweb-fall2016/elizabeth/8/cookbox)
-10. [Lines](https://andrewleclair.github.io/gdfortheweb-fall2016/elizabeth/9/practice)
+10. [Lines](https://andrewleclair.github.io/gdfortheweb-fall2016/elizabeth/9/drawing_expansion)
 
 
 ## Inyoung Kwon
