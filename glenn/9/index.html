@@ -1,79 +1,467 @@
+<!DOCTYPE html>
 <html>
-
 <head>
-	<meta charset="UTF-8">
-
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-
-	<meta name="apple-mobile-web-app-capable" content="yes">
-
-	<style>
-		html,
-		body {
-			padding: 0;
-			margin: 0;
-			color: #111;
-			width: 100vw;
-			height: 100vh;
-			-webkit-touch-callout: none;
-			-webkit-user-select: none;
-			-khtml-user-select: none;
-			-moz-user-select: none;
-			-ms-user-select: none;
-			user-select: none;
-		
-            font-family: gidole;
+    <title>Flights</title>
+    
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300" rel="stylesheet">
+    <meta charset="UTF-8">    
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            width: 100%;
         }
         
-        @font-face {
-            font-family: gidole;
-            src: url(font/Gidole.ttf);
+        h1 {
+            font-family: 'Open Sans', sans-serif;
+            color: black;
+            font-weight: lighter;
         }
         
-        .weare {  
-            position:absolute;
-            margin: auto, 0;
-            width: 50%;
+        
+        
+        .wrapper {
+            position: absolute;
+            width: auto;
+            height: auto;
+            display: block;
+            top: 10vh;
+            left: 5vw;
+            margin: 0 auto;
+            z-index: 99;
+        }
+        
+        button {
+            outline: none;
+            font-size: 12px;
+            margin-bottom: 0.5vh;
+            display: inline-block;
+            color: black;
+            background-color: transparent;
+            border: 1px solid black;
+        }
+        
+        button:hover {
+            background-color: black;
+            color: white;
+        }
+        
+        .category {
+            font-size: 12px;
+            margin-right: 0.75vw;
+/*            line-height: 20px;*/
+            display: inline-block;
+/*
+            color: white;
+            background-color: black;
+*/
+        }
+        button.clear {
+            display: none;
+        }
+        .tickets {
+            position: absolute;
+            top: 50vh;
+            left: 5vw;
+            display: block;
+        }
+        
+        .tickets div{
+            display: none;
+            float: left;    
+        }
 
+        img {
+            padding: 5px;
+            width: auto;
+            height: 20vw;
+        }
+        
+        @media screen and (max-width : 800px) {
             
-            background-color: (255,255,255, 0.1);
+            button {
+            font-size: 9px;
+            margin-bottom: 0.3vh;
+            display: inline-block;
+            color: black;
+            background-color: transparent;
+            border: 1px solid black;
+            }
+
+            button:hover {
+                background-color: black;
+                color: white;
+            }
+
+            .category {
+                font-size: 9px;
+                margin-right: 0.75vw;
+    /*            line-height: 20px;*/
+                display: inline-block;
+    /*
+                color: white;
+                background-color: black;
+    */
+            }
             
-            text-align: center;
-            font-family: gidole;
-            font-size: 10vw;
-            
-            -webkit-text-fill-color: transparent;
-            -webkit-text-stroke-width: 3px;
-   -webkit-text-stroke-color: black;
+            .tickets {
+            position: absolute;
+            top: 50vh;
+            left: 5vw;
+            display: block;
+            }
+        
             
         }
         
-	</style>
+        @media screen and (max-width : 470px) {
+            .tickets {
+            position: absolute;
+            top: 5vh;
+            left: 5vw;
+            display: block;
+                z-index: 99;
+            }
+            button {
+                margin-bottom: 0.25vh;
+            }
+            img {
+            padding: 5px;
+            width: auto;
+            height: 30vw;
+            }
+            button.clearclear {
+                display:none;
+            }
+            
+            button.clear {
+                display: block;
+                z-index: 999;
+                position: absolute;
+                top: 10vh;
+                left: 70vw;
+                font-size: 15px;
+                
+            }
+            
+        }
+        
+/*
+        .months button {
+            background-color: aqua;
+        }
+        .seat button {
+            background-color: beige;
+        }
+*/
 
-	<script type="text/javascript">
-		function blockMove() {
-			event.preventDefault();
-		}
-	</script>
-
+    </style>
+    
+    <script 
+            src="https://code.jquery.com/jquery-3.1.1.min.js"
+            integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+            crossorigin="anonymous">
+    </script>
+    
 </head>
 
-<body ontouchmove="blockMove()">
-	<div id="syllabus-sketch">
-	</div>
+<body>
+
+    <script>
+        function monthly(n1,n2){
+            for (var i = 0; i < $(".tickets div").length; i++){
+                
+                var target = $(".tickets div").eq(i)
+
+                if( target.attr('flightdate') > n1 && target.attr('flightdate') <= n2){ 
+                    target.fadeIn();
+                } 
+                else {
+                    target.fadeOut();
+                }
+            }
+        }
+    </script>
     
-    <div class="weare">
-     <p>We are</p>
+    <script>
+        function seatno(n1,n2){
+            for (var i = 0; i < $(".tickets div").length; i++){
+                
+                var target = $(".tickets div").eq(i)
+
+                if( target.attr('seatno') > n1 && target.attr('seatno') <= n2){ 
+                    target.fadeIn();
+                } 
+                else {
+                    target.fadeOut();
+                }
+            }
+        }
+    </script>
+    
+    <script>
+        function seatalphabet(alphabet){
+            for (var i = 0; i < $(".tickets div").length; i++){
+                
+                var target = $(".tickets div").eq(i)
+
+                if( target.attr('seatalphabet') === alphabet ){ 
+                    target.fadeIn();
+                } 
+                else {
+                    target.fadeOut();
+                }
+            }
+        }
+    </script>
+    
+    <script>
+        function flightno(n1,n2){
+            for (var i = 0; i < $(".tickets div").length; i++){
+                
+                var target = $(".tickets div").eq(i)
+
+                if( target.attr('flightno') > n1 && target.attr('flightno') <= n2){ 
+                    target.fadeIn();
+                } 
+                else {
+                    target.fadeOut();
+                }
+            }
+        }
+    </script>
+    <script>
+        function boardingtime(n1,n2){
+            for (var i = 0; i < $(".tickets div").length; i++){
+                
+                var target = $(".tickets div").eq(i)
+
+                if( target.attr('boardingtime') > n1 && target.attr('boardingtime') <= n2){ 
+                    target.fadeIn();
+                } 
+                else {
+                    target.fadeOut();
+                }
+            }
+        }
+    </script>
+    
+    
+    
+    
+    <button class = "clear" type="button" onclick="monthly(0,1)">CLEAR</button>
+    
+    <div class = "wrapper">
+        
+<!--        <h1>Flight Ticket Archive</h1>-->
+        
+        <button type="button" onclick="monthly(0,1300)">ALL</button>
+        <button class = "clearclear" type="button" onclick="monthly(0,1)">CLEAR</button>
+        <br/><br/>
+        <div class = "months">
+            <button class = "category">MONTH</button>
+            <button type="button" onclick="monthly(100,200)">Jan</button>
+            <button type="button" onclick="monthly(200,300)">Feb</button>
+            <button type="button" onclick="monthly(300,400)">Mar</button>
+            <button type="button" onclick="monthly(400,500)">Apr</button>
+            <button type="button" onclick="monthly(500,600)">May</button>
+            <button type="button" onclick="monthly(600,700)">Jun</button>
+            <button type="button" onclick="monthly(700,800)">Jul</button>
+            <button type="button" onclick="monthly(800,900)">Aug</button>
+            <button type="button" onclick="monthly(900,1000)">Sep</button>
+            <button type="button" onclick="monthly(1000,1100)">Oct</button>
+            <button type="button" onclick="monthly(1100,1200)">Nov</button>
+            <button type="button" onclick="monthly(1200,1300)">Dec</button>
+        </div>
+        <br/>
+        <div class = "seat">
+            <button class = "category">SEAT NUMBER</button>
+            <button type="button" onclick="seatno(0,10)">0 – 10</button>
+            <button type="button" onclick="seatno(10,20)">10 – 20</button>
+            <button type="button" onclick="seatno(20,30)">20 – 30</button>
+            <button type="button" onclick="seatno(30,40)">30 – 40</button>
+            <button type="button" onclick="seatno(40,50)">40 – 50</button>
+            <button type="button" onclick="seatno(50,60)">50 – 60</button>
+            <button type="button" onclick="seatno(60,70)">60 – 70</button>
+        </div>
+        <br/>
+        <div class = "seatalphabet">
+            <button class = "category">Seat Location</button>
+            <button type="button" onclick="seatalphabet('a')">a</button>
+            <button type="button" onclick="seatalphabet('b')">b</button>
+            <button type="button" onclick="seatalphabet('c')">c</button>
+            <button type="button" onclick="seatalphabet('d')">d</button>
+            <button type="button" onclick="seatalphabet('e')">e</button>
+            <button type="button" onclick="seatalphabet('f')">f</button>
+            <button type="button" onclick="seatalphabet('g')">g</button>
+            <button type="button" onclick="seatalphabet('h')">h</button>
+            <button type="button" onclick="seatalphabet('i')">i</button>
+            <button type="button" onclick="seatalphabet('j')">j</button>
+            <button type="button" onclick="seatalphabet('k')">k</button>
+            <button type="button" onclick="seatalphabet('l')">l</button>
+        </div>
+        <br/>
+        <div class = "flightno">
+            <button class = "category">Flight Number</button>
+            <button type="button" onclick="flightno(0,200)">0 – 200</button>
+            <button type="button" onclick="flightno(200,400)">200 – 400</button>
+            <button type="button" onclick="flightno(400,600)">400 – 600</button>
+            <button type="button" onclick="flightno(600,800)">600 – 800</button>
+            <button type="button" onclick="flightno(800,1000)">800 – 1000</button>
+            <button type="button" onclick="flightno(1000,1500)">1000 – 1500</button>
+            <button type="button" onclick="flightno(1500,2000)">1500 – 2000</button>
+            <button type="button" onclick="flightno(2000,2500)">2000 – 2500</button>
+            <button type="button" onclick="flightno(2500,4000)">2500 – 4000</button>
+            <button type="button" onclick="flightno(4000,5500)">4000 – 5500</button>
+            <button type="button" onclick="flightno(5500,10000)">5500 – 10000</button>
+        </div>
+        <br>
+        <div class = "boardingtime">
+            <button class = "category">Boarding Time</button>
+            <button type="button" onclick="boardingtime(0,500)">0 – 500</button>
+            <button type="button" onclick="boardingtime(500,1000)">500 – 1000</button>
+            <button type="button" onclick="boardingtime(1000,1200)">1000 – 1200</button>
+            <button type="button" onclick="boardingtime(1200,1300)">1200 – 1300</button>
+            <button type="button" onclick="boardingtime(1300,1400)">1300 – 1400</button>
+            <button type="button" onclick="boardingtime(1400,1500)">1400 – 1500</button>
+            <button type="button" onclick="boardingtime(1500,1600)">1500 – 1600</button>
+            <button type="button" onclick="boardingtime(1700,1800)">1700 – 1800</button>
+            <button type="button" onclick="boardingtime(1900,2000)">1900 – 2000</button>
+            <button type="button" onclick="boardingtime(2000,2200)">2000 – 2200</button>
+            <button type="button" onclick="boardingtime(2200,2400)">2200 – 2400</button>
+        </div>
+    </div>
+    <br/><br/>
+    <div class="tickets">
+        <div class="wide" flightdate="122" seatno="38" seatalphabet="c" flightno="264" boardingtime = "1245">
+        <img src="crop/1.jpg" alt="" />
+        </div>
+        <div class="wide" flightdate="824" seatalphabet="f" flightno="2394" boardingtime = "1630">
+        <img src="crop/2.jpg" alt="" />
+        </div>
+        <div class="wide" flightdate="829" seatalphabet="f" flightno="236" boardingtime = "737">
+        <img src="crop/3.jpg" alt="" />
+        </div>
+        <div flightdate="101" seatno="21" seatalphabet="g" flightno="199" boardingtime = "1430">
+        <img src="crop/4.jpg" alt="" />
+        </div>
+        <div flightdate="102" seatno="38" seatalphabet="g" flightno="81" boardingtime = "1645">
+        <img src="crop/5.jpg" alt="" />
+        </div>
+        <div flightdate="327" seatno="49" seatalphabet="c" flightno="713" boardingtime = "1645">
+        <img src="crop/6.jpg" alt="" />
+        </div>
+        <div flightdate="204" seatno="30" seatalphabet="f" flightno="261" boardingtime = "1415">
+        <img src="crop/7.jpg" alt="" />
+        </div>
+        <div flightdate="1214" seatno="49" seatalphabet="a" flightno="42" boardingtime = "1435">
+        <img src="crop/8.jpg" alt="" />
+        </div>
+        <div flightdate="831" seatno="5" seatalphabet="a" flightno="82" boardingtime = "945">
+        <img src="crop/9.jpg" alt="" />
+        </div>
+        <div flightdate="126" seatno="12" seatalphabet="d" flightno="42" boardingtime = "1125">
+        <img src="crop/10.jpg" alt="" />
+        </div>
+        <div flightdate="1226" seatno="37" seatalphabet="c" flightno="754" boardingtime = "1625">
+        <img src="crop/11.jpg" alt="" />
+        </div>
+        <div flightdate="104" seatno="39" seatalphabet="a" flightno="82" boardingtime = "1645">
+        <img src="crop/12.jpg" alt="" />
+        </div>
+        <div flightdate="1225" seatno="43" seatalphabet="a" flightno="888" boardingtime = "2145">
+        <img src="crop/13.jpg" alt="" />
+        </div>
+        <div flightdate="122" seatno="10" seatalphabet="d" flightno="550" boardingtime = "910">
+        <img src="crop/14.jpg" alt="" />
+        </div>
+        <div flightdate="1223" seatno="33" seatalphabet="j" flightno="8071" boardingtime = "1850">
+        <img src="crop/15.jpg" alt="" />
+        </div>
+        <div flightdate="605" seatno="33" seatalphabet="d" flightno="23" boardingtime = "1310">
+        <img src="crop/16.jpg" alt="" />
+        </div>
+        <div flightdate="201" seatno="31" seatalphabet="a" flightno="93" boardingtime = "945">
+        <img src="crop/17.jpg" alt="" />
+        </div>
+        <div flightdate="204" seatno="36" seatalphabet="j" flightno="94" boardingtime = "945">
+        <img src="crop/18.jpg" alt="" />
+        </div>
+        <div flightdate="205" seatno="43" seatalphabet="a" flightno="267" boardingtime = "1030">
+        <img src="crop/19.jpg" alt="" />
+        </div>
+        <div flightdate="824" seatno="44" seatalphabet="l" flightno="267" boardingtime = "1030">
+        <img src="crop/20.jpg" alt="" />
+        </div>
+        <div flightdate="825" seatno="30" seatalphabet="k" flightno="719" boardingtime = "1235">
+        <img src="crop/21.jpg" alt="" />
+        </div>
+        <div flightdate="1028" seatno="38" seatalphabet="j" flightno="93" boardingtime = "1310">
+        <img src="crop/22.jpg" alt="" />
+        </div>
+        <div class="wide" flightdate="620" seatno="60" seatalphabet="a" flightno="158" boardingtime = "1130">
+        <img src="crop/23.jpg" alt="" />
+        </div>
+        <div class="wide" flightdate="620" seatno="49" seatalphabet="j" flightno="630" boardingtime = "1405">
+        <img src="crop/24.jpg" alt="" />
+        </div>
+        <div class="wide" flightdate="620" seatno="17" seatalphabet="b" flightno="772" boardingtime = "1950">
+        <img src="crop/25.jpg" alt="" />
+        </div>
+        <div class="wide" flightdate="919" seatno="41" seatalphabet="d" flightno="865" boardingtime = "1745">
+        <img src="crop/26.jpg" alt="" />
+        </div>
+        <div class="wide" flightdate="919" seatno="32" seatalphabet="c" flightno="1976" boardingtime = "1315">
+        <img src="crop/27.jpg" alt="" />
+        </div>
+        <div class="wide" flightdate="101" seatno="12" seatalphabet="e" flightno="1694" boardingtime = "520">
+        <img src="crop/28.jpg" alt="" />
+        </div>
+        <div class="wide" flightdate="101" seatno="44" seatalphabet="b" flightno="2423" boardingtime = "835">
+        <img src="crop/29.jpg" alt="" />
+        </div>
+        <div class="wide" flightdate="831" seatno="6" seatalphabet="a" flightno="6857" boardingtime = "1610">
+        <img src="crop/31.jpg" alt="" />
+        </div>
+        <div class="wide" flightdate="1126" seatno="11" seatalphabet="a" flightno="3804" boardingtime = "944">
+        <img src="crop/32.jpg" alt="" />
+        </div>
+        <div class="wide" flightdate="205" seatno="15" seatalphabet="c" flightno="1394" boardingtime = "710">
+        <img src="crop/33.jpg" alt="" />
+        </div>
+        <div class="wide" flightdate="807" seatno="63" seatalphabet="k" flightno="159" boardingtime = "1454">
+        <img src="crop/34.jpg" alt="" />
+        </div>
+        <div class="wide" flightdate="126" seatno="51" seatalphabet="j" flightno="41" boardingtime = "1645">
+        <img src="crop/35.jpg" alt="" />
+        </div>
+        <div class="wide" flightdate="205" seatno="19" seatalphabet="f" flightno="2294" boardingtime = "1515">
+        <img src="crop/36.jpg" alt="" />
+        </div>
+        <div class="wide" flightdate="831" seatno="5" seatalphabet="a" flightno="42" boardingtime = "1630">
+        <img src="crop/37.jpg" alt="" />
+        </div>
+        <div class="wide" flightdate="714" seatno="10" seatalphabet="c" flightno="3453" boardingtime = "825">
+        <img src="crop/38.jpg" alt="" />
+        </div>
+        <div class="wide" flightdate="714" seatno="38" seatalphabet="a" flightno="716" boardingtime = "1130">
+        <img src="crop/39.jpg" alt="" />
+        </div>
+        <div class="wide" flightdate="825" seatno="9" seatalphabet="c" flightno="3464" boardingtime = "2035">
+        <img src="crop/40.jpg" alt="" />
+        </div>
+        <div class="wide" flightdate="327" seatno="15" seatalphabet="b" flightno="3448" boardingtime = "2030">
+        <img src="crop/41.jpg" alt="" />
+        </div>
+        <div class="wide" flightdate="620" seatno="8" seatalphabet="a" flightno="1395" boardingtime = "1010">
+        <img src="crop/42.jpg" alt="" />
+        </div>
+        <div class="wide" flightdate="620" seatno="47" seatalphabet="b" flightno="264" boardingtime = "1330">
+        <img src="crop/42.jpg" alt="" />
+        </div>
+               
     </div>
 
-	<script language="javascript" type="text/javascript" src="support-files/library/p5.min.js"></script>
-
-	<script language="javascript" type="text/javascript" src="support-files/utitilies-from-chris.js"></script>
-
-	<script language="javascript" type="text/javascript" src="sketch.js"></script>
-
-
-
 </body>
-
 </html>

@@ -1,0 +1,152 @@
+<!doctype html>
+<html>
+<head>
+  <script
+    src="https://code.jquery.com/jquery-3.1.1.min.js"
+    integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+    crossorigin="anonymous"></script>
+  <script type="text/javascript">
+
+    // jquery document ready
+    $(function() {
+
+      // setup a function to update the page based on the time
+      var update = function() {
+
+        // get the current time
+        var time = new Date();
+
+        // pull out hours, minutes, seconds
+        var h = time.getHours();
+        var m = time.getMinutes();
+        var s = time.getSeconds();
+
+        // update page elements
+        $(".s").css("transform", "rotateZ(" + 360 / 60 * s +"deg)");
+        $(".m").css("transform", "rotateZ(" + 360 / 60 * m +"deg)");
+        $(".h").css("transform", "rotateZ(" + 360 / 12 * h +"deg)");
+/*    transform: rotateZ(-90deg + 360 /60*s deg);*/
+      };
+
+      // call that function on a 100ms interval
+      window.setInterval(update, 100);
+
+    });
+
+  </script>
+  <style type="text/css">
+
+    html, body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+p{
+    font-family: "mrs-eaves-xl-serif";
+    margin: 0;
+    color: white;
+}
+
+.s {
+    width: 38vw;
+    height: auto;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform-origin: 0% 0%;
+    
+/*    animation: rotate 60s infinite steps(60);*/
+}
+
+.s p {
+    font-size: 4vw;
+}
+
+.m {
+    width: 30vw;
+    height: auto;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform-origin: 0% 0%;
+    
+/*    animation: rotate 3600s infinite steps(3600);*/
+}
+
+.m p {
+    font-size: 3vw;
+}
+
+.h {
+    width: 15vw;
+    height: auto;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform-origin: 0% 0%;   
+    
+/*    animation: rotate 43200s infinite steps(43200);*/
+}
+
+.h p {
+    font-size: 2.5vw;
+}
+
+.audio {
+    display: none;
+}
+
+.wrapper {
+    display: block;
+    margin: auto;
+    transform: rotateZ(-90deg);
+    width: 100%;
+    height: 100vh;
+}
+
+
+@media screen and (max-width: 800px) {
+    body {
+        font-size: 15px;
+        line-height: 20px;
+    }
+    
+    .s p {
+        font-size: 15px;
+    }
+    
+    .m p {
+        font-size: 15px;
+    }
+        
+    .h p {
+        font-size: 15px;
+    }
+    
+    
+}
+  
+  </style>
+</head>
+    
+    
+<body>
+    <div class="wrapper">
+    
+        <div class="s">
+            <p>&nbsp;GD for the Web</p>
+        </div>
+
+        <div class="m">
+            <p>&nbsp;Tue, Dec 6, 2016</p>
+        </div>
+
+        <div class="h">
+            <p>&nbsp;Welcome</p>
+        </div>
+      
+    </div>
+</body>
+</html>

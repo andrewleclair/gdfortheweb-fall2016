@@ -21,9 +21,9 @@ function setup() {
     textSize(windowWidth / 12);
     textAlign(CENTER);
     
-    noFill();
-    stroke(random(200,255),0,0);
-    strokeWeight(3);
+    fill(0,0,random(200,255));
+//    stroke(random(200,255),0,0);
+//    strokeWeight(3);
     
     frameRate(6);
 }
@@ -38,9 +38,9 @@ function draw() {
     textBrush = textArray[randomInt];
     text(textBrush, touchX, touchY);
     
-    noFill();
-    stroke(random(200,255),0,0);
-    strokeWeight(3);
+    fill(random(200,255));
+//    stroke(random(200,255),0,0);
+//    strokeWeight(3);
     
 }
 

@@ -1,0 +1,297 @@
+<style type="text/css">
+    
+    html, html, body, div, span, applet, object, iframe,
+    h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+    a, abbr, acronym, address, big, cite, code,
+    del, dfn, em, img, ins, kbd, q, s, samp,
+    small, strike, strong, sub, sup, tt, var,
+    b, u, i, center,
+    dl, dt, dd, ol, ul, li,
+    fieldset, form, label, legend,
+    table, caption, tbody, tfoot, thead, tr, th, td,
+    article, aside, canvas, details, embed, 
+    figure, figcaption, footer, header, hgroup, 
+    menu, nav, output, ruby, section, summary,
+    time, mark, audio, video {
+      margin: 0;
+      padding: 0;
+      border: 0;
+      font-size: 100%;
+      font: inherit;
+      vertical-align: baseline;
+    }
+    
+    @font-face {
+      src: url('Neue_Haas_Unica_Regular.ttf');
+      font-family: "unica regular";
+    }
+    
+    @font-face {
+      src: url('Neue_Haas_Unica_Bold.ttf');
+      font-family: "unica bold";
+    }
+
+    @font-face {
+      src: url('Neue_Haas_Unica_Medium.ttf');
+      font-family: "unica medium";
+    }
+
+    
+    html, body {
+      font-family: "unica regular";
+      font-size: 32px;
+      line-height: 1.2;
+      letter-spacing: 0.01rem;
+      word-spacing: -0.01rem;      
+    }
+    
+    h2 {
+        margin-left: 5vw;
+        margin-top: 5vh;
+        
+        position: fixed;
+        
+        font-family: "unica medium";
+        font-size: 2rem;
+        line-height: 1.8rem;
+        letter-spacing: 0rem;
+
+        color: black;
+        -webkit-text-stroke: 0.08rem transparent;
+        z-index: 99;
+    }
+    
+    h2 a {
+      text-decoration: none;
+      color: inherit;
+    }
+    
+    h2:hover {
+        margin-top: 1.7vw;
+        
+        font-family: "unica bold";
+        color: deeppink;
+        -webkit-text-stroke: 0.2rem #FF1493;
+        font-size: 7rem;
+        line-height: 5.55rem;
+        letter-spacing: -0.25rem;
+        
+        mix-blend-mode: multiply;
+    }
+    
+    
+    
+    h3{
+        position: fixed;
+        margin-top: 90vh;
+        margin-left: 5vw;
+        padding-top: -10rem;
+        
+        font-size: 0.5rem;
+        letter-spacing: -0.02rem;
+        
+        color: black;
+        
+        z-index: 999;
+    }
+    
+    h3 a {
+        text-decoration: none;
+        color: inherit;
+    }
+    
+    h3:hover {
+        font-family: "unica regular";
+        
+        color: deeppink;
+        
+        mix-blend-mode: multiply;
+        
+        border-bottom: 0.15rem solid deeppink;
+    }
+    
+    div {
+        position: fixed;
+        margin-top: 2vh;
+        margin-left: 82vw;
+        
+    }
+    
+    h4{
+        margin:0;
+        position: relative;
+        
+        font-size: 0.5rem;
+        line-height: 0.6rem;
+        letter-spacing: 0rem;
+        
+        color: black;
+    }
+    
+    h4.signed {
+/*        font-size: 0.5rem;*/
+        margin-top: 3vh;
+        margin-bottom: 0.5rem;
+    }
+    h4.and {
+        margin-top: 0.5rem;
+    }
+    
+    h4.c1:hover {
+        background-color: #ffadff;
+        color: transparent;
+    }
+    h4.c2:hover {
+        background-color: #ffa0ff;
+        color: transparent;
+    }
+    h4.c3:hover {
+        background-color: #ff87ff;
+        color: transparent;
+    }
+    h4.c4:hover {
+        background-color: #ff7af9;
+        color: transparent;
+    }
+    h4.c5:hover {
+        background-color: #ff6dec;
+        color: transparent;
+    }
+    h4.c6:hover {
+        background-color: #ff54d3;
+        color: transparent;
+    }
+    h4.c7:hover {
+        background-color: #ff47c6;
+        color: transparent;
+    }
+    h4.c8:hover {
+        background-color: #ff2ead;
+        color: transparent;
+    }
+    h4.c9:hover {
+        background-color: #ff1493;
+        color: transparent;
+    }
+    h4.c10:hover {
+        background-color: #f20786;
+        color: transparent;
+    }
+    h4.c11:hover {
+        background-color: #e50079;
+        color: transparent;
+    }
+    h4.c12:hover {
+        background-color: #d9006d;
+        color: transparent;
+    }
+    h4.c13:hover {
+        background-color: #cc0060;
+        color: transparent;
+    }
+    h4.c14:hover {
+        background-color: #bf0053;
+        color: transparent;
+    }
+    h4.c15:hover {
+        background-color: #b20046;
+        color: transparent;
+    }
+    h4.c16:hover {
+        background-color: #a6003a;
+        color: transparent;
+    }
+    h4.c17:hover {
+        background-color: #99002d;
+        color: transparent;
+    }
+    h4.c18:hover {
+        background-color: #8c0020;
+        color: transparent;
+    }
+    h4.c19:hover {
+        background-color: #99002d;
+        color: transparent;
+    }
+    h4.c20:hover {
+        background-color: #b20046;
+        color: transparent;
+    }
+    h4.c21:hover {
+        background-color: #bf0053;
+        color: transparent;
+    }
+    h4.c22:hover {
+        background-color: #cc0060;
+        color: transparent;
+    }
+    h4.c23:hover {
+        background-color: #d9006d;
+        color: transparent;
+    }
+    h4.c24:hover {
+        background-color: #e50079;
+        color: transparent;
+    }
+    h4.c25:hover {
+        background-color: #f20786;
+        color: transparent;
+    }
+    h4.c26:hover {
+        background-color: #ff1493;
+        color: transparent;
+    }
+    h4.c27:hover {
+        background-color: #ff2ead;
+        color: transparent;
+    }
+    h4.c28:hover {
+        background-color: #ff47c6;
+        color: transparent;
+    }
+    h4.c29:hover {
+        background-color: #ff54d3;
+        color: transparent;
+    }
+    h4.c30:hover {
+        background-color: #ff6dec;
+        color: transparent;
+    }
+    h4.c31:hover {
+        background-color: #ff7af9;
+        color: transparent;
+    }
+    h4.c31:hover {
+        background-color: #ff87ff;
+        color: transparent;
+    }
+    h4.c32:hover {
+        background-color: #ffa0ff;
+        color: transparent;
+    }
+    h4.c33:hover {
+        background-color: #ffadff;
+        color: transparent;
+    }
+    
+.wrapper {
+    margin: 0;
+    padding: 0;
+    position:absolute;
+    margin-left: 0vw;
+    
+    
+}
+    
+    p { 
+        position: relative;
+        margin-left: 27vw;
+        
+        max-width: 49vw;
+        
+        font-family: "unica regular";
+        font-size: 1rem;
+        letter-spacing: -0.01rem;
+        line-height: 1.2rem;
+    }    
+</style>
